@@ -1,0 +1,38 @@
+.background-team {
+    background-image: linear-gradient(120deg, rgba(7, 35, 57, 0.5189426112241772) 44%, rgba(245, 245, 245, 1) 100%), url("/seos//img/doctor/bg.jpg");
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    background-position: right;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.social_icons1 {
+    li {
+        padding-right: 20px;
+        a:hover {
+            background-color: $theme-color;
+            padding: 5px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.bar-top {
+    position: relative;
+    margin-bottom: 35px;
+    &::after {
+        position: absolute;
+        content: "";
+        top: -8px;
+        z-index: 200;
+        width: 100px;
+        height: 3px;
+        color: grey;
+        display: block;
+        border-bottom: 2px solid grey;
+    }
+}

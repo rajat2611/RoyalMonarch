@@ -1,0 +1,137 @@
+    .ftco-section {
+        padding: 7em 0;
+        position: relative;
+        @include media-breakpoint-down(sm) {
+            padding: 6em 0;
+        }
+    }
+    
+    .ftco-no-pt {
+        padding-top: 0 !important;
+    }
+    
+    .ftco-no-pb {
+        padding-bottom: 0 !important;
+    }
+    
+    .ftco-bg-dark {
+        background: #3c312e;
+    }
+    
+    $primary: #17b978;
+    #navi {
+        top: 180px;
+        position: -webkit-sticky;
+        position: sticky;
+        margin: 0;
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            font-weight: 700;
+            list-style: none;
+            margin-bottom: 15px;
+            a {
+                color: #263b5e;
+                &.current {
+                    // border-bottom: 4px solid $primary;
+                    color: $primary !important;
+                    margin-left: 20px;
+                    position: relative;
+                    &:after {
+                        position: absolute;
+                        top: 50%;
+                        left: -24px;
+                        width: 20px;
+                        height: 2px;
+                        content: '';
+                        transform: translateY(-50%);
+                        background: $primary;
+                    }
+                }
+            }
+        }
+    }
+    
+    .heading-section {
+        position: relative;
+        h2 {
+            font-size: 50px;
+            font-weight: 700;
+            color: black !important;
+            span {
+                font-weight: 400;
+            }
+            @include media-breakpoint-down(sm) {
+                font-size: 38px;
+            }
+        }
+    }
+    
+    .bg-light {
+        background: #f5f4fb !important;
+    }
+    
+    #navi {
+        top: 180px;
+        position: -webkit-sticky;
+        position: sticky;
+        margin: 0;
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            font-weight: 700;
+            list-style: none;
+            margin-bottom: 15px;
+            a {
+                color: #263b5e !important;
+                &.current {
+                    // border-bottom: 4px solid $primary;
+                    color: $primary;
+                    margin-left: 20px;
+                    position: relative;
+                    &:after {
+                        position: absolute;
+                        top: 50%;
+                        left: -24px;
+                        width: 20px;
+                        height: 2px;
+                        content: '';
+                        transform: translateY(-50%);
+                        background: $primary;
+                    }
+                }
+            }
+        }
+    }
+    
+    .page {
+        width: 100%;
+        margin-bottom: 7em;
+        border-radius: 5px;
+        padding: 30px;
+        .heading {
+            font-weight: 700;
+            font-size: 30px;
+            margin-bottom: 30px;
+            // color: $se;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    a.unclickable {
+        pointer-events: none;
+        cursor: default;
+    }
+    
+    .one-forth img {
+        width: 100%;
+    }
+    
+    //our firm

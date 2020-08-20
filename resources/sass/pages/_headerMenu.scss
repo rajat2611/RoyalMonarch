@@ -1,0 +1,181 @@
+// Header left right padding
+header {
+    position: relative;
+}
+
+.header-transparrent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+// Header Bottom
+.main-header {
+    // position: relative;
+    z-index: 3;
+    // header smoll device padding
+    @media #{$md} {
+        padding: 11px 0;
+    }
+    @media #{$sm} {
+        padding: 11px 0;
+    }
+    @media #{$xs} {
+        padding: 11px 0;
+    }
+    .main-menu {
+        @media #{$laptop} {
+            margin-right: 0px;
+        }
+        & ul {
+            & li {
+                display: inline-block;
+                position: relative;
+                z-index: 1;
+                & a {
+                    color: #002e5b;
+                    font-weight: 500;
+                    padding: 25px 10px;
+                    font-weight: 400;
+                    @media #{$lg} {
+                        padding: 29px 10px;
+                    }
+                    display: block;
+                    font-size: 16px;
+                    @include transition(.3s);
+                    text-transform: capitalize;
+                }
+                &:hover {
+                    &>a {
+                        color: #0779e4;
+                    }
+                }
+            }
+            & ul.submenu {
+                position: absolute;
+                width: 170px;
+                background: #fff;
+                left: 0;
+                top: 120%;
+                visibility: hidden;
+                opacity: 0;
+                box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+                padding: 17px 0;
+                border-top: 5px solid #4043bc;
+                @include transition(.3s);
+                &>li {
+                    margin-left: 7px;
+                    display: block;
+                    &>a {
+                        padding: 6px 10px !important;
+                        font-size: 14px;
+                        color: #0b1c39;
+                        text-transform: capitalize;
+                        &:hover {
+                            color: $theme-color;
+                            background: none;
+                        }
+                        & i {
+                            // @include transition(.4s);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .logo {
+        & img {}
+    }
+}
+
+.header-area .header-top .header-info-right .header-social a i {
+    @include transition(.4s);
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+}
+
+.header-area .header-top .header-info-right .header-social a:hover i {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.main-header ul>li:hover>ul.submenu {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+
+.top-bg {
+    background: #002d5b;
+}
+
+// header Sticky Responsive
+.header-sticky ul li a {
+    padding: 19px 10px;
+}
+
+.header-sticky.sticky-bar.sticky .main-menu ul>li>a {
+    padding: 25px 10px;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    background-color: black !important;
+}
+
+.slicknav_nav {
+    margin-top: 0px;
+}
+
+// Sticky  Menu
+.header-sticky.sticky-bar.sticky .header-btn {
+    & .get-btn {
+        padding: 20px 20px;
+    }
+}
+
+.header-area .slicknav_btn {
+    top: -36px;
+}
+
+.slicknav_menu .slicknav_nav a:hover {
+    background: transparent;
+    color: #0779e4;
+}
+
+.slicknav_menu {
+    background: transparent;
+    margin-top: 5px !important;
+}
+
+.mobile_menu {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    z-index: 99;
+}
+
+#navigation {
+    .active {
+        color: #0779e4;
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            bottom: 15px;
+            z-index: 200;
+            width: 50px;
+            height: 3px;
+            color: $theme-color;
+            display: block;
+            border-bottom: 2px solid #0779e4;
+        }
+    }
+}
