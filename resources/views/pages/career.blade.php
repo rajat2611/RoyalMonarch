@@ -11,10 +11,10 @@
             <!-- Section-tittle -->
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
-                    <div class="section-tittle text-center mb-40">
-                        <span>careers</span>
-                        <h2>Home</h2>
-                    </div>
+{{--                    <div class="section-tittle text-center mb-40">--}}
+{{--                        <span>careers</span>--}}
+{{--                        <h2>Home</h2>--}}
+{{--                    </div>--}}
                 </div>
             </div>
         </div>
@@ -35,7 +35,10 @@
 
 
                                 </h1>
-                                <h4>We believe in being fair and square</h4>
+                                <h4 style="text-align: left">We believe in being fair and square</h4> <br>
+                                <p style="text-align: left"  data-delay=".6s">
+                                    We’re building an inclusive economy where all classes have equal access to opportunity. We strive to live by these same values in all our workplaces. We invest in the personal and professional growth of every member of Royal Monarch. As a company pioneering the future of financial benefits, we also want to be a beacon for people development.
+                                </p>
                                 <p data-animation="fadeInRight" data-delay=".6s">
                                     We are looking for bright and enthusiastic minds to enrich our family at Royal Monarch Pvt Ltd. Write us at hr@royalmonarch.in if you think you fit right in, click on the link below and apply to open positions today. (we will be updating the same as per
                                     the requirement).</p>
@@ -163,22 +166,22 @@
                     <a href="/career/{{$career->id}}">
                     <h6 class="text-info">{{$career->place}}<span class="text-secondary">. {{$career->time}}</span></h6></a>
                 </div>
-           
+
 @empty
     <p>No available jobs for now</p>
 @endforelse
-                
-                
+
+
             </div>
 
             <div class="row justify-content-center mt-5">
-                <div class="col-md-10">
-                    <small>
-                        Royal Monarch is proud to be an equal opportunity workplace. All qualified applicants will receive consideration for employment without regard to, and will not be discriminated against based on age, race, gender, colour, religion, national origin, sexual
-                        orientation, gender identity, veteran status, disability or any other protected category. Royal Monarch is dedicated to providing an accessible environment for all candidates during the application process and for employees
-                        during their employment. If you need accessibility assistance and/or a reasonable accommodation due to a disability, please submit an accommodation request or call +91 909999 4686. Requests/calls received for non-disability
-                        related issues, such as following up on an application, will not receive a response.
-
+                <div  class="col-md-10">
+                    <small style="white-space: normal; word-break: keep-all;">
+                        Royal Monarch is proud to be an equal opportunity workplace. All qualified applicants will receive consideration for employment without regard to, and will not be discriminated against based on age, race, gender, colour, religion, national origin, sexual orientation, gender identity, veteran status, disability or any other protected category.
+                    </small>
+                    <br>
+                    <small style="white-space: normal; word-break: keep-all;">
+                        Royal Monarch is dedicated to providing an accessible environment for all candidates during the application process and for employees during their employment. If you need accessibility assistance and/or a reasonable accommodation due to a disability, please submit an accommodation request or call +91 909999 4686. Requests/calls received for non-disability related issues, such as following up on an application, will not receive a response.
                     </small>
                 </div>
             </div>
@@ -195,8 +198,8 @@
 @endsection
 
 
-   
-  
+
+
 @section('4')
     active
 @endsection

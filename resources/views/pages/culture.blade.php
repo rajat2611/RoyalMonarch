@@ -9,10 +9,10 @@
             <!-- Section-tittle -->
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
-                    <div class="section-tittle text-center mb-40">
-                        <span>Our Culture</span>
-                        <h2>About us</h2>
-                    </div>
+{{--                    <div class="section-tittle text-center mb-40">--}}
+{{--                        <span>Our Culture</span>--}}
+{{--                        <h2>About us</h2>--}}
+{{--                    </div>--}}
                 </div>
             </div>
         </div>
@@ -61,9 +61,9 @@
     <section class="ftco-section ftco-no-pb ftco-no-pt" id="chapter-section">
         <div class="container">
             <div class="row justify-content-center py-5 mt-5">
-                <div class="col-md-12 heading-section text-center">
-                    <h2 class="mb-4">Our Firm</h2>
-                </div>
+{{--                <div class="col-md-12 heading-section text-center">--}}
+{{--                    <h2 class="mb-4">Our Firm</h2>--}}
+{{--                </div>--}}
             </div>
             <div class="row">
                 <div class="col-md-3 mb-4">
@@ -199,8 +199,8 @@
 @endsection
 
 
-   
-  
+
+
 @section('2')
     active
 @endsection

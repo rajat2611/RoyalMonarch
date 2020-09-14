@@ -13,10 +13,10 @@
             <!-- Section-tittle -->
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
-                    <div class="section-tittle text-center mb-40">
-                        <span>Our firm</span>
-                        <h2>About us</h2>
-                    </div>
+{{--                    <div class="section-tittle text-center mb-40">--}}
+{{--                        <span>Our firm</span>--}}
+{{--                        <h2>About us</h2>--}}
+{{--                    </div>--}}
                 </div>
             </div>
         </div>
@@ -34,8 +34,12 @@
                                 <h2 data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Mission.</span><span style="color: #999999;"> Vision.</span><span style="color: #1b31a7;"> Promise.</span>
 
                                 </h2>
-                                <p data-animation="fadeInRight" data-delay=".6s" class="text-lowercase">
-                                    ROYAL MONARCH WAS FIRST FOUNDED IN 2015 IN BANGALORE AND WAS SUBSEQUENTLY RESTRUCTURED IN 2019 TO REFLECT CHANGES IN EQUITY HOLDINGS. WE ESTABLISHED ROYAL MONARCH IN RECOGNITION OF FOUR TRENDS DEFINING THE FINANCIAL PLANNING AND ASSET MANAGEMENT INDUSTRIES.</p>
+{{--                                <p data-animation="fadeInRight" data-delay=".6s" class="text-lowercase">--}}
+{{--                                    ROYAL MONARCH WAS FIRST FOUNDED IN 2015 IN BANGALORE AND WAS SUBSEQUENTLY RESTRUCTURED IN 2019 TO REFLECT CHANGES IN EQUITY HOLDINGS. WE ESTABLISHED ROYAL MONARCH IN RECOGNITION OF FOUR TRENDS DEFINING THE FINANCIAL PLANNING AND ASSET MANAGEMENT INDUSTRIES.--}}
+{{--                                </p>--}}
+                                <p data-animation="fadeInRight" data-delay=".6s" >
+                                    Royal Monarch was first founded in 2015 in Bangalore and was subsequently restructured in 2019 to reflect changes in equity holdings.we established royal monarch in recognition of four trends defining the financial planing and asset management industries.
+                                </p>
                                 <div class="mb-10">
                                     <ul class="unordered-list">
                                         <li>The supply and demand imbalance of quality financial planning advice.
@@ -81,10 +85,10 @@
     <section class="ftco-section bg-light">
         <div class="container">
             <div class="row justify-content-center mb-4">
-                <div class="col-md-7 text-center heading-section ftco-animate">
-                    <span class="subheading">-- Our Firm</span>
-                    <h2 class="mb-4">How it works</h2>
-                </div>
+{{--                <div class="col-md-7 text-center heading-section ftco-animate">--}}
+{{--                    <span class="subheading">-- Our Firm</span>--}}
+{{--                    <h2 class="mb-4">How it works</h2>--}}
+{{--                </div>--}}
             </div>
             <div class="row">
                 <div class="col-md-12 nav-link-wrap mb-5 pb-md-5 pb-sm-1 ftco-animate">
@@ -165,11 +169,11 @@
 @endsection
 
 
-   
-  
+
+
 @section('2')
     active
 @endsection
 
 
-      
+

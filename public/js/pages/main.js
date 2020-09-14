@@ -42,13 +42,13 @@
             prevArrow: '<button type="button" class="slick-prev"><i class="ti-shift-left"></i></button>',
             nextArrow: '<button type="button" class="slick-next"><i class="ti-shift-right"></i></button>',
             responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                    }
-                },
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            },
                 {
                     breakpoint: 991,
                     settings: {
@@ -103,15 +103,15 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: false,
-                        arrow: false
-                    }
-                },
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false,
+                    arrow: false
+                }
+            },
                 {
                     breakpoint: 600,
                     settings: {
@@ -217,7 +217,7 @@
 
     /* 11. Datepicker */
 
-    // 11. ---- Mailchimp js --------//  
+    // 11. ---- Mailchimp js --------//
     function mailChimp() {
         $('#mc_embed_signup').find('form').ajaxChimp();
     }
@@ -285,7 +285,7 @@
         //cycle through the values in sections array
         for (var i in sections) {
             var section = sections[i];
-            //if scrollTop variable is bigger than the top offset of a section in the sections array then 
+            //if scrollTop variable is bigger than the top offset of a section in the sections array then
             if (scrollTop > section.offset().top) {
                 var scrolled_id = section.attr('id');
             }
@@ -318,7 +318,7 @@
     var gradient2 = ctx2.createLinearGradient(0, 0, 0, 225);
     gradient2.addColorStop(0, 'rgba(215, 227, 244, 1)');
 
-    // // global options : 
+    // // global options :
     // Chart.defaults.global.defaultFontFamily = "Arial";
 
     // Chart.defaults.global.defaultFontColor = "red";
@@ -378,27 +378,48 @@
             },
         }
     });
-
+    var data = [];
     var value1 = $('input[name="name"]').val();
     var value2 = $('input[name="age"]').val();
     var value3 = $('input[name="invest"]').val();
     var value4 = $('input[name="monthly"]').val();
+    var n1=0,n2=0;
+    console.log("name: "+value1);
+    console.log("age: "+value2);
+    console.log("invest: "+value3);
+    console.log("monthly: "+value4);
+    if (value2>50)
+        value2=15;
+    else
+        value2=65-value2;
+
+    if (value3>0)
+        n2= value2;
+    if (value4>0)
+        n1= value2*12;
+
+    var ioi= (27/100)/12;
+    var ioi21= (27/100);
+    var ioi2= ioi+1;
+    var ioi22= ioi21+1;
+
+    var saveHas = value4 * (((Math.pow(ioi2,n1))-1)/ioi) * (ioi+1);
+    var investHas = value3 * (Math.pow(ioi22,n2));
+    var x= saveHas+investHas;
+    data.push(x);
+    console.log("main value: "+x);
     var n = 12;
     var r = 0.28;
     var t = 25;
 
 
     var labels = [];
-    var data = []
-    var x = value3;
+
+
     for (var i = 1; i <= t; i++) {
         labels.push(i);
     }
-    for (var j = 1; j <= t; j++) {
-        x = x * (1 + r / n) ** 12 + value4 * (((1 + r / n) ** 12 - 1) / (r / 12));
-        data.push(x);
 
-    }
 
 
 
@@ -480,22 +501,44 @@
         var value2 = $('input[name="age"]').val();
         var value3 = $('input[name="invest"]').val();
         var value4 = $('input[name="monthly"]').val();
-        var data = []
-        var x = value3;
+        var data = [];
 
-        for (var j = 1; j <= t; j++) {
-            x = x * (1 + r / n) ** 12 + value4 * (((1 + r / n) ** 12 - 1) / (r / 12));
-            data.push(x);
+        var n1=0,n2=0;
+        console.log("name: "+value1);
+        console.log("age: "+value2);
+        console.log("invest: "+value3);
+        console.log("monthly: "+value4);
+        if (value2>50)
+            value2=15;
+        else
+            value2=65-value2;
 
-        }
+        if (value3>0)
+            n2= value2;
+        if (value4>0)
+            n1= value2*12;
+
+        var ioi= (27/100)/12;
+        var ioi21= (27/100);
+        var ioi2= ioi+1;
+        var ioi22= ioi21+1;
+
+        var saveHas = value4 * (((Math.pow(ioi2,n1))-1)/ioi) * (ioi+1);
+        var investHas = value3 * (Math.pow(ioi22,n2));
+
+
+        var x= saveHas+investHas;
+        data.push(x);
+
+
+
+
+
         x = Math.floor(x)
-
-        x = x.toString();
-
-        var l = x.length - 7
-        var res = x.substr(0, l);
-        $('strong.inp2').text("Rs." + res);
-        $('strong.inp3').text(t);
+        console.log("main value: "+x);
+        var res = new Number(x).toLocaleString("hi-IN");
+        $('strong.inp2').text(" " + res);
+        $('strong.inp3').text(value2);
         $('strong.inp1').text(value1);
 
         updateBarGraph(myChart2, data)

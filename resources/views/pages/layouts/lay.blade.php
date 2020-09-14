@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Royal Monarchy </title>
+    <title>Royal Monarch </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="{{ asset('css/pages/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('css/pages/nice-select.css') }}">
     <link rel="stylesheet" href="{{ asset('css/pages/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('rafi/build/css/intlTelInput.css') }}">
+{{--    <link rel="stylesheet" href="{{ asset('rafi/build/css/demo.css') }}">--}}
+
 <style>
     #profileImage {
         width: 50px;
@@ -30,8 +33,15 @@
     font-size: 25px;
     color: rgb(46, 46, 48);;
     text-align: center;
- 
+
+
+
 }
+    .form-select .nice-select {
+         padding-left: 20px;
+
+    }
+
 </style>
     @yield('styles')
 </head>
@@ -76,33 +86,33 @@
                                                 <li><a href="/culture">our Culture</a></li>
                                                 <li><a href="/approach">our approach</a></li>
                                                 <li><a href="/team">our team</a></li>
-    
-    
-    
+
+
+
                                             </ul>
                                         </li>
                                         <li><a href="/How_it_works" class="@yield(3)">How it Works </a></li>
                                         <li><a href="/career" class="@yield(4)">Career</a></li>
-    
+
                                         <li><a href="/blog" class="@yield(5)">knowldege</a>
-    
+
                                         </li>
                                         <li><a href="/support" class="@yield(6)">support</a></li>
                                         <li>
                                         @auth
                                                 @if (auth::user()->join)
 
-                                                 
+
                                                             <div class="navbar-nav flex-row order-md-last">
 
                                                                 <div class="nav-item dropdown">
                                                                     <a href="#" class="nav-link d-flex justify-content-center align-items-center lh-1 text-reset p-0" data-toggle="dropdown">
-                                                                            <div id="profileImage" class="d-flex justify-content-center align-items-center"> <span id="first_name">{{Auth::user()->join->first_name[0]}} </span><span id="last_name">{{ Auth::user()->join->last_name[0]}}</span></div>                                
+                                                                            <div id="profileImage" class="d-flex justify-content-center align-items-center"> <span id="first_name">{{Auth::user()->join->first_name[0]}} </span><span id="last_name">{{ Auth::user()->join->last_name[0]}}</span></div>
                                                                         <div class="pl-2">
-                                                                                
-                                                                        
-                                                                       
-                                                                        
+
+
+
+
                                                                         </div>
                                                                     </a>
                                                                     <div class="dropdown-menu dropdown-menu-right "style="position: absolute; z-index:2000;">
@@ -111,7 +121,7 @@
                                                                         <small>{{Auth::user()->join->email}}</small>
                                                                         </a>
                                                                         <div class="dropdown-divider"></div>
-                                            
+
                                                                         <a class="dropdown-item" href="#">
                                                                                                 My account
                                                                 </a>
@@ -127,9 +137,9 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                  
+
                                                 @endif
-                                           
+
                                         @endauth
                                     </li>
                                         @guest
@@ -140,17 +150,17 @@
                                         </li>
                                         @endguest
 
-                                     
-                                   
-                                    
-                                     
-    
+
+
+
+
+
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-    
-    
+
+
                         <!-- Mobile Menu -->
                         <div class="col-12 f-right clear">
                             <div class="mobile_menu d-block d-lg-none"></div>
@@ -161,10 +171,10 @@
         </div>
         <!-- Header End -->
     </header>
-    
+
     @yield('content')
-    
-  
+
+
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -183,7 +193,8 @@
                                 <form  method="POST" action="{{ route('join') }}">
                                     @csrf
 
-                                    <div class="mt-10">
+                                    <div  class="mt-10 d-flex align-items-center">
+                                        <div class="align-self-center form-select1"> <label for="first_name">First Name: </label></div>
                                         <input type="text" name="first_name" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required class="single-input @error('first_name') is-invalid @enderror" value="{{ old('first_name') }}" required autocomplete="first_name" autofocus>
                                         @error('first_name')
                                         <span class="invalid-feedback" role="alert">
@@ -191,7 +202,8 @@
                                         </span>
                                     @enderror
                                     </div>
-                                    <div class="mt-10">
+                                    <div class="mt-10 d-flex align-items-center">
+                                        <div class="align-self-center form-select1"> <label for="last_name">Last Name: </label></div>
                                         <input type="text" name="last_name" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required class="single-input  @error('last_name') is-invalid @enderror" value="{{ old('last_name') }}" required autocomplete="last_name" autofocus>
                                         @error('last_name')
                                         <span class="invalid-feedback" role="alert">
@@ -199,7 +211,10 @@
                                         </span>
                                     @enderror
                                     </div>
-                                    <div class="mt-10">
+
+                                    <div  class="mt-10 d-flex align-items-center">
+
+                                        <div class="align-self-center form-select1"> <label for="email">Email : </label></div>
                                         <input type="email" name="email" placeholder="E-mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'E-mail'" required class="single-input  @error('email') is-invalid @enderror" value="{{ old('email') }}" required autocomplete="email" autofocus>
                                         @error('email')
                                         <span class="invalid-feedback" role="alert">
@@ -207,15 +222,20 @@
                                         </span>
                                     @enderror
                                     </div>
-                                    <div class="mt-10">
-                                        <input type="phone" name="phone" placeholder="your phone number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'your phone number'" required class="single-input  @error('phone') is-invalid @enderror" value="{{ old('phone') }}" required autocomplete="phone" autofocus>
+
+                                        <div class="mt-10 d-flex align-items-center">
+                                            <div class="align-self-center form-select1">
+                                                <label for="phone">Phone Number: </label>
+                                            </div>
+                                            <div class="form-select  align-self-center" id="default-select">
+                                        <input id="phone" name="phone" type="tel" required class="single-input  @error('phone') is-invalid @enderror" value="{{ old('phone') }}" required autocomplete="phone" autofocus>
                                         @error('phone')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
                                         </span>
-                                    @enderror
+                                        @enderror
+                                            </div>
                                     </div>
-
 
 
                                     <div class="input-group-icon mt-10 d-flex align-items-center">
@@ -225,7 +245,7 @@
 
                                         <div class="form-select  align-self-center" id="default-select">
 
-                                            <select required id="gender" name="gender" class=" @error('gender') is-invalid @enderror" value="{{ old('gender') }}" required autocomplete="gender" autofocus> 
+                                            <select required id="gender" name="gender" class=" @error('gender') is-invalid @enderror" value="{{ old('gender') }}" required autocomplete="gender" autofocus>
                                             <option value="female">Female</option>
                                             <option value="male">Male</option>
                                             <option value="other">Other</option>
@@ -238,7 +258,8 @@
                                         </div>
                                     </div>
 
-                                    <div class="  mt-10 ">
+                                    <div class="mt-10 d-flex align-items-center">
+                                        <div class="align-self-center form-select1"> <label for="date">Birth Date: </label></div>
                                         <input type='date' name="date" placeholder="pick a date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'pick a date'" required class="single-input @error('date') is-invalid @enderror" value="{{ old('date') }}" required autocomplete="date" autofocus />
                                         @error('date')
                                         <span class="invalid-feedback" role="alert">
@@ -250,15 +271,15 @@
                                     <div class=" mt-10 d-flex align-items-center">
                                         <div class="align-self-center form-select1"> <label for="Occup">Occupation : </label></div>
 
-                                        <div class="form-select  align-self-center" id="default-select">
+                                        <div class="form-select " id="default-select">
 
-                                            <select required id="Occup" class=" @error('ocuup') is-invalid @enderror" value="{{ old('ocuup') }}" required autocomplete="ocuup" autofocus name="occup"> 
+                                            <select required id="Occup" class=" @error('ocuup') is-invalid @enderror" value="{{ old('ocuup') }}" required autocomplete="ocuup" autofocus name="occup">
                                             <option value="self-employed">Self Employed</option>
-                                            <option value="employed">	Employed</option>
+                                            <option value="employed">Employed</option>
                                             <option value="doctor">Doctor</option>
                                             <option value="home-maker/house-wife">Home Maker/House Wife</option>
-                                            <option value="student">student</option>
-                                            <option value="retired">retired</option>
+                                            <option value="student">Student</option>
+                                            <option value="retired">Retired</option>
                                             </select>
                                             @error('ocuup')
                                             <span class="invalid-feedback" role="alert">
@@ -274,10 +295,10 @@
 
                                         <div class="form-select align-self-center" id="default-select">
 
-                                            <select required id="M-status" class=" @error('M-status') is-invalid @enderror" value="{{ old('M-status') }}" required autocomplete="M-status" autofocus name="M-status"> 
+                                            <select required id="M-status" class=" @error('M-status') is-invalid @enderror" value="{{ old('M-status') }}" required autocomplete="M-status" autofocus name="M-status">
                                             <option value="married">Married</option>
                                             <option value="signle">	Single</option>
-                                            <option value="divorced">divorced</option>
+                                            <option value="divorced">Divorced</option>
                                             <option value="widow">Widow</option>
                                             <option value="other">Other</option>
                                             </select>
@@ -292,11 +313,14 @@
                                         <div class="align-self-center form-select1"> <label for="dependants">Dependants: </label></div>
 
                                         <div class="form-select  align-self-center" id="default-select">
-                                            <select required id="dependants" class=" @error('dependants') is-invalid @enderror" value="{{ old('dependants') }}" required autocomplete="dependants" autofocus name="dependants"> 
-                                            <option value="one">one</option>
-                                            <option value="two">	Two</option>
+                                            <select required id="dependants" class=" @error('dependants') is-invalid @enderror" value="{{ old('dependants') }}" required autocomplete="dependants" autofocus name="dependants">
+                                            <option value="one">One</option>
+                                            <option value="two">Two</option>
                                             <option value="three">Three</option>
                                             <option value="four">Four</option>
+                                            <option value="five">Five</option>
+                                            <option value="six">Six</option>
+                                            <option value="seven">Seven</option>
                                             <option value="more">More</option>
                                             </select>
                                             @error('dependants')
@@ -305,29 +329,43 @@
                                             </span>
                                         @enderror
                                         </div>
+
                                     </div>
+                                    <div class="mt-10   align-items-center"  id = "more_number" >
+                                        <div class="align-self-center form-select1"> <label></label></div>
+
+                                        <div class="form-select">
+                                            <input type="text" name="more_number" class="single-input" placeholder="Enter More Number" required>
+                                        </div>
+                                    </div>
+
+
+
+
                                     <div class="mt-10  d-flex align-items-center">
-                                        <div class="align-self-center form-select1"> <label for="goals">Tell us about your goal: </label></div>
 
-                                        <div class="form-select2 align-self-center">
+                                        <div class="align-self-center form-select1"> <label for="goals">Tell us about your Goal:</label></div>
 
-                                            <select required id="goals" multiple  class=" @error('goals') is-invalid @enderror" value="{{ old('goals') }}" required autocomplete="goals" autofocus name="goals"> 
-                                           
-                                            <option value="emergency-fund">Emergency Fund</option>
-                                            <option value="paying-off-debt"> Paying off debt</option>
+                                        <div style="width: 95%" class="form-select2 align-self-center">
+
+                                            <select required id="goals" multiple  class="single-input @error('goals') is-invalid @enderror" value="{{ old('goals') }}" required autocomplete="goals" autofocus name="goals">
+
+                                            <option value="emergency-fund" style="background-image:url(rafi/Signup Form/Emergency Fund.png);">     Emergency Fund</option>
+                                            <option value="paying-off-debt"> Paying off debt &#xf042;</option>
                                             <option value="marriage">Marriage</option>
-                                            <option value="family-support">Family support </option>
-                                            <option value="buying-a-home">Buying a home</option>
-                                            <option value="saving-for-retirement">Saving for retirement</option>
-                                            <option value="college-private-school">college or private school</option>
-                                            <option value="new-car">new car</option>
-                                            <option value="vacation">vacation</option>
-                                            <option value="charity">charity</option>
-                                            <option value="own-business">starting your own business</option>
+                                            <option value="family-support">Family Support </option>
+                                            <option value="buying-a-home">Buying a Home</option>
+                                            <option value="saving-for-retirement">Saving for Retirement</option>
+                                            <option value="college-private-school">College or Private School</option>
+                                            <option value="new-car">New Car</option>
+                                            <option value="vacation">Vacation</option>
+                                            <option value="charity">Charity</option>
+                                            <option value="own-business">Starting your own Business</option>
                                             <option value="other">Other</option>
 
 
                                             </select>
+                                            <i class="fa fa-caret-down" aria-hidden="true"></i>
                                             @error('goals')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
@@ -396,9 +434,13 @@
                                     </div>
                                     <div class="footer-tittle ">
                                         <div class="footer-pera ">
-                                            <p class="info1 "> Cd-100, Sec-1, Salt Lake <br> Kolkata, INDIA - 700064</p>
-                                            <p class="info2 ">example@gmail.com</p>
+                                            <p class="info1 "> B1 - 504 Westgate Business Bay, <br> Near Vodafone House, Corporate Road, SG highway, Ahmedabad - 380051</p>
+                                            <p class="info2 ">   +91 79 484 666 22</p>
                                         </div>
+
+
+
+
                                     </div>
                                     <div class="footer-social ">
                                         <a href="# "><i class="fab fa-facebook-f "></i></a>
@@ -515,15 +557,65 @@
 
     <script src="{{ asset('js/pages/main.js') }}"></script>
 
+
     @yield('scripts')
+    <script src="{{ asset('rafi/build/js/intlTelInput.js') }}"></script>
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            // allowDropdown: false,
+            // autoHideDialCode: false,
+            // autoPlaceholder: "off",
+            // dropdownContainer: document.body,
+            // excludeCountries: ["us"],
+            // formatOnDisplay: false,
+            // geoIpLookup: function(callback) {
+            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+            //     var countryCode = (resp && resp.country) ? resp.country : "";
+            //     callback(countryCode);
+            //   });
+            // },
+            // hiddenInput: "full_number",
+            // initialCountry: "auto",
+            // localizedCountries: { 'de': 'Deutschland' },
+            // nationalMode: false,
+            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+            // placeholderNumberType: "MOBILE",
+             preferredCountries: ['in', 'us'],
+            // separateDialCode: true,
+            utilsScript: "rafi/build/js/utils.js",
+        });
+    </script>
 
 <script>
+
+    $("#more_number").hide();
+
      $(document).ready(function(){
+
   var firstName = $('#first_name').text();
   var lastName = $('#last_name').text();
   var intials = firstName.charAt(0) + lastName.charAt(0);
   var profileImage = $('#profileImage').text("ss");
+
+
+
 });
+     $('#dependants').on('change', function () {
+         var depends=   $('#dependants').val();
+         console.log(depends);
+         if (depends == "more"){
+
+             $("#more_number").show();
+            var more = document.getElementById('more_number');
+            more.style.display="flex";
+
+         }else{
+             //more.style.display ="none";
+             $("#more_number").hide();
+         }
+
+     })
 </script>
 </body>
 
