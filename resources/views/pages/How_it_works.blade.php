@@ -7,19 +7,19 @@
         max-width: 100vw;
         overflow-x: hidden;
     }
-    
+
     #svg_form_time {
         height: 15px;
         max-width: 80%;
         margin: 40px auto 20px;
         display: block;
     }
-    
+
     #svg_form_time circle,
     #svg_form_time rect {
         fill: lightgray;
     }
-    
+
     .button {
         background: green;
         border-radius: 100px;
@@ -30,11 +30,11 @@
         color: white;
         cursor: pointer;
     }
-    
+
     .disabled {
         display: none;
     }
-    
+
     aside {
         padding: 50px 100px 70px;
         max-width: 400px;
@@ -46,7 +46,7 @@
         border-radius: 10px;
         transition: transform 0.2s ease-in-out;
     }
-    
+
     input {
         width: 100%;
         margin: 5px 0px;
@@ -70,10 +70,10 @@
                 <!-- Section-tittle -->
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8">
-                        <div class="section-tittle text-center mb-40">
-                            <span> How It Works  </span>
-                            <h2>Home</h2>
-                        </div>
+{{--                        <div class="section-tittle text-center mb-40">--}}
+{{--                            <span> How It Works  </span>--}}
+{{--                            <h2>Home</h2>--}}
+{{--                        </div>--}}
                     </div>
                 </div>
             </div>
@@ -253,7 +253,7 @@
                         </div>
 
 
-                       
+
                     </div>
 
 
@@ -271,7 +271,7 @@
                     </div>
 
                     <div class="row  justify-content-center">
-                       
+
                         <div class="col-lg-4 col-md-6 justify-content-center">
                             <div class="icon-boxes d-flex flex-column justify-content-center">
 
@@ -425,7 +425,7 @@
                         <!-- End .content-->
 
 
-                        
+
                     </div>
 
 
@@ -443,7 +443,7 @@
                     </div>
 
                     <div class="row align-items-center justify-content-center">
-                        
+
                         <div class="col-lg-4 col-md-6">
                             <div class="icon-boxes d-flex flex-column justify-content-center">
                                 <div class="d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
@@ -493,7 +493,7 @@
 @section('3')
     active
 @endsection
-  
+
 
     @section('scripts')
     <script>
@@ -593,4 +593,4 @@
         });
     </script>
     @endsection
-    
+

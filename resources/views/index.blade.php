@@ -71,8 +71,8 @@
                     <div class="section-tittle text-center">
                         <h2>Let’s see how much You can make with your savings</h2>
                     <form action="#" class="invest" validated>
-                            <p style="line-height: 1.5;"> hey my name is <input type="text" class="text" name="name" value="Rahul"> and i am <input type="number" class="age" name="age" value="30" required> years young . i can invest R.s <input type="number" class="text" name="invest"
-                                    value="500000" required> today and save R.s <input type="number" class="te" value="5000" name="monthly" required>every month.</p>
+                            <p style="line-height: 1.5;"> Hey My Name is <input type="text" class="text" name="name" value="Rahul"> and I am <input type="text" class="age" name="age" value="30" required> years young . I can invest    <i class="fa fa-rupee-sign"></i> <input type="text" class="text" name="invest"
+                                    value="500000" required> today and save  <i class="fa fa-rupee-sign"></i> <input type="text" class="te" value="5000" name="monthly" required> every month.</p>
                             <button type="submit" href="#chart" class=" btn btn2 py-4 px-2">Calculate SIP</button>
                         </form>
                     </div>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="we-create-cap">
-                        <p>“Congratulations!! <strong class="inp1">Rahul</strong>, You can make <strong class="inp2">Rs. 78</strong> Crores in <strong class="inp3">30</strong> Years, If you start today”s. </p>
+                        <p>“Congratulations!! <strong class="inp1">Rahul</strong>, You can make  <i class="fa fa-rupee-sign"></i> <strong class="inp2">   4,74,85,20,901  </strong>  in <strong class="inp3">35</strong> Years, If you start today”s. </p>
                         <!-- Hero-btn -->
                         <div class="hero__btn text-center text-lg-left" data-animation="fadeInLeft" data-delay=".8s">
                             <a href="#" role="button" data-toggle="modal" data-target="#exampleModal" class="btn hero-btn">Get Started</a>
@@ -115,7 +115,8 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-do text-center mb-30">
                         <div class="do-icon">
-                            <img src="/img/help.svg" alt=""> </div>
+
+                            <img src=" {{asset('rafi/Royal_Icons_3/Home/Financial Assistance.png')}}" alt=""> </div>
                         <div class="do-caption">
                             <h4>Financial Assistance</h4>
                             <p>Though making 100 crores is not a myth, you need someone to take you there. </p>
@@ -126,7 +127,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-do  text-center mb-30">
                         <div class="do-icon">
-                            <img src="/img/presentation.svg" alt="">
+                            <img src="{{asset('rafi/Royal_Icons_3/Home/The Life you want.png')}}" alt="">
                         </div>
                         <div class="do-caption">
                             <h4>The life you want</h4>
@@ -138,7 +139,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-do text-center mb-30">
                         <div class="do-icon">
-                            <img src="/img/friendship.svg" alt="">
+                            <img src="{{asset('rafi/Royal_Icons_3/Home/Together.png')}}" alt="">
                         </div>
                         <div class="do-caption">
                             <h4>Together</h4>
@@ -151,8 +152,9 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-do text-center mb-30">
                         <div class="do-icon">
-                            <img src="/img/money.svg" alt="">
+                            <img src="{{asset('rafi/Royal_Icons_3/Home/Support - Team Of Advisors (1).png')}}" alt="">
                         </div>
+
                         <div class="do-caption">
                             <h4>Supoort</h4>
                             <p>Your dedicated team of advisors develops a personalized plan, tailored to your Values and life goals.</p>
@@ -161,12 +163,12 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="single-do active text-center mb-30">
+                    <div class="single-do  text-center mb-30">
                         <div class="do-icon">
-                            <img src="/img/partnership-handshake.svg" alt="">
+                            <img src="{{asset('rafi/Royal_Icons_3/Home/Partnership.png')}}" alt="">
                         </div>
                         <div class="do-caption">
-                            <h4>partnership</h4>
+                            <h4>Partnership</h4>
                             <p>This is a lifelong partnership backed by 15 years of expertise, providing unparalleled Consistency, perspective, and access. </p>
                         </div>
 
@@ -194,26 +196,26 @@
                         <div class="col-6">
                             <div class="single_feature">
                                 <div class="single_feature_part">
-                                    <span class="single_feature_icon"><img src="/img/icon/confusion.svg" alt=""></span>
+                                    <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Confused.png')}}" alt=""></span>
                                     <h4>Confused</h4>
 
                                 </div>
                             </div>
                             <div class="single_feature">
                                 <div class="single_feature_part">
-                                    <span class="single_feature_icon"><img src="/img/icon/money.svg" alt=""></span>
+                                    <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/No savings.png')}}" alt=""></span>
                                     <h4>No savings</h4>
                                 </div>
                             </div>
                             <div class="single_feature">
                                 <div class="single_feature_part">
-                                    <span class="single_feature_icon"><img src="/img/icon/risk.svg" alt=""></span>
+                                    <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Financial Issues.png')}}" alt=""></span>
                                     <h4>Financial Issues</h4>
                                 </div>
                             </div>
                             <div class="single_feature">
                                 <div class="single_feature_part">
-                                    <span class="single_feature_icon"><img src="/img/icon/dream.svg" alt=""></span>
+                                    <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Dreaming.png')}}" alt=""></span>
                                     <h4>Only Dreaming</h4>
                                 </div>
                             </div>
@@ -235,28 +237,28 @@
                         <div class="col-6">
                             <div class="single_feature">
                                 <div class="single_feature_part">
-                                    <span class="single_feature_icon"><img src="/img/icon/success.svg" alt=""></span>
+                                    <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Goal Oriented.png')}}" alt=""></span>
                                     <h4>Goal oriented</h4>
 
                                 </div>
                             </div>
                             <div class="single_feature">
                                 <div class="single_feature_part">
-                                    <span class="single_feature_icon"><img src="/img/icon/money (1).svg" alt=""></span>
+                                    <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Saving and Investment.png')}}" alt=""></span>
                                     <h4>Saving + Investment</h4>
 
                                 </div>
                             </div>
                             <div class="single_feature">
                                 <div class="single_feature_part">
-                                    <span class="single_feature_icon"><img src="/img/icon/money-bag.svg" alt=""></span>
+                                    <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Financial Secured.png')}}" alt=""></span>
                                     <h4>Financially Secured</h4>
 
                                 </div>
                             </div>
                             <div class="single_feature">
                                 <div class="single_feature_part">
-                                    <span class="single_feature_icon"><img src="/img/icon/dream (1).svg" alt=""></span>
+                                    <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Chasing Dreams.png')}}" alt=""></span>
                                     <h4>Chasing Dreams</h4>
 
                                 </div>
@@ -287,8 +289,9 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="single-generating d-flex flex-column text-center mb-30">
                         <div class="generating-icon">
-                            <img src="/img/icon/report.svg" alt="">
+                            <img src="{{asset('rafi/Royal_Icons_3/Home/Helping you Realize the Possibilities.png')}}" alt="">
                         </div>
+
                         <div class="generating-cap">
                             <h4> Helping you realize The possibilities
                             </h4>
@@ -299,7 +302,7 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="single-generating d-flex flex-column text-center mb-30">
                         <div class="generating-icon">
-                            <img src="/img/icon/solution.svg" alt=""> </div>
+                            <img src="{{asset('rafi/Royal_Icons_3/Home/Passion for Providing solutions.png')}}" alt=""> </div>
                         <div class="generating-cap">
                             <h4>A passion for providing Solutions
                             </h4>
@@ -307,13 +310,14 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-4">
                     <div class="single-generating d-flex flex-column text-center mb-30">
                         <div class="generating-icon">
-                            <img src="/img/icon/approach.svg" alt=""> </div>
+                            <img src="{{asset('rafi/Royal_Icons_3/Home/A specialist approach.png')}}" alt=""> </div>
                         <div class="generating-cap">
                             <h4>A Specialist approach</h4>
-                            <p>• Our focused teams are led by industry veterans with decades of experience </p>
+                            <p>Our focused teams are led by industry veterans with decades of experience </p>
                         </div>
                     </div>
                 </div>
@@ -331,7 +335,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-tittle text-center">
-                        <h2>data security and privacy </h2>
+                        <h2>Data Security and Privacy </h2>
                     </div>
                 </div>
             </div>
@@ -339,9 +343,9 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="single-generating d-flex flex-column text-center mb-30">
                         <div class="generating-icon">
-                            <img src="/img/icon/login.svg" alt=""> </div>
+                            <img src="{{asset('rafi/Royal_Icons_3/Home/Security.png')}}" alt=""> </div>
                         <div class="generating-cap">
-                            <h4> security
+                            <h4> Security
                             </h4>
                             <p> We use 128-bit encryption to protect the transmission of your data to our site. </p>
                         </div>
@@ -350,7 +354,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="single-generating d-flex flex-column text-center mb-30">
                         <div class="generating-icon">
-                            <img src="/img/icon/password.svg" alt=""> </div>
+                            <img src="{{asset('rafi/Royal_Icons_3/Home/Privacy (2).png')}}" alt=""> </div>
                         <div class="generating-cap">
                             <h4>Privacy
                             </h4>
@@ -381,7 +385,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-6 align-content-center">
                     <div class="we-create-img">
-                        <img src="/img/service/teamwork.svg" class="img-fluid" alt="">
+                        <img src="{{asset('rafi/Royal_Icons_3/Home/Its not luck but right decision (2).png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -397,8 +401,8 @@
 @endsection
 
 
-   
-  
+
+
 @section('1')
     active
 @endsection
@@ -412,7 +416,8 @@
                 },
             }
         });
+
         </script>
 @endsection
-      
+
 
