@@ -102,8 +102,8 @@
                         <div class="media contact-info ">
                             <span class="contact-info__icon "><i class="ti-home "></i></span>
                             <div class="media-body ">
-                                <h3>Kolkata, INDIA.</h3>
-                                <p>Cd-100, Sec-1, Salt Lake, CA 700064</p>
+                                <h3>Gujarat, INDIA.</h3>
+                                <p>B1 - 504 Westgate Business Bay, Near Vodafone House, Corporate Road, SG highway, Ahmedabad - 380051</p>
 
 
                             </div>
@@ -216,8 +216,8 @@
 @endsection
 
 
-   
-  
+
+
 @section('6')
     active
 @endsection
