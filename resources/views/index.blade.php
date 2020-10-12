@@ -42,9 +42,9 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="we-create-cap">
                         <h3>Make your money work for you </h3>
-                        <h5>Making 100 Crores is not a myth </h5>
-                        <p>Have you ever imagined to be the wealthiest 1% of the world?
-                            <br>The calculator is for the illustrative purposes only and may not apply to your individual circumstances. </p>
+                        <h4>Making ₹ 100 Crores is not a myth </h4>
+                        <p>Have you ever imagined to be the <b>wealthiest 1% of the world?</b>
+                            <!--<br>The calculator is for the illustrative purposes only and may not apply to your individual circumstances. </p>-->
 
                     </div>
                 </div>
@@ -71,8 +71,8 @@
                     <div class="section-tittle text-center">
                         <h2>Let’s see how much You can make with your savings</h2>
                     <form action="#" class="invest" validated>
-                            <p style="line-height: 1.5;"> Hey My Name is <input type="text" class="text" name="name" value="Rahul"> and I am <input type="text" class="age" name="age" value="30" required> years young . I can invest    <i class="fa fa-rupee-sign"></i> <input type="text" class="text" name="invest"
-                                    value="500000" required> today and save  <i class="fa fa-rupee-sign"></i> <input type="text" class="te" value="5000" name="monthly" required> every month.</p>
+                            <p style="line-height: 1.5;margin-bottom: 50px;"> Hey My Name is <input type="text" class="text" name="name" value="Rahul"> and I am <input type="text" class="age" name="age" value="30" required> years young . I can invest    <i class="fa fa-rupee-sign"></i> <input type="text" class="text" name="invest"
+                                    value="5,00,000" required> today and save  <i class="fa fa-rupee-sign"></i> <input type="text" class="te" value="5,000" name="monthly" required> every month.</p>
                             <button type="submit" href="#chart" class=" btn btn2 py-4 px-2">Calculate SIP</button>
                         </form>
                     </div>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="we-create-cap">
-                        <p>“Congratulations!! <strong class="inp1">Rahul</strong>, You can make  <i class="fa fa-rupee-sign"></i> <strong class="inp2">   4,74,85,20,901  </strong>  in <strong class="inp3">35</strong> Years, If you start today”s. </p>
+                        <p>“Congratulations!! <strong class="inp1 color_light_green">Rahul</strong>, You can make  <i class="fa fa-rupee-sign color_light_green"></i> <strong class="inp2 color_light_green">   4,74,85,20,901  </strong>  <span class="color_light_green">in </span><strong class="inp3 color_light_green">35</strong> <span class="color_light_green">Years</span>, If you start today”s. </p>
                         <!-- Hero-btn -->
                         <div class="hero__btn text-center text-lg-left" data-animation="fadeInLeft" data-delay=".8s">
                             <a href="#" role="button" data-toggle="modal" data-target="#exampleModal" class="btn hero-btn">Get Started</a>

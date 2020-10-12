@@ -70,7 +70,7 @@
                                 @if ($item->image)
 
                                 
-                                 <img src="{{$item->image()}}" style="width: 50px; height:50px;border-radius:100px;"  alt="post">
+                                 <img src="{{$item->image}}" style="width: 50px; height:50px;border-radius:100px;"  alt="post">
 
                                 @endif
                                 <div class="media post_item">

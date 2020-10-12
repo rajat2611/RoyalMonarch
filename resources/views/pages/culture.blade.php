@@ -23,22 +23,111 @@
         <div class="slider-active">
             <div class="single-slider slider-height sd2 d-flex align-items-center">
                 <div class="container">
-                    <div class="row d-flex align-items-center">
-
-                        <div class="col-12 ">
+                    <div class="row d-flex">
+                        <div class="col-lg-2 col-md-9 about_menu_link">
+                            @include('/pages.contact_menu')
+                        </div>
+                        <div class="col-10 ">
                             <div class="hero__caption hero__caption2 text-center">
-                                <h2 data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Integrity.</span><span style="color: #999999;"> Authenticity.</span><span style="color: #1b31a7;"> Excellence.</span>
-
-                                </h2>
+                                <h2 data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Integrity.</span><span style="color: #999999;"> Authenticity.</span><span style="color: #1b31a7;"> Excellence.</span></h2>
                                 <p data-animation="fadeInRight" data-delay=".4s" style="width: 80%; margin:auto;">
                                     The foundation of the Royal Monarch culture is integrity, authenticity, and excellence. Our inclusive environment respects the diversity of talent and values the unique perspective of each member of our Royal Monarch family. Our culture rewards intelligence,
                                     growth, and performance</p>
-
-
+                            </div>
+                            <div class="p-5"></div>
+                            <div class="d-md-flex mb-4">
+                                <div class="one-forth order-last align-self-center">
+                                    <!--<img src="/img/firm/mission.png" class="" alt="">-->
+                                    <img src="/image/culture/Integrity.png" class="" alt="" style="width: 50%">
+                                </div>
+                                <div class="one-half ml-md-5 align-self-center">
+                                    <h2 class="mb-4 color-light-blue">Integrity</h2>
+                                    <p>
+                                        We define integrity as the consistency of our actions, values, methods, expectations, outcomes, and measurement. Leadership demands responsibility.
+                                        <p class="mb-0">Whoever is careless with the truth in small matters cannot be trusted with important matters.</p>
+                                        <footer class="blockquote-footer">Albert Einstein <cite title="Source Title">[1879 – 1955]</cite></footer>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex mb-4">
+                                <div class="one-forth align-self-center">
+                                    <img src="/image/culture/Stweardship.png" class="" alt="" style="width: 50%">
+                                </div>
+                                <div class="one-half ml-md-5 align-self-center">
+                                    <h2 class="mb-4 color-light-blue">Stewardship</h2>
+                                    <p>
+                                        Stewardship is the planning, management, and accountability of our client and firm resources. We aspire to be the best stewards of capital, education, and time.
+                                        <blockquote class="blockquote">
+                                            <p class="mb-0">We cannot always build the future of our youth, but we can build our youth for the future.</p>
+                                            <footer class="blockquote-footer">Franklin D. Roosevelt <cite title="Source Title">[1882 – 1945]</cite></footer>
+                                        </blockquote>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex mb-4">
+                                <div class="one-forth order-last align-self-center">
+                                    <!--<img src="/img/firm/mission.png" class="" alt="">-->
+                                    <img src="/image/culture/Collaboration.png" class="" alt="" style="width: 50%">
+                                </div>
+                                <div class="one-half ml-md-5 align-self-center">
+                                    <h2 class="mb-4 color-light-blue">Collaboration</h2>
+                                    <p>
+                                        Collaboration guides how Royal Monarch interacts and partners with clients, associations, education institutions, governments, and society at large.
+                                        <blockquote class="blockquote">
+                                            <p class="mb-0">Talent wins games, but teamwork and intelligence wins championships.</p>
+                                            <footer class="blockquote-footer"> Michael Jordan <cite title="Source Title">[1963 – present]</cite></footer>
+                                        </blockquote>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex mb-4">
+                                <div class="one-forth align-self-center">
+                                    <img src="/image/culture/DIVERSITY.png" class="" alt="" style="width: 50%">
+                                </div>
+                                <div class="one-half ml-md-5 align-self-center">
+                                    <h2 class="mb-4 color-light-blue">Diversity</h2>
+                                    <p>
+                                        Diversity is the embracing of the differences among beings, creatures, beliefs, norms, and values. Stewarding a diverse culture, with respect to thought, age, ethnicity, skills, country origin, knowledge, and experience, requires a comprehensive understanding
+                                        of all such channels.
+                                        <blockquote class="blockquote">
+                                            <p class="mb-0">We all should know that diversity makes for a rich tapestry, and we must understand that all the threads of the tapestry are equal in value no matter what their colour.</p>
+                                            <footer class="blockquote-footer"> Maya Angelou <cite title="Source Title">[1928 – 2014]</cite></footer>
+                                        </blockquote>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex mb-4">
+                                <div class="one-forth order-last align-self-center">
+                                    <!--<img src="/img/firm/mission.png" class="" alt="">-->
+                                    <img src="/image/culture/Innovation.png" class="" alt="" style="width: 50%">
+                                </div>
+                                <div class="one-half ml-md-5 align-self-center">
+                                    <h2 class="mb-4 color-light-blue">Innovation</h2>
+                                    <p>
+                                        Innovation, one of the most powerful forces of change through history, fundamentally improves our globe’s progress trajectory.
+                                        <blockquote class="blockquote">
+                                            <p class="mb-0">Innovation distinguishes between a leader and a follower.</p>
+                                            <footer class="blockquote-footer"> Steve Jobs <cite title="Source Title">[1955 – 2011]</cite></footer>
+                                        </blockquote>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex mb-4">
+                                <div class="one-forth align-self-center">
+                                    <img src="/image/culture/Education.png" class="" alt="" style="width: 50%">
+                                </div>
+                                <div class="one-half ml-md-5 align-self-center">
+                                    <h2 class="mb-4 color-light-blue">Education</h2>
+                                    <p>
+                                        We foster an education-based culture that values how knowledge, skills, habits, experience, and wisdom are transferred amongst our clients, team, and the global community at large.
+                                        <blockquote class="blockquote">
+                                            <p class="mb-0">An investment in knowledge pays the best interest.</p>
+                                            <footer class="blockquote-footer"> Benjamin Franklin <cite title="Source Title">[1706 – 1790]</cite></footer>
+                                        </blockquote>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -65,6 +154,8 @@
 {{--                    <h2 class="mb-4">Our Firm</h2>--}}
 {{--                </div>--}}
             </div>
+            
+            <?php /*
             <div class="row">
                 <div class="col-md-3 mb-4">
                     <nav id="navi">
@@ -184,7 +275,7 @@
                     </div>
 
                 </div>
-            </div>
+            </div> */ ?>
         </div>
     </section>
 

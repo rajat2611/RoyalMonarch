@@ -23,6 +23,9 @@
     <section class="doctor_part single_page_doctor_part">
         <div class="container">
             <div class="row justify-content-center">
+                 <div class="col-lg-2 col-md-9 about_menu_link">
+                                @include('/pages.contact_menu')
+                        </div>
                 <div class="col-xl-8">
                     <div class="section_tittle text-center mb-5">
                         <h2 class="mb-3"> <span style="color: #CDCDCD;">Collaboration.</span><span style="color: #999999;"> Innovation.</span><span style="color: #1b31a7;"> Diversity.</span>

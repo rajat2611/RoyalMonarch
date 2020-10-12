@@ -9,8 +9,17 @@ use App\Blog;
 class BlogController extends Controller
 {
     //
-    public function index(){
-        $blogs = Blog::orderBy('id', 'desc')->paginate(5);
+    public function index(Request $request){
+        $search=$request->search;
+        $blogs = Blog::orderBy('id', 'desc');
+        if ($search != null) {
+            $blogs->where(function($query) use ($search) {
+                $query->where('resume', 'like', '%' . $search . '%')
+                        ->orWhere('title', 'like', '%' . $search . '%')
+                        ->orWhere('category', 'like', '%' . $search . '%');
+            });
+        }
+        $blogs=$blogs->paginate(5);
         return view("pages.blog",compact("blogs"));
     }
 
