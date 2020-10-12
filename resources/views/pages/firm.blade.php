@@ -27,9 +27,11 @@
         <div class="slider-active">
             <div class="single-slider slider-height sd d-flex align-items-center">
                 <div class="container">
-                    <div class="row d-flex align-items-center">
-
-                        <div class="col-lg-7 col-md-9 ">
+                    <div class="row d-flex"><!-- remove align-items-center -->
+                        <div class="col-lg-2 col-md-9 about_menu_link">
+                                @include('/pages.contact_menu')
+                        </div>
+                        <div class="col-lg-5 col-md-9 ">
                             <div class="hero__caption hero__caption2">
                                 <h2 data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Mission.</span><span style="color: #999999;"> Vision.</span><span style="color: #1b31a7;"> Promise.</span>
 
@@ -91,6 +93,51 @@
 {{--                </div>--}}
             </div>
             <div class="row">
+                <!-- new code -->
+                <div class="col-md-12 align-items-center ftco-animate">
+                    <div class="d-md-flex mb-4">
+                        <div class="one-forth align-self-center">
+                            <!--<img src="/img/firm/mission.png" class="" alt="">-->
+                            <img src="/image/firm/Mission.png" class="" alt="">
+                        </div>
+                        <div class="one-half ml-md-5 align-self-center">
+                            <h2 class="mb-4">OUR MISSION</h2>
+                            <p>To have a positive impact on the lives of our clients by helping them achieve their goals and obtain peace of mind over their finances. We will do this by providing financial services tailored to the specific needs
+                            of each client, based on their goals and values.</p>
+                            <p>Our mission is to continue to grow and protect our clients’ assets and to help them achieve their dreams and life goals. We aim to do this in such a way as to become the trusted source of knowledge and leadership
+                            to our clients, our staff and to the wider community.</p>
+                        </div>
+                    </div>
+                <!--2-->
+                <div class="d-md-flex mb-4">
+                    <div class="one-forth order-last align-self-center">
+                        <!--<img src="/img/firm/vision.png" class="" alt="">-->
+                        <img src="/image/firm/Vision.png" class="" alt="">
+                    </div>
+                    <div class="one-half order-first mr-md-5 align-self-center">
+                        <h2 class="mb-4">OUR VISION</h2>
+                        <p>Our vision as a firm focuses on helping others achieve financial goals, as well as understanding of each client’s unique purpose, mission and values. We strive to empower clients by offering education, tools and
+                        resources aimed at facilitating clear communication and bringing definition to their ambitions and objectives. Each client has different ideas about what makes life great. </p>
+                        <p>We take the burden out of managing the financial details so clients can enjoy life’s journey and live out their unique purpose. We strive to be a force of calm, a navigator in the face of anxiety and uncertainty
+                        that all too often accompany financial success.
+                        </p>
+                    </div>
+                </div>
+                <!--3-->
+                <div class="d-md-flex">
+                    <div class="one-forth align-self-center">
+                        <!--<img src="/img/firm/promise.png" class="" alt="">-->
+                        <img src="/image/firm/Promise.png" class="" alt="">
+                    </div>
+                    <div class="one-half ml-md-5 align-self-center">
+                        <h2 class="mb-4">OUR PROMISE</h2>
+                        <p>As public policy stewards, Royal Monarch is held to the highest fiduciary standard. Financial planning advice and wealth management services must be delivered to the public with objectivity, accountability, and
+                        transparency. We place client interests above those of our firm, employees, and shareholders.</p>
+                    </div>
+                </div>
+                </div>
+                <!-- new code -->
+                <?php /*                
                 <div class="col-md-12 nav-link-wrap mb-5 pb-md-5 pb-sm-1 ftco-animate">
                     <div class="nav ftco-animate nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link active text-capitalize" id="v-pills-nextgen-tab" data-toggle="pill" href="#v-pills-nextgen" role="tab" aria-controls="v-pills-nextgen" aria-selected="true" style="color: black !important;">Our Mission
@@ -155,7 +202,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */ ?>
             </div>
         </div>
     </section>

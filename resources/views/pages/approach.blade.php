@@ -21,9 +21,11 @@
         <div class="slider-active">
             <div class="single-slider slider-height sd3 d-flex align-items-center">
                 <div class="container">
-                    <div class="row d-flex align-items-center">
-
-                        <div class="col-12 ">
+                    <div class="row d-flex">
+                        <div class="col-lg-2 col-md-9 about_menu_link">
+                            @include('/pages.contact_menu')
+                        </div>
+                        <div class="col-10 ">
                             <div class="hero__caption hero__caption2">
                                 <h2 data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Precise.</span><span style="color: #999999;"> Personalised.</span><span style="color: #1b31a7;"> Defined.</span>
 
@@ -87,6 +89,50 @@
 
                             </div>
                         </div>
+                        <!-- New code -->
+                        <div class="row">
+                            <!-- new code -->
+                            <div class="col-md-12 align-items-center ftco-animate">
+                                <div class="d-md-flex mb-4">
+                                    <div class="one-forth align-self-center">
+                                        <!--<img src="/img/help.svg" alt="">-->
+                                        <img src="/image/approach/Trust.png" alt="">
+                                    </div>
+                                    <div class="one-half ml-md-5 align-self-center">
+                                        <h2 class="mb-4">Trust</h2>
+                                        <p>You can be confident that we will make decisions that are in your best interest – and based on your financial goals and objectives. When it comes to managing your hard-earned wealth, let your trusted advisor
+                                            help you every step of the way. </p>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex mb-4">
+                                    <div class="one-forth order-last align-self-center">
+                                        <!--<img src="/img/presentation.svg" alt="">-->
+                                        <img src="/image/approach/Transparancy.png" alt="">
+                                    </div>
+                                    <div class="one-half order-first mr-md-5 align-self-center">
+                                        <h2 class="mb-4">Transaparancy</h2>
+                                        <p> It’s important for us to communicate in a clear, straightforward way, giving our clients insight into why we make certain decisions and what the impact will be. Whether it’s disclosing all of the fees associated
+                                            with your account, providing detailed trade notifications, or taking the time to discuss major economic events with you, we proactively educate clients through open and honest communication.</p>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex mb-5">
+                                    <div class="one-forth align-self-center">
+                                        <!--<img src="/img/firm/promise.png" class="" alt="">-->
+                                        <img src="/image/approach/Acountability.png" alt="">
+                                    </div>
+                                    <div class="one-half ml-md-5 align-self-center">
+                                        <h2 class="mb-4">Accountability</h2>
+                                        <p>
+                                            When we set out to accomplish something, we do it – with integrity and teamwork. We hold ourselves accountable no matter what, which gives our clients financial confidence knowing the team that manages their
+                                            wealth follows through on their word. And, in turn, when we create your financial plan, we will hold you accountable, too. That mutual sense of responsibility is one of the most important ways we help you
+                                            pursue your goals.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- New code -->
+                        <?php /*
                         <div class="row">
                             <div class="col-lg-4 col-md-6">
                                 <div class="single-do text-center mb-30">
@@ -129,68 +175,67 @@
 
                                 </div>
                             </div>
-
-                        </div>
+                        </div> */?>
                     </div>
                 </div>
-{{--                <div class="row d-flex justify-content-center">--}}
-{{--                    <div class="col-lg-10 col-md-9">--}}
-{{--                        <div class="h1-testimonial-active">--}}
-{{--                            <!-- Single Testimonial -->--}}
-{{--                            <div class="single-testimonial text-center">--}}
-{{--                                <div class="testimonial-caption ">--}}
-{{--                                    <div class="testimonial-founder d-flex align-items-center justify-content-center">--}}
+                {{--                <div class="row d-flex justify-content-center">--}}
+                {{--                    <div class="col-lg-10 col-md-9">--}}
+                {{--                        <div class="h1-testimonial-active">--}}
+                {{--                            <!-- Single Testimonial -->--}}
+                {{--                            <div class="single-testimonial text-center">--}}
+                {{--                                <div class="testimonial-caption ">--}}
+                {{--                                    <div class="testimonial-founder d-flex align-items-center justify-content-center">--}}
 
-{{--                                        <div class="founder-text " style="margin-bottom: 15px;">--}}
-{{--                                            <span>Trust</span>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="testimonial-top-cap">--}}
-{{--                                        <p>You can be confident that we will make decisions that are in your best interest – and based on your financial goals and objectives. When it comes to managing your hard-earned wealth, let your trusted advisor--}}
-{{--                                            help you every step of the way.</p>--}}
-{{--                                    </div>--}}
-{{--                                    <!-- founder -->--}}
+                {{--                                        <div class="founder-text " style="margin-bottom: 15px;">--}}
+                {{--                                            <span>Trust</span>--}}
+                {{--                                        </div>--}}
+                {{--                                    </div>--}}
+                {{--                                    <div class="testimonial-top-cap">--}}
+                {{--                                        <p>You can be confident that we will make decisions that are in your best interest – and based on your financial goals and objectives. When it comes to managing your hard-earned wealth, let your trusted advisor--}}
+                {{--                                            help you every step of the way.</p>--}}
+                {{--                                    </div>--}}
+                {{--                                    <!-- founder -->--}}
 
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <!-- Single Testimonial -->--}}
-{{--                            <div class="single-testimonial text-center">--}}
-{{--                                <div class="testimonial-caption ">--}}
-{{--                                    <div class="testimonial-founder d-flex align-items-center justify-content-center">--}}
+                {{--                                </div>--}}
+                {{--                            </div>--}}
+                {{--                            <!-- Single Testimonial -->--}}
+                {{--                            <div class="single-testimonial text-center">--}}
+                {{--                                <div class="testimonial-caption ">--}}
+                {{--                                    <div class="testimonial-founder d-flex align-items-center justify-content-center">--}}
 
-{{--                                        <div class="founder-text " style="margin-bottom: 15px;">--}}
-{{--                                            <span>Transaparancy</span>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="testimonial-top-cap">--}}
-{{--                                        <p>It’s important for us to communicate in a clear, straightforward way, giving our clients insight into why we make certain decisions and what the impact will be. Whether it’s disclosing all of the fees associated--}}
-{{--                                            with your account, providing detailed trade notifications, or taking the time to discuss major economic events with you, we proactively educate clients through open and honest communication.</p>--}}
-{{--                                    </div>--}}
+                {{--                                        <div class="founder-text " style="margin-bottom: 15px;">--}}
+                {{--                                            <span>Transaparancy</span>--}}
+                {{--                                        </div>--}}
+                {{--                                    </div>--}}
+                {{--                                    <div class="testimonial-top-cap">--}}
+                {{--                                        <p>It’s important for us to communicate in a clear, straightforward way, giving our clients insight into why we make certain decisions and what the impact will be. Whether it’s disclosing all of the fees associated--}}
+                {{--                                            with your account, providing detailed trade notifications, or taking the time to discuss major economic events with you, we proactively educate clients through open and honest communication.</p>--}}
+                {{--                                    </div>--}}
 
 
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <!-- Single Testimonial -->--}}
-{{--                            <div class="single-testimonial text-center">--}}
-{{--                                <div class="testimonial-caption ">--}}
-{{--                                    <div class="testimonial-founder d-flex align-items-center justify-content-center">--}}
+                {{--                                </div>--}}
+                {{--                            </div>--}}
+                {{--                            <!-- Single Testimonial -->--}}
+                {{--                            <div class="single-testimonial text-center">--}}
+                {{--                                <div class="testimonial-caption ">--}}
+                {{--                                    <div class="testimonial-founder d-flex align-items-center justify-content-center">--}}
 
-{{--                                        <div class="founder-text " style="margin-bottom: 15px;">--}}
-{{--                                            <span>Accountability</span>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="testimonial-top-cap">--}}
-{{--                                        <p>When we set out to accomplish something, we do it – with integrity and teamwork. We hold ourselves accountable no matter what, which gives our clients financial confidence knowing the team that manages their--}}
-{{--                                            wealth follows through on their word. And, in turn, when we create your financial plan, we will hold you accountable, too. That mutual sense of responsibility is one of the most important ways we help you--}}
-{{--                                            pursue your goals.</p>--}}
-{{--                                    </div>--}}
-{{--                                    <!-- founder -->--}}
+                {{--                                        <div class="founder-text " style="margin-bottom: 15px;">--}}
+                {{--                                            <span>Accountability</span>--}}
+                {{--                                        </div>--}}
+                {{--                                    </div>--}}
+                {{--                                    <div class="testimonial-top-cap">--}}
+                {{--                                        <p>When we set out to accomplish something, we do it – with integrity and teamwork. We hold ourselves accountable no matter what, which gives our clients financial confidence knowing the team that manages their--}}
+                {{--                                            wealth follows through on their word. And, in turn, when we create your financial plan, we will hold you accountable, too. That mutual sense of responsibility is one of the most important ways we help you--}}
+                {{--                                            pursue your goals.</p>--}}
+                {{--                                    </div>--}}
+                {{--                                    <!-- founder -->--}}
 
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+                {{--                                </div>--}}
+                {{--                            </div>--}}
+                {{--                        </div>--}}
+                {{--                    </div>--}}
+                {{--                </div>--}}
             </div>
         </div>
     </div>
@@ -206,5 +251,5 @@
 
 
 @section('2')
-    active
+active
 @endsection

@@ -80,8 +80,8 @@
                                     <ul id="navigation">
                                         <li><a href="/index" class="active-link @yield(1)"> Home</a>
                                         </li>
-                                        <li><a href="#" class="unclickable @yield(2)">About Us</a>
-                                            <ul class="submenu">
+                                        <li><a href="/firm" class="@yield(2)">About Us</a>
+<!--                                            <ul class="submenu">
                                                 <li><a href="/firm">our Firm</a></li>
                                                 <li><a href="/culture">our Culture</a></li>
                                                 <li><a href="/approach">our approach</a></li>
@@ -89,7 +89,7 @@
 
 
 
-                                            </ul>
+                                            </ul>-->
                                         </li>
                                         <li><a href="/How_it_works" class="@yield(3)">How it Works </a></li>
                                         <li><a href="/career" class="@yield(4)">Career</a></li>
@@ -346,11 +346,11 @@
 
                                         <div class="align-self-center form-select1"> <label for="goals">Tell us about your Goal:</label></div>
 
-                                        <div style="width: 95%" class="form-select2 align-self-center">
+                                        <div style="width: 95%" class="form-select2 align-self-center join_form">
 
                                             <select required id="goals" multiple  class="single-input @error('goals') is-invalid @enderror" value="{{ old('goals') }}" required autocomplete="goals" autofocus name="goals">
 
-                                            <option value="emergency-fund" style="background-image:url(rafi/Signup Form/Emergency Fund.png);">     Emergency Fund</option>
+                                            <option value="emergency-fund" data-image="{{asset('image/signup/emergency_fund.png')}}">Emergency Fund</option>
                                             <option value="paying-off-debt"> Paying off debt &#xf042;</option>
                                             <option value="marriage">Marriage</option>
                                             <option value="family-support">Family Support </option>
@@ -434,13 +434,9 @@
                                     </div>
                                     <div class="footer-tittle ">
                                         <div class="footer-pera ">
-                                            <p class="info1 "> B1 - 504 Westgate Business Bay, <br> Near Vodafone House, Corporate Road, SG highway, Ahmedabad - 380051</p>
-                                            <p class="info2 ">   +91 79 484 666 22</p>
+                                            <p class="info1 "> Cd-100, Sec-1, Salt Lake <br> Kolkata, INDIA - 700064</p>
+                                            <p class="info2 ">example@gmail.com</p>
                                         </div>
-
-
-
-
                                     </div>
                                     <div class="footer-social ">
                                         <a href="# "><i class="fab fa-facebook-f "></i></a>
@@ -560,6 +556,7 @@
 
     @yield('scripts')
     <script src="{{ asset('rafi/build/js/intlTelInput.js') }}"></script>
+    
     <script>
         var input = document.querySelector("#phone");
         window.intlTelInput(input, {

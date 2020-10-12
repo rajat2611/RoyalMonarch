@@ -9,14 +9,21 @@ position: static;; !important
 .sec-title{
 position: relative;
 }
-.sec-title::after{
-    content: "";
+.sec-title::before{
+/*    content: "";
     position: absolute;
     width: 150px;
     height: 2px;
     border: 2px solid black;
     top: 120%;
-    left: 5px;
+    left: 5px;*/
+    background-color: #1b31a7;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
 }
 .abt_RM p{
     text-transform: lowercase;
@@ -41,11 +48,11 @@ position: relative;
         <div class="row">
             <div class="col-md-6">
             <h1>{{$career->title}}</h1>
-            <h4 class="text-info my-5">{{$career->place}}<span class="text-secondary">. {{$career->time}}</span></h4>
+            <h4 class="text-info my-5"><span class="color-light-blue"><i class="fas fa-map-marker-alt"></i> {{$career->place}}</span><span class="text-secondary">. {{$career->time}}</span></h4>
             <a class="btn btn-primary" href="mailto:hiring@useorigin.com">Apply Now</a>
                     </div>
             <div class="col-md-6 my-md-0 my-5">
-                <h3 class="sec-title mb-5">About The role</h3>
+                <h3 class="sec-title mb-5 color-light-blue job-details-role">About The role</h3>
                 <div class="abt_RM">
                     <h5 class="bold">About Royal Monarch</h5>
                     <p>

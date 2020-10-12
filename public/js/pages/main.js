@@ -1,8 +1,8 @@
-(function($) {
+(function ($) {
     "use strict"
 
     /* 1. Proloder */
-    $(window).on('load', function() {
+    $(window).on('load', function () {
         $('#preloader-active').delay(450).fadeOut('slow');
         $('body').delay(450).css({
             'overflow': 'visible'
@@ -19,17 +19,18 @@
             closedSymbol: '+',
             openedSymbol: '-'
         });
-    };
+    }
+    ;
 
 
     /* 3. MainSlider-1 */
     function mainSlider() {
         var BasicSlider = $('.slider-active');
-        BasicSlider.on('init', function(e, slick) {
+        BasicSlider.on('init', function (e, slick) {
             var $firstAnimatingElements = $('.single-slider:first-child').find('[data-animation]');
             doAnimations($firstAnimatingElements);
         });
-        BasicSlider.on('beforeChange', function(e, slick, currentSlide, nextSlide) {
+        BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
             var $animatingElements = $('.single-slider[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
             doAnimations($animatingElements);
         });
@@ -42,13 +43,13 @@
             prevArrow: '<button type="button" class="slick-prev"><i class="ti-shift-left"></i></button>',
             nextArrow: '<button type="button" class="slick-next"><i class="ti-shift-right"></i></button>',
             responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                }
-            },
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
                 {
                     breakpoint: 991,
                     settings: {
@@ -70,7 +71,7 @@
 
         function doAnimations(elements) {
             var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-            elements.each(function() {
+            elements.each(function () {
                 var $this = $(this);
                 var $animationDelay = $this.data('delay');
                 var $animationType = 'animated ' + $this.data('animation');
@@ -78,7 +79,7 @@
                     'animation-delay': $animationDelay,
                     '-webkit-animation-delay': $animationDelay
                 });
-                $this.addClass($animationType).one(animationEndEvents, function() {
+                $this.addClass($animationType).one(animationEndEvents, function () {
                     $this.removeClass($animationType);
                 });
             });
@@ -103,15 +104,15 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false,
-                    arrow: false
-                }
-            },
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false,
+                        arrow: false
+                    }
+                },
                 {
                     breakpoint: 600,
                     settings: {
@@ -173,7 +174,7 @@
     }
 
     /* 7.  Custom Sticky Menu  */
-    $(window).on('scroll', function() {
+    $(window).on('scroll', function () {
         var scroll = $(window).scrollTop();
         if (scroll < 245) {
             $(".header-sticky").removeClass("sticky-bar");
@@ -182,7 +183,7 @@
         }
     });
 
-    $(window).on('scroll', function() {
+    $(window).on('scroll', function () {
         var scroll = $(window).scrollTop();
         if (scroll < 245) {
             $(".header-sticky").removeClass("sticky");
@@ -207,7 +208,7 @@
 
 
     /* 9. data-background */
-    $("[data-background]").each(function() {
+    $("[data-background]").each(function () {
         $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
     });
 
@@ -241,7 +242,7 @@
             once: true
         });
     }
-    $(window).on('load', function() {
+    $(window).on('load', function () {
         aos_init();
     });
 
@@ -253,7 +254,7 @@
 //$('.page').css('height', $(window).height());
 
 // scrollspy section
-(function($) {
+(function ($) {
     //variable that will hold the href attr of the links in the menu
     var sections = [];
     //variable that stores the id of the section
@@ -261,7 +262,7 @@
     //variable for the selection of the anchors in the navbar
     var $navbara = $('#navi a');
 
-    $navbara.click(function(e) {
+    $navbara.click(function (e) {
         //prevent the page from refreshing
         e.preventDefault();
         //set the top offset animation and speed
@@ -274,12 +275,12 @@
 
 
     //select all the anchors in the navbar one after another
-    $navbara.each(function() {
+    $navbara.each(function () {
         // and adds them in the sections variable
         sections.push($($(this).attr('href')));
 
     })
-    $(window).scroll(function(e) {
+    $(window).scroll(function (e) {
         // scrollTop retains the value of the scroll top with the reference at the middle of the page
         var scrollTop = $(this).scrollTop() + ($(window).height() / 2);
         //cycle through the values in sections array
@@ -299,7 +300,7 @@
 
     var collapse = $('a[data-toggle]');
 
-    $(collapse).click(function(e) {
+    $(collapse).click(function (e) {
         if ($(this).attr('aria-expanded') == "false") {
 
             $(this).children().addClass("bx bx-down-arrow bx-rotate-180");
@@ -327,16 +328,18 @@
     var myChart = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
+//            labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
+            labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
             datasets: [{
-                fill: true,
-                label: 'Wealth',
-                data: [1458732, 2063745, 2861685, 3914073, 5302046, 7132618, 9546923, 12731102, 16930654, 22469362, 29774256, 39408537, 52115004, 68873314, 90975524, 120125697, 158571292, 209276437, 276150466, 364349318, 480673065, 634090187, 836429039, 1103289806, 1455247269],
-                backgroundColor: gradient,
-                borderColor: '#1b6ca8',
-                borderWidth: 3,
+                    fill: true,
+                    label: 'Wealth',
+//                data: [1458732, 2063745, 2861685, 3914073, 5302046, 7132618, 9546923, 12731102, 16930654, 22469362, 29774256, 39408537, 52115004, 68873314, 90975524, 120125697, 158571292, 209276437, 276150466, 364349318, 480673065, 634090187, 836429039, 1103289806, 1455247269],
+                    data: [1458732, 9731102, 12930654, 10731102,930654,5731102,8731102,830654,3731007,5733107,1731007,14131102,16731102,12731102,1458732],
+                    backgroundColor: gradient,
+                    borderColor: '#1b6ca8',
+                    borderWidth: 3,
 
-            }]
+                }]
         },
 
         options: {
@@ -358,23 +361,23 @@
             scales: {
 
                 xAxes: [{
-                    gridLines: {
-                        color: "rgba(0, 0, 0, 0)",
-                    }
-                }],
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true,
-                        callback: function(value, index, values) {
-                            return '₹' + value;
+                        gridLines: {
+                            color: "rgba(0, 0, 0, 0)",
                         }
+                    }],
+                yAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            callback: function (value, index, values) {
+                                return '₹' + value;
+                            }
 
 
-                    },
-                    gridLines: {
-                        color: "rgba(0, 0, 0, 0)",
-                    }
-                }]
+                        },
+                        gridLines: {
+                            color: "rgba(0, 0, 0, 0)",
+                        }
+                    }]
             },
         }
     });
@@ -383,31 +386,31 @@
     var value2 = $('input[name="age"]').val();
     var value3 = $('input[name="invest"]').val();
     var value4 = $('input[name="monthly"]').val();
-    var n1=0,n2=0;
-    console.log("name: "+value1);
-    console.log("age: "+value2);
-    console.log("invest: "+value3);
-    console.log("monthly: "+value4);
-    if (value2>50)
-        value2=15;
+    var n1 = 0, n2 = 0;
+    console.log("name: " + value1);
+    console.log("age: " + value2);
+    console.log("invest: " + value3);
+    console.log("monthly: " + value4);
+    if (value2 > 50)
+        value2 = 15;
     else
-        value2=65-value2;
+        value2 = 65 - value2;
 
-    if (value3>0)
-        n2= value2;
-    if (value4>0)
-        n1= value2*12;
+    if (value3 > 0)
+        n2 = value2;
+    if (value4 > 0)
+        n1 = value2 * 12;
 
-    var ioi= (27/100)/12;
-    var ioi21= (27/100);
-    var ioi2= ioi+1;
-    var ioi22= ioi21+1;
+    var ioi = (27 / 100) / 12;
+    var ioi21 = (27 / 100);
+    var ioi2 = ioi + 1;
+    var ioi22 = ioi21 + 1;
 
-    var saveHas = value4 * (((Math.pow(ioi2,n1))-1)/ioi) * (ioi+1);
-    var investHas = value3 * (Math.pow(ioi22,n2));
-    var x= saveHas+investHas;
+    var saveHas = value4 * (((Math.pow(ioi2, n1)) - 1) / ioi) * (ioi + 1);
+    var investHas = value3 * (Math.pow(ioi22, n2));
+    var x = saveHas + investHas;
     data.push(x);
-    console.log("main value: "+x);
+    console.log("main value: " + x);
     var n = 12;
     var r = 0.28;
     var t = 25;
@@ -430,14 +433,14 @@
         data: {
             labels: labels,
             datasets: [{
-                fill: true,
-                label: 'Wealth',
-                data: data,
-                backgroundColor: gradient2,
-                borderColor: '#1b6ca8',
-                borderWidth: 3,
+                    fill: true,
+                    label: 'Wealth',
+                    data: data,
+                    backgroundColor: gradient2,
+                    borderColor: '#1b6ca8',
+                    borderWidth: 3,
 
-            }]
+                }]
         },
 
         options: {
@@ -459,23 +462,23 @@
             scales: {
 
                 xAxes: [{
-                    gridLines: {
-                        color: "rgba(0, 0, 0, 0)",
-                    }
-                }],
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true,
-                        callback: function(value, index, values) {
-                            return '₹' + value;
+                        gridLines: {
+                            color: "rgba(0, 0, 0, 0)",
                         }
+                    }],
+                yAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            callback: function (value, index, values) {
+                                return '₹' + value;
+                            }
 
 
-                    },
-                    gridLines: {
-                        color: "rgba(0, 0, 0, 0)",
-                    }
-                }]
+                        },
+                        gridLines: {
+                            color: "rgba(0, 0, 0, 0)",
+                        }
+                    }]
             },
         }
     });
@@ -493,7 +496,7 @@
         });
         chart.update();
     }
-    document.querySelector("form.invest").addEventListener("submit", function(e) {
+    document.querySelector("form.invest").addEventListener("submit", function (e) {
         e.preventDefault();
         // window.location.href = "index";
 
@@ -503,31 +506,36 @@
         var value4 = $('input[name="monthly"]').val();
         var data = [];
 
-        var n1=0,n2=0;
-        console.log("name: "+value1);
-        console.log("age: "+value2);
-        console.log("invest: "+value3);
-        console.log("monthly: "+value4);
-        if (value2>50)
-            value2=15;
+        // new code
+        debugger;
+        value3=value3.replace(/,/g, '');
+        value4=value4.replace(/,/g, '');
+        
+        var n1 = 0, n2 = 0;
+        console.log("name: " + value1);
+        console.log("age: " + value2);
+        console.log("invest: " + value3);
+        console.log("monthly: " + value4);
+        if (value2 > 50)
+            value2 = 15;
         else
-            value2=65-value2;
+            value2 = 65 - value2;
 
-        if (value3>0)
-            n2= value2;
-        if (value4>0)
-            n1= value2*12;
+        if (value3 > 0)
+            n2 = value2;
+        if (value4 > 0)
+            n1 = value2 * 12;
 
-        var ioi= (27/100)/12;
-        var ioi21= (27/100);
-        var ioi2= ioi+1;
-        var ioi22= ioi21+1;
+        var ioi = (27 / 100) / 12;
+        var ioi21 = (27 / 100);
+        var ioi2 = ioi + 1;
+        var ioi22 = ioi21 + 1;
 
-        var saveHas = value4 * (((Math.pow(ioi2,n1))-1)/ioi) * (ioi+1);
-        var investHas = value3 * (Math.pow(ioi22,n2));
+        var saveHas = value4 * (((Math.pow(ioi2, n1)) - 1) / ioi) * (ioi + 1);
+        var investHas = value3 * (Math.pow(ioi22, n2));
 
 
-        var x= saveHas+investHas;
+        var x = saveHas + investHas;
         data.push(x);
 
 
@@ -535,7 +543,7 @@
 
 
         x = Math.floor(x)
-        console.log("main value: "+x);
+        console.log("main value: " + x);
         var res = new Number(x).toLocaleString("hi-IN");
         $('strong.inp2').text(" " + res);
         $('strong.inp3').text(value2);
@@ -544,5 +552,50 @@
         updateBarGraph(myChart2, data)
     })
 
+var lis=$(".join_form .dashboardcode-bsmultiselect").find(".dropdown-menu li");
+setTimeout(function() {
+     var lis=$(".join_form .dashboardcode-bsmultiselect").find(".dropdown-menu li");
+     $.each(lis,function(index,element){
+         var image="";
+         if(index == 0 ){
+             image='<img src="image/signup/emergency-fund.png" style="margin-right: 5px;" width="25px">';
+         }
+         else if(index == 1 ){
+              image='<img src="image/signup/Paying_off_Debts.png" style="margin-right: 5px;" width="25px">';
+         }
+         else if(index == 2 ){
+              image='<img src="image/signup/Marriage.png" style="margin-right: 5px;" width="25px">';
+         }
+         else if(index == 3 ){
+              image='<img src="image/signup/Family.png" style="margin-right: 5px;" width="25px">';
+         }
+         else if(index == 4 ){
+              image='<img src="image/signup/Home.png" style="margin-right: 5px;" width="25px">';
+         }
+         else if(index == 5 ){
+              image='<img src="image/signup/Retirement.png" style="margin-right: 5px;" width="25px">';
+         }
+         else if(index == 6 ){
+              image='<img src="image/signup/College.png" style="margin-right: 5px;" width="25px">';
+         }
+         else if(index == 7){
+              image='<img src="image/signup/Car.png" style="margin-right: 5px;" width="25px">';
+         }
+         else if(index == 8){
+              image='<img src="image/signup/Vacation.png" style="margin-right: 5px;" width="25px">';
+         }
+         else if(index == 9){
+              image='<img src="image/signup/Charity.png" style="margin-right: 5px;" width="25px">';
+         }
+         else if(index == 10){
+              image='<img src="image/signup/Business.png" style="margin-right: 5px;" width="25px">';
+         }
+         else if(index == 11){
+              image='<img src="image/signup/Others.png" style="margin-right: 5px;" width="25px">';
+         }
+         var label=$(element).find('label').html();
+         $(element).find('label').html(image + label)
+     })
+ }, 2000);
 
 })(jQuery);
