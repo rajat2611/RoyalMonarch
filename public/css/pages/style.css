@@ -4163,18 +4163,20 @@ header {
     padding: 0;
 }
 .footer-area .footer-tittle h4 {
-    color: #012f5f;
-    font-size: 20px;
-    margin-bottom: 48px;
+    /*color: #012f5f;*/
+    /*font-size: 20px;*/
+    /*margin-bottom: 48px;*/
     font-weight: 500;
     text-transform: capitalize;
 }
 .footer-area .footer-tittle ul li {
-    color: #012f5f;
-    margin-bottom: 15px;
+    /*color: #012f5f;*/
+    color: white;
+    /*margin-bottom: 15px;*/
 }
 .footer-area .footer-tittle ul li a {
-    color: #868c98;
+    /*color: #868c98;*/
+    color: white;
     font-weight: 300;
 }
 .footer-area .footer-tittle ul li a:hover {
@@ -5242,7 +5244,7 @@ a.unclickable {
     border-radius: 21px;
 }
 .blog_search{
-    background: #1b31a7;    
+    /*background: #1b31a7;*/    
 }
 .blog_search input{
     height: 50px;
@@ -6613,11 +6615,11 @@ del {
 .unordered-list li:before {
     content: "";
     position: absolute;
-    width: 14px;
-    height: 14px;
-    border: 3px solid #222222;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #222222;
     background: #fff;
-    top: 4px;
+    top: 9px;
     left: 0;
     border-radius: 50%;
 }
@@ -7259,4 +7261,67 @@ del {
     border: 2px solid black;
     top: 120%;
     left: 7px;
+}
+.footer-bg{
+    background-color:#1b31a7;
+}
+.footer-bg h3{
+    font-weight: 600;
+}
+.footer-bg h5,.footer-bg h4,.footer-bg h3,.footer-bg p{
+    color:white;
+}
+.footer-bg p{
+    margin-bottom: 0px;
+}
+.quick-footer{
+    text-align: center;
+}
+.quick-footer ul{
+    display: flex;
+    align-items: center !important;
+}
+.quick-footer ul li{
+    /*padding:5px;*/
+}
+.quick-footer ul li a{
+    font-size: 11px;
+    color:black;
+    padding-right: 5px;
+    padding-left: 7px;
+}
+.quick-footer p{
+    font-size: 11px;
+    color:black;
+    width:100%;
+}
+.quick-footer ul li:not(:last-child) a{
+    border-right: 1px solid black;
+}
+.font-weight-600{
+    font-weight: 600;
+}
+.font-weight-700{
+    font-weight: 700;
+}
+.support-form input,
+.support-form select{
+    height:50px;
+}
+.support_video{
+    width: 100%;
+    max-width: 350px;
+    margin: 30px auto 30px 0;
+}
+.support_video_no_sales{
+    width: 100%;
+    max-width: 270px;
+    margin: 30px auto 30px 0;
+}
+.support-description h3{
+        font-family: 'Sacramento';
+    font-size: 38px;
+}
+.support-description h2{
+    margin-bottom: 20px;
 }

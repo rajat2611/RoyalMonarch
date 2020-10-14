@@ -18,24 +18,22 @@
     <!-- Slider Area End-->
     <!-- Slider Area Start-->
     <div class="slider-area">
-        <div class="slider-active">
-            <div class="single-slider slider-height sd3 d-flex align-items-center">
+        <div class="">
+            <div class="d-flex align-items-center">
                 <div class="container">
                     <div class="row d-flex">
+                        <div class="col-md-12">
+                            <h1 class="text-center mb-4" data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Precise.</span><span style="color: #999999;"> Personalised.</span><span style="color: #1b31a7;"> Defined.</span></h1>
+                        </div>
                         <div class="col-lg-2 col-md-9 about_menu_link">
                             @include('/pages.contact_menu')
                         </div>
                         <div class="col-10 ">
                             <div class="hero__caption hero__caption2">
-                                <h2 data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Precise.</span><span style="color: #999999;"> Personalised.</span><span style="color: #1b31a7;"> Defined.</span>
-
-                                </h2>
                                 <p data-animation="fadeInRight" data-delay=".6s">
-                                    When we talk about the ways that wealth and financial stability can define the individual, it has little to do with a balance sheet, and more to do with a balanced life. True Wealth is all that money can’t buy and death can’t take away. It takes far more
-                                    than financial planning. It requires a comprehensive approach with as much imagination as innovation – creativity paired with careful calculation</p>
+                                    When we talk about the ways that wealth and financial stability can define the individual, it has little to do with a balance sheet, and more to do with a balanced life. True Wealth is all that money can’t buy and death can’t take away. It takes far more than financial planning. It requires a comprehensive approach with as much imagination as innovation – creativity paired with careful calculation.</p>
                                 <div class="mb-10">
-                                    <p>As your trusted advisor, we are wholly dedicated to helping you reach a higher purpose for your wealth and design a lasting legacy for your family. We leverage deep industry knowledge, a vast network of specialized
-                                        services, proven investment strategies and a passion for serving you.</p>
+                                    <p>As your trusted advisor, we are wholly dedicated to helping you reach a higher purpose for your wealth and design a lasting legacy for your family. We leverage deep industry knowledge, a vast network of specialized services, proven investment strategies and a passion for serving you.</p>
 
                                 </div>
                                 <p data-animation="fadeInLeft" data-delay=".8s"> "Live your life by design, not by default."
@@ -73,8 +71,9 @@
                         <div class="section-tittle text-center">
                             <h2 style="margin-bottom: 5px !important;">The Values That Inspire Us
                             </h2>
-                            <p style="margin-bottom: 50px !important;">Part of what makes our firm unique is our dedication to delivering trust, transparency and accountability. These three words serve as a source of inspiration for everyone on our staff – and they drive what we seek to accomplish
-                                for our clients on a daily basis.</p>
+                            <p style="margin-bottom: 50px !important;">
+                                Part of what makes our firm unique is our dedication to delivering trust, transparency and accountability. These three words serve as a source of inspiration for everyone on our staff – and they drive what we seek to accomplish for our clients on a daily basis.
+                            </p>
                         </div>
                         <div>
 

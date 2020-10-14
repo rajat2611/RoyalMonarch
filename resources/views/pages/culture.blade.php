@@ -20,19 +20,20 @@
     <!-- Slider Area End-->
     <!-- Slider Area Start-->
     <div class="slider-area">
-        <div class="slider-active">
-            <div class="single-slider slider-height sd2 d-flex align-items-center">
+        <div class="">
+            <div class="d-flex align-items-center">
                 <div class="container">
                     <div class="row d-flex">
+                        <div class="col-md-12">
+                            <h1 class="text-center mb-4 font-weight-600" data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Integrity.</span><span style="color: #999999;"> Authenticity.</span><span style="color: #1b31a7;"> Excellence.</span></h1>
+                        </div>
                         <div class="col-lg-2 col-md-9 about_menu_link">
                             @include('/pages.contact_menu')
                         </div>
                         <div class="col-10 ">
                             <div class="hero__caption hero__caption2 text-center">
-                                <h2 data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Integrity.</span><span style="color: #999999;"> Authenticity.</span><span style="color: #1b31a7;"> Excellence.</span></h2>
-                                <p data-animation="fadeInRight" data-delay=".4s" style="width: 80%; margin:auto;">
-                                    The foundation of the Royal Monarch culture is integrity, authenticity, and excellence. Our inclusive environment respects the diversity of talent and values the unique perspective of each member of our Royal Monarch family. Our culture rewards intelligence,
-                                    growth, and performance</p>
+                                <p data-animation="fadeInRight" data-delay=".4s" style="width: 88%;text-align: justify;margin:auto;">
+                                    The foundation of the Royal Monarch culture is integrity, Authenticity, and Excellence. Our inclusive environment respects the diversity of talent and values the unique perspective of each member of our Royal Monarch family. Our culture rewards Intelligence, growth, and performance</p>
                             </div>
                             <div class="p-5"></div>
                             <div class="d-md-flex mb-4">

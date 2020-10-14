@@ -20,21 +20,22 @@
     <!-- Slider Area End-->
 
     <!--::team_part start::-->
-    <section class="doctor_part single_page_doctor_part">
+    <section class="doctor_part">
         <div class="container">
             <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="text-center mb-4 font-weight-600"> <span style="color: #CDCDCD;">Collaboration.</span><span style="color: #999999;"> Innovation.</span><span style="color: #1b31a7;"> Diversity.</span></h1>
+                </div>
                  <div class="col-lg-2 col-md-9 about_menu_link">
                                 @include('/pages.contact_menu')
                         </div>
                 <div class="col-xl-8">
-                    <div class="section_tittle text-center mb-5">
-                        <h2 class="mb-3"> <span style="color: #CDCDCD;">Collaboration.</span><span style="color: #999999;"> Innovation.</span><span style="color: #1b31a7;"> Diversity.</span>
-
-                        </h2>
-                        <h4 class="mb-3">
+                    <div class="section_tittle text-justify mb-5">
+                        
+                        <h4 class="mb-3 text-justify">
                             Faces of people truly passionate about reinventing financial planning
                         </h4>
-                        <h6>
+                        <h6 class="mb-3 text-justify">
                             We’ve been in this business for years, and have built an operation predicated on constant refinement and relentless growth.
 
                         </h6>
