@@ -421,6 +421,126 @@
     <footer>
 
         <!-- Footer Start-->
+        <div class="footer-main footer-bg">
+            <div class="footer-area">
+                <div class="container ">
+                    <div class="row d-flex justify-content-between ">
+                        <div class="col-lg-2 col-md-4 col-sm-8 ">
+                            <div class="single-footer-caption mb-50 ">
+                                <div class="single-footer-caption mb-30 ">
+                                    <!-- logo -->
+                                    <div class="footer-logo ">
+                                        <a href="index.html "><img src="/image/footer.png " class="w-100"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-5 ">
+                            <div class="single-footer-caption mb-50 ">
+                                <div class="footer-tittle ">
+                                    <h3>Royal Monarch</h3>
+                                    <h5>A GUILT FREE DECISION</h5>
+                                    <p class="mt-3">+ 91 79 484 666 22</p>
+                                    <p>care@royalmonarch.in</p>
+                                    <p>Made with love in India | Copyright © 2020, Royal Monarch</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-5 ">
+                            <div class="single-footer-caption mb-50 ">
+                                <div class="footer-tittle ">
+                                    <h4>COMPANY:</h4>
+                                    <ul>
+                                        <li><a href="/firm">Our Firm</a></li>
+                                        <li><a href="/culture">Our Culture</a></li>
+                                        <li><a href="/approach">Our Approach</a></li>
+                                        <li><a href="/team">Our Team</a></li>
+                                        <li><a href="/career">Career</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-7 ">
+                            <div class="single-footer-caption mb-50 ">
+                                <div class="footer-tittle ">
+                                    <h4>SUPPORT:</h4>
+                                    <ul>
+                                        <li><a href="#">Get Started</a></li>
+                                        <li><a href="# "> Contact</a></li>
+                                        <li><a href="# ">Blog</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-7 ">
+                            <div class="single-footer-caption mb-50 ">
+                                <div class="footer-tittle ">
+                                    <h4>RESOURCES:</h4>
+                                    <ul>
+                                        <li><a href="#">Reading Room</a></li>
+                                        <li><a href="# "> How it Work</a></li>
+                                        <li><a href="# ">Calculate Wealth</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-bottom area -->
+<!--            <div class="footer-bottom-area footer-bg ">
+                <div class="container ">
+                    <div class="footer-border ">
+                        <div class="row d-flex align-items-center ">
+                            <div class="col-xl-12 ">
+                                <div class="footer-copy-right text-center ">
+                                    <p>
+                                        Copyright &copy;
+                                        <script>
+                                            document.write(new Date().getFullYear());
+                                        </script> All rights reserved | Royal Monarchy
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <!-- Footer End-->
+
+    </footer>
+    
+    <div class="bg-dark2 quick-footer">
+        <div class="footer-area">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Copyright</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Research-Disclaimer</a></li>
+                        <li><a href="#">Important Links</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Applicant and Candidate Privacy Policy</a></li>
+                        <li><a href="#">Stay Secure</a></li>
+                        <li><a href="#">Stay Alert</a></li>
+                        <li><a href="#">NDNCR Terms & Consitions</a></li>
+                    </ul>
+                    <p class="mt-2 text-center">Registered Office:Royal Monarch Finserv Private Limited,B1-504 Westgate Business Ba, Near Signature I,Corporate Road, Mukarba Crossing,S.G. Highway,Ahmedabad-380051,Gujarat Tel:<span style="color:#ff5775">079-484 666 22</span></p>
+                    <p class="text-center">Royal Monarch Finserv Private Limited-SEBI Regn No.:BSE/NSE/MSEI/MCX</p>
+                    <p class="text-center"><b>BSE</b> - CASH/FAQ/CD | <b>NSE</b> AP2069120373-CASH/FAQ/CD | <b>MCX</b> MCX/AP/136488-Commodities</p>
+                    <p>Depository services through:NSDL/CDSL-IN-DP-365-2018</p>
+                    <p>PMS:INP0000005786;Mutual Fund; ARN 20669; Research Analyst:INH00006183</p>
+                    <p>For any complaint email at <span style="color:#ff5775">care@royalmonarch.in</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--    <footer>
+
+         Footer Start
         <div class="footer-main bg-dark2">
             <div class="footer-area">
                 <div class="container ">
@@ -428,7 +548,7 @@
                         <div class="col-lg-3 col-md-4 col-sm-8 ">
                             <div class="single-footer-caption mb-50 ">
                                 <div class="single-footer-caption mb-30 ">
-                                    <!-- logo -->
+                                     logo 
                                     <div class="footer-logo ">
                                         <a href="index.html "><img src="/img/logo/logo.png " alt=" "></a>
                                     </div>
@@ -488,7 +608,7 @@
                     </div>
                 </div>
             </div>
-            <!-- footer-bottom area -->
+             footer-bottom area 
             <div class="footer-bottom-area footer-bg ">
                 <div class="container ">
                     <div class="footer-border ">
@@ -499,7 +619,7 @@
                                         Copyright &copy;
                                         <script>
                                             document.write(new Date().getFullYear());
-                                        </script> All rights reserved | Royal Monarch
+                                        </script> All rights reserved | Royal Monarchy
                                     </p>
                                 </div>
                             </div>
@@ -508,9 +628,9 @@
                 </div>
             </div>
         </div>
-        <!-- Footer End-->
+         Footer End
 
-    </footer>
+    </footer>-->
 
     <!-- JS here -->
     <script src="{{ asset('js/app.js') }}" defer></script>

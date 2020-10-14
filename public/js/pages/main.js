@@ -316,6 +316,10 @@
     var ctx2 = document.getElementById('myChart2').getContext('2d');
     var gradient = ctx.createLinearGradient(0, 0, 0, 225);
     gradient.addColorStop(0, 'rgba(215, 227, 244, 1)');
+
+    var gradient1 = ctx.createLinearGradient(0, 0, 0, 400);
+    gradient1.addColorStop(0, 'rgba(50, 148, 250, 0.48)');
+    gradient1.addColorStop(1, 'rgba(255, 255, 255, 0)');
     var gradient2 = ctx2.createLinearGradient(0, 0, 0, 225);
     gradient2.addColorStop(0, 'rgba(215, 227, 244, 1)');
 
@@ -333,11 +337,17 @@
             datasets: [{
                     fill: true,
                     label: 'Wealth',
-//                data: [1458732, 2063745, 2861685, 3914073, 5302046, 7132618, 9546923, 12731102, 16930654, 22469362, 29774256, 39408537, 52115004, 68873314, 90975524, 120125697, 158571292, 209276437, 276150466, 364349318, 480673065, 634090187, 836429039, 1103289806, 1455247269],
-                    data: [1458732, 9731102, 12930654, 10731102,930654,5731102,8731102,830654,3731007,5733107,1731007,14131102,16731102,12731102,1458732],
-                    backgroundColor: gradient,
+                    strokeColor: "#ff6c23",
+//                  data: [1458732, 2063745, 2861685, 3914073, 5302046, 7132618, 9546923, 12731102, 16930654, 22469362, 29774256, 39408537, 52115004, 68873314, 90975524, 120125697, 158571292, 209276437, 276150466, 364349318, 480673065, 634090187, 836429039, 1103289806, 1455247269],
+                    data: [10000, 15000, 10000, 25000, 10000, 35000, 15000, 30000, 20000, 45000, 10000, 20000, 10000, 55000,40000],
+                    backgroundColor: gradient1,
                     borderColor: '#1b6ca8',
-                    borderWidth: 3,
+                    borderWidth: 2,
+//                    fill: false,
+                    pointBorderColor: 'rgba(0, 0, 0, 0)',
+                    pointBackgroundColor: 'rgba(0, 0, 0, 0)',
+                    pointHoverBackgroundColor: "#1b6ca8",
+                    pointHoverBorderColor: "#1b6ca8"
 
                 }]
         },
@@ -346,11 +356,25 @@
             chart: {
                 backgroundColor: "white"
             },
+            elements: {
+                point: {
+//                        radius: 0,
+//                        hoverRadius: 10 
+                }
+            },
             title: {
                 display: true,
                 text: 'Your Investement',
                 position: "top",
                 fontSize: 20,
+            },
+            tooltips: {
+                mode: 'index',
+                intersect: false,
+            },
+            hover: {
+                mode: 'index',
+                intersect: false
             },
             legend: {
                 position: "top",
@@ -359,20 +383,17 @@
                 }
             },
             scales: {
-
                 xAxes: [{
-                        gridLines: {
-                            color: "rgba(0, 0, 0, 0)",
-                        }
-                    }],
+                    gridLines: {
+                        color: "rgba(0, 0, 0, 0)",
+                    }
+                }],
                 yAxes: [{
                         ticks: {
                             beginAtZero: true,
                             callback: function (value, index, values) {
                                 return '₹' + value;
                             }
-
-
                         },
                         gridLines: {
                             color: "rgba(0, 0, 0, 0)",
@@ -508,9 +529,9 @@
 
         // new code
         debugger;
-        value3=value3.replace(/,/g, '');
-        value4=value4.replace(/,/g, '');
-        
+        value3 = value3.replace(/,/g, '');
+        value4 = value4.replace(/,/g, '');
+
         var n1 = 0, n2 = 0;
         console.log("name: " + value1);
         console.log("age: " + value2);
@@ -552,50 +573,39 @@
         updateBarGraph(myChart2, data)
     })
 
-var lis=$(".join_form .dashboardcode-bsmultiselect").find(".dropdown-menu li");
-setTimeout(function() {
-     var lis=$(".join_form .dashboardcode-bsmultiselect").find(".dropdown-menu li");
-     $.each(lis,function(index,element){
-         var image="";
-         if(index == 0 ){
-             image='<img src="image/signup/emergency-fund.png" style="margin-right: 5px;" width="25px">';
-         }
-         else if(index == 1 ){
-              image='<img src="image/signup/Paying_off_Debts.png" style="margin-right: 5px;" width="25px">';
-         }
-         else if(index == 2 ){
-              image='<img src="image/signup/Marriage.png" style="margin-right: 5px;" width="25px">';
-         }
-         else if(index == 3 ){
-              image='<img src="image/signup/Family.png" style="margin-right: 5px;" width="25px">';
-         }
-         else if(index == 4 ){
-              image='<img src="image/signup/Home.png" style="margin-right: 5px;" width="25px">';
-         }
-         else if(index == 5 ){
-              image='<img src="image/signup/Retirement.png" style="margin-right: 5px;" width="25px">';
-         }
-         else if(index == 6 ){
-              image='<img src="image/signup/College.png" style="margin-right: 5px;" width="25px">';
-         }
-         else if(index == 7){
-              image='<img src="image/signup/Car.png" style="margin-right: 5px;" width="25px">';
-         }
-         else if(index == 8){
-              image='<img src="image/signup/Vacation.png" style="margin-right: 5px;" width="25px">';
-         }
-         else if(index == 9){
-              image='<img src="image/signup/Charity.png" style="margin-right: 5px;" width="25px">';
-         }
-         else if(index == 10){
-              image='<img src="image/signup/Business.png" style="margin-right: 5px;" width="25px">';
-         }
-         else if(index == 11){
-              image='<img src="image/signup/Others.png" style="margin-right: 5px;" width="25px">';
-         }
-         var label=$(element).find('label').html();
-         $(element).find('label').html(image + label)
-     })
- }, 2000);
+    var lis = $(".join_form .dashboardcode-bsmultiselect").find(".dropdown-menu li");
+    setTimeout(function () {
+        var lis = $(".join_form .dashboardcode-bsmultiselect").find(".dropdown-menu li");
+        $.each(lis, function (index, element) {
+            var image = "";
+            if (index == 0) {
+                image = '<img src="image/signup/emergency-fund.png" style="margin-right: 5px;" width="25px">';
+            } else if (index == 1) {
+                image = '<img src="image/signup/Paying_off_Debts.png" style="margin-right: 5px;" width="25px">';
+            } else if (index == 2) {
+                image = '<img src="image/signup/Marriage.png" style="margin-right: 5px;" width="25px">';
+            } else if (index == 3) {
+                image = '<img src="image/signup/Family.png" style="margin-right: 5px;" width="25px">';
+            } else if (index == 4) {
+                image = '<img src="image/signup/Home.png" style="margin-right: 5px;" width="25px">';
+            } else if (index == 5) {
+                image = '<img src="image/signup/Retirement.png" style="margin-right: 5px;" width="25px">';
+            } else if (index == 6) {
+                image = '<img src="image/signup/College.png" style="margin-right: 5px;" width="25px">';
+            } else if (index == 7) {
+                image = '<img src="image/signup/Car.png" style="margin-right: 5px;" width="25px">';
+            } else if (index == 8) {
+                image = '<img src="image/signup/Vacation.png" style="margin-right: 5px;" width="25px">';
+            } else if (index == 9) {
+                image = '<img src="image/signup/Charity.png" style="margin-right: 5px;" width="25px">';
+            } else if (index == 10) {
+                image = '<img src="image/signup/Business.png" style="margin-right: 5px;" width="25px">';
+            } else if (index == 11) {
+                image = '<img src="image/signup/Others.png" style="margin-right: 5px;" width="25px">';
+            }
+            var label = $(element).find('label').html();
+            $(element).find('label').html(image + label)
+        })
+    }, 2000);
 
 })(jQuery);

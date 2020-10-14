@@ -22,20 +22,16 @@
     <!-- Slider Area End-->
     <!-- Slider Area Start-->
     <div class="slider-area">
-        <div class="slider-active">
-            <div class="single-slider slider-height sd3 d-flex align-items-center">
+        <div class="">
+            <div class="d-flex align-items-center">
                 <div class="container">
                     <div class="row d-flex align-items-center mb-150">
                         <div class="col-12 ">
-                            <div class="hero__caption hero__caption2 text-center m-auto w-75">
+                            <div class="hero__caption hero__caption2 text-center m-auto">
                                 <h1 data-animation="fadeInRight" data-delay=".4s"> <span style="color: #CDCDCD;">Create.</span><span style="color: #999999;"> Amaze.</span><span style="color: #1b31a7;"> Repeat.</span></h1>
                                 <h4 style="text-align: left">We believe in being fair and square</h4> <br>
                                 <p style="text-align: left"  data-delay=".6s">
                                     We’re building an inclusive economy where all classes have equal access to opportunity. We strive to live by these same values in all our workplaces. We invest in the personal and professional growth of every member of Royal Monarch. As a company pioneering the future of financial benefits, we also want to be a beacon for people development.
-                                </p>
-                                <p data-animation="fadeInRight" data-delay=".6s">
-                                    We are looking for bright and enthusiastic minds to enrich our family at Royal Monarch Pvt Ltd. Write us at hr@royalmonarch.in if you think you fit right in, click on the link below and apply to open positions today. (we will be updating the same as per
-                                    the requirement).</p>
                                 </p>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
@@ -46,7 +42,8 @@
                     </div>
                 
                 <!--The perks-->
-                <div class="row">
+                    <div class="container">
+                    <div class="row">
                     <div class="col-md-12 mb-20">
                         <h4><b>The perks</b></h4>
                     </div>
@@ -78,6 +75,7 @@
                             <h5>We’re positive. You’ll love it</h5>
                         </div>
                     </div>
+                </div>
                 </div>
                 <!--The perks-->
                 <!--All inclusive-->

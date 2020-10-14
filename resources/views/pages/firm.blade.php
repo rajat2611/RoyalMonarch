@@ -24,46 +24,46 @@
     <!-- Slider Area End-->
     <!-- Slider Area Start-->
     <div class="slider-area">
-        <div class="slider-active">
-            <div class="single-slider slider-height sd d-flex align-items-center">
+        <div class="">
+            <div class="d-flex align-items-center">
                 <div class="container">
                     <div class="row d-flex"><!-- remove align-items-center -->
+                    <div class="col-md-12">
+                        <h1 class="text-center mb-4 font-weight-600" data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Mission.</span><span style="color: #999999;"> Vision.</span><span style="color: #1b31a7;"> Promise.</span></h1>
+                    </div>
                         <div class="col-lg-2 col-md-9 about_menu_link">
                                 @include('/pages.contact_menu')
                         </div>
-                        <div class="col-lg-5 col-md-9 ">
+                        <div class="col-lg-10 col-md-9 ">
                             <div class="hero__caption hero__caption2">
-                                <h2 data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Mission.</span><span style="color: #999999;"> Vision.</span><span style="color: #1b31a7;"> Promise.</span>
-
-                                </h2>
 {{--                                <p data-animation="fadeInRight" data-delay=".6s" class="text-lowercase">--}}
 {{--                                    ROYAL MONARCH WAS FIRST FOUNDED IN 2015 IN BANGALORE AND WAS SUBSEQUENTLY RESTRUCTURED IN 2019 TO REFLECT CHANGES IN EQUITY HOLDINGS. WE ESTABLISHED ROYAL MONARCH IN RECOGNITION OF FOUR TRENDS DEFINING THE FINANCIAL PLANNING AND ASSET MANAGEMENT INDUSTRIES.--}}
 {{--                                </p>--}}
-                                <p data-animation="fadeInRight" data-delay=".6s" >
-                                    Royal Monarch was first founded in 2015 in Bangalore and was subsequently restructured in 2019 to reflect changes in equity holdings.we established royal monarch in recognition of four trends defining the financial planing and asset management industries.
+                                <p class="mb-0" data-animation="fadeInRight" data-delay=".6s" >
+                                    Royal Monarch was first founded in 2015 in Bangalore and was subsequently restructured in 2019 to reflect changes in equity holdings
+                                </p>
+                                <p class="mb-2" data-animation="fadeInRight" data-delay=".6s" >
+                                    We established Royal Monarch in recognition of four trends defining the financial planning and asset management industries.
                                 </p>
                                 <div class="mb-10">
                                     <ul class="unordered-list">
-                                        <li>The supply and demand imbalance of quality financial planning advice.
-                                        </li>
+                                        <li>The supply and demand imbalance of quality financial planning advice.</li>
                                         <li>Lack of global professional and intellectual development opportunities for today's graduates and tomorrow's industry leaders.</li>
-                                        <li>A maturing financial advisor demographic that merits an innovative partnership solution.
-                                        </li>
+                                        <li>A maturing financial advisor demographic that merits an innovative partnership solution.</li>
                                         <li>Interdependence of our global supply chain with respect to technology, communication, and human capital.</li>
-
                                     </ul>
                                 </div>
-                                <p data-animation="fadeInLeft" data-delay=".8s">Current situation inspired our entrepreneurial vision of developing innovative solutions to address these acute challenges. The creators of royal Monarch, surprisingly, do not use their competition as a benchmark. They
-                                    follow a different strategic logic called value innovation, which is the foundation of the Royal Monarch.</p>
-
+                                <p data-animation="fadeInLeft" data-delay=".8s">
+                                    Current situation inspired our entrepreneurial vision of developing innovative solution to address these acute challenges. The creators of Royal Monarch, surprisingly, do not use their competition as a benchmark. They follow a different strategic logic called value innovation, which is the foundation of the Royal Monarch. 
+                                </p>
                             </div>
                         </div>
-                        <div class="col-lg-5 d-none d-lg-block">
+<!--                        <div class="col-lg-5 d-none d-lg-block">
                             <div class="hero__img hero__img2 " data-animation="fadeInLeft" data-delay="1s">
                                 <img src="/img/hero/about_hero.jpg" alt="">
                             </div>
 
-                        </div>
+                        </div>-->
 
                     </div>
                 </div>

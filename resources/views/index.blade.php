@@ -222,7 +222,7 @@
                         </div>
                         <div class="col-6">
                             <div class="single_feature_img">
-                                <img src="/img/icon/feature_1.jpg" alt="" style="max-width: 100%;">
+                                <img src="/image/Home/comparison_LEFT.png" alt="" style="max-width: 100%;">
                             </div>
                         </div>
                     </div>
@@ -231,7 +231,7 @@
                     <div class="row">
                         <div class="col-6">
                             <div class="single_feature_img">
-                                <img src="/img/icon/feature_2.jpg" alt="" style="max-width: 100%;">
+                                <img src="/image/Home/comparison_RIGHT.png" alt="" style="max-width: 100%;">
                             </div>
                         </div>
                         <div class="col-6">
