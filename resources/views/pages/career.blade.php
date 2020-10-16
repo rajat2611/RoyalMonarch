@@ -28,7 +28,7 @@
                     <div class="row d-flex align-items-center mb-150">
                         <div class="col-12 ">
                             <div class="hero__caption hero__caption2 text-center m-auto">
-                                <h1 data-animation="fadeInRight" data-delay=".4s"> <span style="color: #CDCDCD;">Create.</span><span style="color: #999999;"> Amaze.</span><span style="color: #1b31a7;"> Repeat.</span></h1>
+                                <h1 class="font-weight-600 mb-50" data-animation="fadeInRight" data-delay=".4s"> <span style="color: #CDCDCD;">Create.</span><span style="color: #999999;"> Amaze.</span><span style="color: #1b31a7;"> Repeat.</span></h1>
                                 <h4 style="text-align: left">We believe in being fair and square</h4> <br>
                                 <p style="text-align: left"  data-delay=".6s">
                                     We’re building an inclusive economy where all classes have equal access to opportunity. We strive to live by these same values in all our workplaces. We invest in the personal and professional growth of every member of Royal Monarch. As a company pioneering the future of financial benefits, we also want to be a beacon for people development.

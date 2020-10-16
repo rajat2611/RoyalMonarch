@@ -30,11 +30,12 @@
             <div class="container">
                 <div class="row p-5">
                     <div class="col-lg-6 col-md-6">
-                        <h1 class="mb-30 font-weight-700">Not sure where to start with Zoho One?</h1>
+                        <h1 class="mb-30 font-weight-700">Not sure where to start with ?</h1>
                         <h3 style="">We're here to help!</h3>
                         <video autoplay muted="muted" loop class="support_video">
                             <source src="{{asset('image/Support/zconcierge-explore-zoho.mp4')}}" type="video/mp4">
-                        </video>                        
+                        </video>
+                        <p>We have a team of expert available to answer your question.we'll assign a Financial Wizard to learn about your business, and explain how Royal Monarch can make your dreams a reality.Think of us as your own personal Financial Consultations.</p>
                     </div>
                     <div class="col-lg-6" style="">
                         <div class="card support-form" style="box-shadow: 0 20px 20px 1px rgba(0,0,0,0.05);border: none;">
@@ -112,8 +113,8 @@
                 <div class="col-lg-6 col-md-6">
                     <h4>Don't worry, though!</h4>
                 <h2>This won't be a sales call.</h2>
-                <p>We won't pressure you to sign up or upsell you into a more expensive feature package. We'll always be upfront with you if Zoho One isn't the best fit for your business.
-
+                <p>We won't pressure you to sign up for our services.We'll always be upfront with you if Royal Monarch isn't the best fit for your goals.
+                    <br/>
                     And the best part about the service? It's 100% free.
                 </p>
                 </div>
@@ -225,6 +226,7 @@
     <!-- ================ contact section end ================= -->
 
     <!-- ======= F.A.Q Section ======= -->
+    <?php /*
     <section id="faq" class="faq">
         <div class="container" data-aos="fade-up">
 
@@ -332,16 +334,17 @@
             </ul>
 
         </div>
-    </section>
+    </section> */ ?>
     <!-- End Frequently Asked Questions Section -->
     <!-- End F.A.Q Section -->
 
 
     <!--The div element for the map -->
+    <?php /*
     <div class="container bg-light mt-5 p-2 rounded">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.707055944778!2d72.4967650149188!3d22.99779738496566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9add24c1abaf%3A0x416bcc7b54495c45!2sWestgate%20Business%20Bay%20by%20True%20Value!5e0!3m2!1sen!2sin!4v1587559109270!5m2!1sen!2sin"
                 width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
+    </div> */ ?>
 
 </main>
 

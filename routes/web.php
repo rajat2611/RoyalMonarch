@@ -46,23 +46,36 @@ Route::get('/blog/{id}','BlogController@show')->name('blog_1');
 Route::get('/blogs/all','BlogController@index');
 Route::get('/blogs/{item}','BlogController@show_2')->name('blogs');
 
-
-
-
-
 Route::get('/support','ContactController@index');
 Route::Post('/contact','ContactController@Store')->name("contact");
-
-
 
 //modal1
 Route::post('/join', 'JoinController@Store')->name("join");
 
-
-
-
-
-
+Route::get('privacy-policies',function(){
+    return view('pages.privacy');
+});
+Route::get('copyrights',function(){
+    return view('pages.copyrights');
+});
+Route::get('terms',function(){
+    return view('pages.terms');
+});
+Route::get('research',function(){
+    return view('pages.rersearch');
+});
+Route::get('desclaimer',function(){
+    return view('pages.desclaimer');
+});
+Route::get('applicant-privacy',function(){
+    return view('pages.applicant-privacy');
+});
+Route::get('stay-alert',function(){
+    return view('pages.stay_alert');
+});
+Route::get('ndncr',function(){
+    return view('pages.ndncr');
+});
 
 //dashboard
 

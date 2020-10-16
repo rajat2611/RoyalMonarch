@@ -579,29 +579,29 @@
         $.each(lis, function (index, element) {
             var image = "";
             if (index == 0) {
-                image = '<img src="image/signup/emergency-fund.png" style="margin-right: 5px;" width="25px">';
+                image = '<img src="image/signup/emergency-fund.png" style="margin-right: 5px;" width="20px">';
             } else if (index == 1) {
-                image = '<img src="image/signup/Paying_off_Debts.png" style="margin-right: 5px;" width="25px">';
+                image = '<img src="image/signup/Paying_off_Debts.png" style="margin-right: 5px;" width="20px">';
             } else if (index == 2) {
-                image = '<img src="image/signup/Marriage.png" style="margin-right: 5px;" width="25px">';
+                image = '<img src="image/signup/Marriage.png" style="margin-right: 5px;" width="20px">';
             } else if (index == 3) {
-                image = '<img src="image/signup/Family.png" style="margin-right: 5px;" width="25px">';
+                image = '<img src="image/signup/Family.png" style="margin-right: 5px;" width="20px">';
             } else if (index == 4) {
-                image = '<img src="image/signup/Home.png" style="margin-right: 5px;" width="25px">';
+                image = '<img src="image/signup/Home.png" style="margin-right: 5px;" width="20px">';
             } else if (index == 5) {
-                image = '<img src="image/signup/Retirement.png" style="margin-right: 5px;" width="25px">';
+                image = '<img src="image/signup/Retirement.png" style="margin-right: 5px;" width="20px">';
             } else if (index == 6) {
-                image = '<img src="image/signup/College.png" style="margin-right: 5px;" width="25px">';
+                image = '<img src="image/signup/College.png" style="margin-right: 5px;" width="20px">';
             } else if (index == 7) {
-                image = '<img src="image/signup/Car.png" style="margin-right: 5px;" width="25px">';
+                image = '<img src="image/signup/Car.png" style="margin-right: 5px;" width="20px">';
             } else if (index == 8) {
-                image = '<img src="image/signup/Vacation.png" style="margin-right: 5px;" width="25px">';
+                image = '<img src="image/signup/Vacation.png" style="margin-right: 5px;" width="20px">';
             } else if (index == 9) {
-                image = '<img src="image/signup/Charity.png" style="margin-right: 5px;" width="25px">';
+                image = '<img src="image/signup/Charity.png" style="margin-right: 5px;" width="20px">';
             } else if (index == 10) {
-                image = '<img src="image/signup/Business.png" style="margin-right: 5px;" width="25px">';
+                image = '<img src="image/signup/Business.png" style="margin-right: 5px;" width="20px">';
             } else if (index == 11) {
-                image = '<img src="image/signup/Others.png" style="margin-right: 5px;" width="25px">';
+                image = '<img src="image/signup/Others.png" style="margin-right: 5px;" width="20px">';
             }
             var label = $(element).find('label').html();
             $(element).find('label').html(image + label)
