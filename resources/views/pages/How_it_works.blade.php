@@ -497,6 +497,7 @@
 
     @section('scripts')
     <script>
+        
         var base_color = "lightgray";
         var active_color = "green";
 
