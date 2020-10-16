@@ -2728,6 +2728,7 @@ header {
 
 .about_menu_link .nav-link.active, .nav-pills a h5{
     color: black;
+    font-size:16px;
 }
 .about_menu_link .nav-link.active, .nav-pills .active h5{
     color: #1b31a7 !important;
@@ -7319,9 +7320,19 @@ del {
     margin: 30px auto 30px 0;
 }
 .support-description h3{
-        font-family: 'Sacramento';
+    font-family: 'Sacramento';
     font-size: 38px;
 }
 .support-description h2{
     margin-bottom: 20px;
+}
+.dashboardcode-bsmultiselect .dropdown-menu{
+    column-count: 2 !important;
+    min-width: 550px !important;
+}
+.dashboardcode-bsmultiselect .dropdown-menu li{
+    padding-top: 5px !important;
+}
+.important-links li a{
+    color:gray;
 }

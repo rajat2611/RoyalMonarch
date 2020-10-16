@@ -351,7 +351,7 @@
                                             <select required id="goals" multiple  class="single-input @error('goals') is-invalid @enderror" value="{{ old('goals') }}" required autocomplete="goals" autofocus name="goals">
 
                                             <option value="emergency-fund" data-image="{{asset('image/signup/emergency_fund.png')}}">Emergency Fund</option>
-                                            <option value="paying-off-debt"> Paying off debt &#xf042;</option>
+                                            <option value="paying-off-debt"> Paying off debt</option>
                                             <option value="marriage">Marriage</option>
                                             <option value="family-support">Family Support </option>
                                             <option value="buying-a-home">Buying a Home</option>
@@ -418,6 +418,68 @@
         </div>
     </div>
 
+    <!-- Footer modal -->
+    <div class="modal fade" id="impLinksModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Important Links</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <div class="section-top-border mt-1">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <ul class="important-links">
+                                    <li><a href="https://www1.nseindia.com/live_market/dynaContent/live_watch/pre_open_market/pre_open_market.htm">PRE OPEN SESSION</a></li>
+                                    <li><a href="https://www.nseindia.com/">NSE India</a></li>
+                                    <li><a href="https://www.bseindia.com/">BSE India</a></li>
+                                    <li><a href="http://www.sebi.gov.in/">SEBI</a></li>
+                                    <li><a href="http://www.sebi.gov.in/">RBI</a></li>
+                                    <li><a href="https://www.mcxindia.com/">MCX</a></li>
+                                    <li><a href="https://www.msei.in/">MSEI</a></li>
+                                    <li><a href="https://www.msei.in/">NCDEX</a></li>
+                                    <li><a href="https://www.nsdl.co.in/">NSDL</a></li>
+                                    <li><a href="http://www.cdslindia.com/">CDSL</a></li>
+                                    <li><a href="https://www.msei.in/">MSEI</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="modal fade" id="staySecureModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Stay Secure</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <div class="section-top-border mt-1">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <img src="/image/StaySecure.png" width="100%">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer modal -->
     <footer>
 
         <!-- Footer Start-->
@@ -516,16 +578,16 @@
             <div class="container">
                 <div class="row d-flex justify-content-between">
                     <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Copyright</a></li>
-                        <li><a href="#">Terms & Condition</a></li>
-                        <li><a href="#">Research-Disclaimer</a></li>
-                        <li><a href="#">Important Links</a></li>
-                        <li><a href="#">Disclaimer</a></li>
-                        <li><a href="#">Applicant and Candidate Privacy Policy</a></li>
-                        <li><a href="#">Stay Secure</a></li>
-                        <li><a href="#">Stay Alert</a></li>
-                        <li><a href="#">NDNCR Terms & Consitions</a></li>
+                        <li><a href="/privacy-policies">Privacy Policy</a></li>
+                        <li><a href="/copyrights">Copyright</a></li>
+                        <li><a href="/terms">Terms & Condition</a></li>
+                        <li><a href="/research">Research-Disclaimer</a></li>
+                        <li><a href="javascript:void(0)" data-toggle="modal" data-target="#impLinksModal">Important Links</a></li>
+                        <li><a href="/desclaimer">Disclaimer</a></li>
+                        <li><a href="/applicant-privacy">Applicant and Candidate Privacy Policy</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#staySecureModal">Stay Secure</a></li>
+                        <li><a href="/stay-alert">Stay Alert</a></li>
+                        <li><a href="/ndncr">NDNCR Terms & Consitions</a></li>
                     </ul>
                     <p class="mt-2 text-center">Registered Office:Royal Monarch Finserv Private Limited,B1-504 Westgate Business Ba, Near Signature I,Corporate Road, Mukarba Crossing,S.G. Highway,Ahmedabad-380051,Gujarat Tel:<span style="color:#ff5775">079-484 666 22</span></p>
                     <p class="text-center">Royal Monarch Finserv Private Limited-SEBI Regn No.:BSE/NSE/MSEI/MCX</p>
@@ -636,7 +698,7 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- All JS Custom Plugins Link Here here -->
-    <script src="{{ asset('js/vendor/ modernizr-3.5.0.min.js') }} "></script>
+    <script src="{{ asset('js/vendor/modernizr-3.5.0.min.js') }} "></script>
     <!-- Jquery, Popper, Bootstrap -->
     <script src="{{ asset('js/vendor/jquery-1.12.4.min.js') }}  "></script>
     <script src="{{ asset('js/pages//popper.min.js') }} "></script>
