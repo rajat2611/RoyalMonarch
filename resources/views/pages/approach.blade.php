@@ -36,9 +36,7 @@
                                     <p>As your trusted advisor, we are wholly dedicated to helping you reach a higher purpose for your wealth and design a lasting legacy for your family. We leverage deep industry knowledge, a vast network of specialized services, proven investment strategies and a passion for serving you.</p>
 
                                 </div>
-                                <p data-animation="fadeInLeft" data-delay=".8s"> "Live your life by design, not by default."
-
-                                </p>
+                                <h3 class="color-light-blue text-center" data-animation="fadeInLeft" data-delay=".8s"> "Live your life by design, not by default."</h3>
 
                             </div>
                         </div>
@@ -62,7 +60,7 @@
     <!-- Slider Area End-->
 
     <!-- Testimonial Start -->
-    <div class="testimonial-area bg-light my-5 py-5">
+    <div class="testimonial-area bg-light py-5">
         <div class="container">
             <div class="testimonial-main">
                 <!-- Section-tittle -->

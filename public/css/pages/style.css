@@ -168,7 +168,7 @@ p {
     font-family: "Poppins", sans-serif;
     color: #707b8e;
     font-size: 16px;
-    line-height: 30px;
+    /*line-height: 30px;*/
     margin-bottom: 15px;
     font-weight: normal;
 }
@@ -337,6 +337,12 @@ hr {
 .mb-90 {
     margin-bottom: 90px;
 }
+section.services{
+    display:none;
+}
+.mobile-roadmap{
+    display: none;
+}
 @media (max-width: 767px) {
     .mb-90 {
         margin-bottom: 30px;
@@ -345,6 +351,17 @@ hr {
 @media (min-width: 768px) and (max-width: 991px) {
     .mb-90 {
         margin-bottom: 45px;
+    }
+}
+@media (max-width: 500px) {
+    section.services{
+        display: block;
+    }
+    .mobile-roadmap{
+        display: block;
+    }
+    .desk-roadmap{
+        display: none;
     }
 }
 
@@ -3969,7 +3986,7 @@ header {
 .testimonial-area .testimonial-main {
     position: relative;
 }
-.testimonial-area .testimonial-main::before {
+/*.testimonial-area .testimonial-main::before {
     position: absolute;
     content: "\F107";
     font-family: Flaticon;
@@ -3981,7 +3998,7 @@ header {
     color: #e3def0;
     transform: rotate(180deg);
     transition: all 0.4s ease-out 0s;
-}
+}*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .testimonial-area .testimonial-main::before {
         display: none;
@@ -3997,7 +4014,7 @@ header {
         display: none;
     }
 }
-.testimonial-area .testimonial-main::after {
+/*.testimonial-area .testimonial-main::after {
     position: absolute;
     content: "\F107";
     font-family: Flaticon;
@@ -4008,7 +4025,7 @@ header {
     bottom: 0;
     color: #e3def0;
     transition: all 0.4s ease-out 0s;
-}
+}*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .testimonial-area .testimonial-main::after {
         display: none;
@@ -7237,6 +7254,7 @@ del {
 .career_perk{
     display: flex;
     align-items: center !important;
+    text-align: justify;
 }
 .career_perk h5{
     padding-top: 4px;
@@ -7299,6 +7317,12 @@ del {
 .quick-footer ul li:not(:last-child) a{
     border-right: 1px solid black;
 }
+.font-weight-500{
+    font-weight: 600;
+}
+.font-weight-300{
+    font-weight: 300;
+}
 .font-weight-600{
     font-weight: 600;
 }
@@ -7335,4 +7359,82 @@ del {
 }
 .important-links li a{
     color:gray;
+}
+.item-list-area .one-forth{
+    width: 100%;
+    min-width: 239px;
+}
+.item-list-area .card{
+    text-align: center;
+    padding: 70px 20px 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+    border:none;
+}
+.roadmap-text{
+    font-size: 13px;    
+    width: 120px;
+    height: 100px;
+}
+
+.line-1{
+    display:block;
+}
+.roadmap-active-point{
+    transform-origin: 28px 28px;
+    animation: scale-point 0.36s ease-out forwards;
+    animation-delay:0.29s;
+    opacity: 0;
+
+}
+.roadmap-active-point-hide{
+    transform-origin: 28px 28px;
+    animation: hide-point 0.36s ease-out forwards;
+    animation-delay: 0s;
+    opacity: 0;
+}
+.roadmap-desc-line {
+    transform-origin: 0px 0px;
+    animation: scale-point-line 0.36s linear forwards;
+    animation-delay: 0.09s;
+    opacity: 0;
+    display: block;
+}
+.roadmap-desc-line-hide {
+    transform-origin: 0px 0px;
+    animation: hide-point 0.15s linear forwards;
+    animation-delay: 0s;
+}
+
+@keyframes scale-point {
+    from   {
+        transform:scale(0);
+        opacity: 1;
+    }
+    to {
+        transform:scale(1);
+        opacity: 1;
+    }
+}
+@keyframes hide-point {
+    from   {
+        opacity: 1;
+        transform:scale(1);
+    }
+    to {
+        opacity: 1;
+        transform:scale(0);
+    }
+}
+@keyframes scale-point-line {
+    from {
+        transform:scale(0);
+        opacity: 1;
+    }
+    to {
+        transform:scale(1);
+        opacity: 1;
+    }
 }
