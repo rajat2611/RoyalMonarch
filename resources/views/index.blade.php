@@ -8,10 +8,10 @@
 
     <!-- Slider Area Start-->
     <div class="slider-area">
-        <div class="slider-active">
-            <div class="single-slider slider-height d-flex align-items-center" >
-                <div class="container">
-                    <div class="row d-flex align-items-center">
+        <div class=" slider-height d-flex align-items-center">
+            <div class="container" >
+                <div class="row">
+                    <div class="d-flex align-items-center">
                         <div class="col-lg-7 col-md-9 ">
                             <div class="hero__caption">
                                 <h1 data-animation="fadeInLeft" data-delay=".4s">Taking care of what's important. so you can focus on what matters most to you .</h1>
@@ -24,7 +24,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="hero__img d-none d-lg-block" data-animation="fadeInRight" data-delay="1s">
-                                <img src="{{asset('img/hero/hero_right.png ')}}" alt="">
+                                <img src="{{asset('image/about-main.svg')}}" alt="" width="100%">
                             </div>
                         </div>
                     </div>
