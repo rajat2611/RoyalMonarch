@@ -34,11 +34,15 @@ Route::get('/team', function () {
 Route::get('/team_1', function () {
     return view('pages.team_1');
 });
+Route::get('/team/{team}', 'HomeController@teamDetails');
 Route::get('/How_it_works', function () {
     return view('pages.How_it_works');
 });
 Route::get('/career', 'CareersController@index');
 Route::get('/career/{id}','CareersController@show');
+Route::get('/careers/apply/{id}','CareersController@apply');
+Route::post('apply-career','CareersController@applyJob');
+Route::get('apply-thanks/{name}','CareersController@applyThanks');
 
 
 Route::get('/blog', 'BlogController@index')->name('blog');
@@ -135,6 +139,42 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
+Route::group(['prefix' => 'admin', 'middleware' => ['web', 'isAdmin']], function () {
+     Route::get('/', 'AdminController@index');
+    Route::get('category', 'AdminController@category');
+    Route::get('category/status', 'AdminController@changeCateStatus');
+    Route::post('category/add', 'AdminController@addCategory');
+    Route::post('category/update', 'AdminController@updateCategory');
+    Route::get('category/delete', 'AdminController@deleteCategory');
+    Route::get('blogs', 'AdminController@blogs');
+    Route::get('blog/add', 'AdminController@blogAdd');
+    Route::post('blog/post', 'AdminController@blogPost');
+    Route::get('blog/edit/{blog}', 'AdminController@blogEdit');
+    Route::post('blog/update', 'AdminController@blogUpdate');
+    Route::post('blog/delete', 'AdminController@deleteBlog');
+    Route::get('blog/status', 'AdminController@changeStatus');
+    
+    Route::get('teams','AdminController@teams');
+    Route::get('team/add','AdminController@teamAdd');
+    Route::post('team/add','AdminController@teamPostAdd');
+    Route::get('team/edit/{team}','AdminController@teamEdit');
+    Route::post('team/update','AdminController@teamUpdate');
+    Route::get('team/status','AdminController@teamStatus');
+    Route::get('team/delete','AdminController@teamDelete');
+    
+    Route::get('career','AdminController@careers');
+    Route::get('career/add','AdminController@careerAdd');
+    Route::post('career/post','AdminController@careerPost');
+    Route::post('career/update','AdminController@careerUpdate');
+    Route::get('career/edit/{career}','AdminController@editCareer');
+    Route::get('career/status','AdminController@careerStatus');
+    Route::get('career/delete','AdminController@careerDelete');
+    
+    Route::get('career-applied','AdminController@careerApplied');
+    Route::get('apply/view/{id}','AdminController@viewApplyCareer');
+//    Voyager::routes();
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

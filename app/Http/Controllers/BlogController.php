@@ -11,7 +11,7 @@ class BlogController extends Controller
     //
     public function index(Request $request){
         $search=$request->search;
-        $blogs = Blog::orderBy('id', 'desc');
+        $blogs = Blog::orderBy('id', 'desc')->where('status',1);
         if ($search != null) {
             $blogs->where(function($query) use ($search) {
                 $query->where('resume', 'like', '%' . $search . '%')
@@ -19,7 +19,8 @@ class BlogController extends Controller
                         ->orWhere('category', 'like', '%' . $search . '%');
             });
         }
-        $blogs=$blogs->paginate(5);
+//        $blogs=$blogs->paginate(5);
+        $blogs=$blogs->get();
         return view("pages.blog",compact("blogs"));
     }
 

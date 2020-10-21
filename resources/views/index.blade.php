@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="we-create-cap">
-                        <p>“Congratulations!! <strong class="inp1 color_light_green">Rahul</strong>, You can make  <i class="fa fa-rupee-sign color_light_green"></i> <strong class="inp2 color_light_green">   4,74,85,20,901  </strong>  <span class="color_light_green">in </span><strong class="inp3 color_light_green">35</strong> <span class="color_light_green">Years</span>, If you start today”s. </p>
+                        <p>“Congratulations!! <strong class="inp1 color_light_green">Rahul</strong>, You can make  <i class="fa fa-rupee-sign color_light_green"></i> <strong class="inp2 color_light_green">   4,74,85,20,901  </strong>  <span class="color_light_green">in </span><strong class="inp3 color_light_green">35</strong> <span class="color_light_green">Years</span>, If you start today. </p>
                         <!-- Hero-btn -->
                         <div class="hero__btn text-center text-lg-left" data-animation="fadeInLeft" data-delay=".8s">
                             <a href="#" role="button" data-toggle="modal" data-target="#exampleModal" class="btn hero-btn">Get Started</a>
@@ -207,7 +207,7 @@
                 <div class="col-lg-6">
                     <div class="row">
 
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <div class="single_feature">
                                 <div class="single_feature_part">
                                     <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Confused.png')}}" alt=""></span>
@@ -234,7 +234,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <h5 class="text-center">Without Us</h5>
                             <div class="single_feature_img">
                                 <img src="/image/Home/comparison_LEFT.png" alt="" style="max-width: 100%;">
@@ -244,13 +244,13 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <h5 class="text-center">With Us</h5>
                             <div class="single_feature_img">
                                 <img src="/image/Home/comparison_RIGHT.png" alt="" style="max-width: 100%;">
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <div class="single_feature">
                                 <div class="single_feature_part">
                                     <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Goal Oriented.png')}}" alt=""></span>
@@ -366,10 +366,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <div class="single-generating d-flex flex-column text-center mb-30">
+                    <div class="single-generating d-flex flex-column text-center mb-30 text-center">
                         <div class="generating-icon">
+                            <svg width="100" height="100" viewBox="0 0 600 600" style="width: 150px;height: 150px;position: absolute;top: 20px;left: 201px;;" xmlns="http://www.w3.org/2000/svg">
+                             <path stroke="none" stroke-width="0" fill="#c0ffcd78" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                            </svg>
                             <img src="{{asset('rafi/Royal_Icons_3/Home/Security.png')}}" alt=""> </div>
-                        <div class="generating-cap">
+                            <div class="generating-cap">
                             <h4> Security
                             </h4>
                             <p> We use 128-bit encryption to protect the transmission of your data to our site. </p>
@@ -379,6 +382,9 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="single-generating d-flex flex-column text-center mb-30">
                         <div class="generating-icon">
+                            <svg width="100" height="100" viewBox="0 0 600 600" style="width: 150px;height: 150px;position: absolute;top: 20px;left: 201px;;" xmlns="http://www.w3.org/2000/svg">
+                             <path stroke="none" stroke-width="0" fill="#ffc0cb69" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                            </svg>
                             <img src="{{asset('rafi/Royal_Icons_3/Home/Privacy (2).png')}}" alt=""> </div>
                         <div class="generating-cap">
                             <h4>Privacy

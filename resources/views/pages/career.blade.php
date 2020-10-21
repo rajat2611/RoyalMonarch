@@ -18,7 +18,7 @@
                       </div>
             </div                >
         </div>
-    </                    div>
+    </div>
     <!-- Slider Area End-->
     <!-- Slider Are                        a Start-->
     <div class="slider-area">                            
@@ -28,7 +28,7 @@
                                      <div class="row d-flex align-items-center mb-150">
                                                             <div class="col-12 ">
                             <div class="hero__caption hero__caption2 text-center m-auto">
-                                        <h1 class="font-weight-600 mb-50" data-animation="fadeInRight" data-delay=".4s"> <span style="color: #CDCDCD;">Create.</span><span style="color: #999999;"> Amaze.</span><span style="color: #1b31a7;"> Repeat.</span></h1>
+                                        <h1 class="font-weight-600 mb-50 font-60" data-animation="fadeInRight" data-delay=".4s"> <span style="color: #CDCDCD;">Create.</span><span style="color: #999999;"> Amaze.</span><span style="color: #1b31a7;"> Repeat.</span></h1>
 
                     </div>
                 </div>
@@ -47,10 +47,10 @@
             <!--The perks-->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 mb-20 offset-lg-2">
+                    <div class="row mb-20">
                         <h4><b>The perks</b></h4>
                     </div>
-                    <div class="col-md-8 offset-lg-2 career_perk mb-70">                        
+                    <div class="row career_perk mb-70">                        
                         <div class="col-md-4 align-self-center">
                             <img src="{{asset('image/Career/Career-We-are-Flexible.png')}}" width="25" style="float:left">
                             <h5>We’re Flexible</h5>
@@ -67,7 +67,7 @@
                             <p>Learning is built into every role here. You’ll get mentorship and take ownership.</p>
                         </div>
                     </div>
-                    <div class="col-md-8 offset-lg-2 career_perk">                        
+                    <div class="row career_perk">                        
                         <div class="col-md-4 align-self-center">
                             <img src="{{asset('image/Career/Everyone-has-a-voice.png')}}" width="25" style="float:left">
                             <h5>Every had a voice positive.</h5>
@@ -85,9 +85,9 @@
                         </div>
                     </div>
 
-                    <div class="col-md-8 offset-lg-2 career_perk mt-70 mb-70">                        
+                    <div class="row career_perk mt-70 mb-70">                        
                         <div class="col-md-6 align-self-center">
-                            <img src="{{asset('image/Career/All-Inclusive.png')}}" width="100%">
+                            <img src="{{asset('image/Career/All-Inclusive.png')}}" style="box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);" width="100%">
                         </div>                                    
                         <div class="col-md-6 align-self-center">
                             <img src="{{asset('image/Career/We-have-got-you-covered.png')}}" width="25" style="float:left">
