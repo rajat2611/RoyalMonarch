@@ -4,6 +4,36 @@
 
 @section('content')
 <main>
+    <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content container">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-capitalize" id="successModalLabel"></h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center successDescription">
+                            <div class="text-center">
+                                <p class="trust-desc succes-description hidden text-justify">
+                                    You can be confident that we will make decisions that are in your best interest – and based on your financial goals and objectives. When it comes to managing your hard-earned wealth, let your trusted advisor help you every step of the way.
+                                </p>
+                                <p class="transaparancy-desc succes-description text-justify hidden">
+                                    It’s important for us to communicate in a clear, straightforward way, giving our clients insight into why we make certain decisions and what the impact will be. Whether it’s disclosing all of the fees associated with your account, providing detailed trade notifications, or taking the time to discuss major economic events with you, we proactively educate clients through open and honest communication.
+                                </p>
+                                <p class="accountability-desc succes-description text-justify hidden">
+                                    When we set out to accomplish something, we do it – with integrity and teamwork. We hold ourselves accountable no matter what, which gives our clients financial confidence knowing the team that manages their wealth follows through on their word. And, in turn, when we create your financial plan, we will hold you accountable, too. That mutual sense of responsibility is one of the most important ways we help you pursue your goals.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary py-4 px-3" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
     <!-- Slider Area Start-->
     <div class="services-area">
         <div class="container">
@@ -23,7 +53,7 @@
                 <div class="container">
                     <div class="row d-flex">
                         <div class="col-md-12 mb-50">
-                            <h1 class="text-center font-weight-600" data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Precise.</span><span style="color: #999999;"> Personalised.</span><span style="color: #1b31a7;"> Defined.</span></h1>
+                            <h1 class="text-center font-weight-600 font-60" data-animation="fadeInRight" data-delay=".4s" class="mb-5"> <span style="color: #CDCDCD;">Precise.</span><span style="color: #999999;"> Personalised.</span><span style="color: #1b31a7;"> Defined.</span></h1>
                         </div>
                         <div class="col-lg-2 col-md-9 about_menu_link">
                             @include('/pages.contact_menu')
@@ -65,20 +95,50 @@
             <div class="testimonial-main">
                 <!-- Section-tittle -->
                 <div class="row d-flex justify-content-center">
-                    <div class="col-lg-8 offset-lg-2  col-md-12 pr-0">
+                    <div class="col-md-8 offset-lg-2 align-items-center">
                         <div class="section-tittle text-center">
                             <h2 style="margin-bottom: 5px !important;">The Values That Inspire Us
                             </h2>
-                            <p style="margin-bottom: 50px !important;">
+                            <p style="">
                                 Part of what makes our firm unique is our dedication to delivering trust, transparency and accountability. These three words serve as a source of inspiration for everyone on our staff – and they drive what we seek to accomplish for our clients on a daily basis.
                             </p>
                         </div>
-                        <div>
-
-                        </div>
+                        <div id="bm">
+                        <svg viewBox="0 0 600 600" class="firm-process">
+                            <g class="">
+                            <g class="" transform="matrix(0.9999980926513672,0,0,0.9999980926513672,150.499634,197.499268)">
+                                <image width="65px" height="65px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/approach/Trust.png"></image>
+                                <Text transform="matrix(0.9999980926513672,0,0,0.9999980926513672,12,90.499268)">Trust</Text>
+                            </g>
+                            <circle cx="230" cy="271" r="145" stroke="#6cc727" stroke-width="1" fill="#ffffff00" onclick="showModalPopup('trust')"></circle>
+                            </g>
+                            <g class="">
+                            <g class="" transform="matrix(0.9999980926513672,0,0,0.9999980926513672,421.499634,197.499268)">
+                                <image width="65px" height="65px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/approach/Transparancy.png"></image>
+                                <text transform="matrix(0.9999980926513672,0,0,0.9999980926513672,-12,90.499268)">Transaparancy</text>
+                            </g>
+                                <circle cx="400" cy="271" r="145" stroke="#6cc727" stroke-width="1" fill="#ffffff00" onclick="showModalPopup('transaparancy')"></circle>
+                            </g>
+                            <g class="">
+                            <g class="" transform="matrix(0.9999980926513672,0,0,0.9999980926513672,280.499634,435.499268)">
+                                <image width="65px" height="65px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/approach/Acountability.png"></image>
+                                <text transform="matrix(0.9999980926513672,0,0,0.9999980926513672,-15,90.499268)">Accountability</text>
+                            </g>
+                                <circle cx="310" cy="434" r="145" stroke="#6cc727" stroke-width="1" fill="#ffffff00" onclick="showModalPopup('accountability')"></circle>
+                            </g>
+                            <g transform="matrix(1,0,0,1,128.7,155)" opacity="1" style="display: block;">
+                                <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                    <path fill="rgb(108,199,39)" fill-opacity="1" d="M 128 144 C 136 186 168 220 187 234 C 207 219 236 193 244 146 C 234 140 211 137 193 135 C 157 133 146 138 136 141 z"></path>
+                                </g>
+                            </g>
+                            <g transform="matrix(1,0,0,1,290.7,300)" opacity="1"">
+                                <image width="50px" height="50px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/firm/success.svg"></image>
+                            </g>
+                        </svg>
+                    </div>
                     </div>
                 </div>
-                <div class="what-we-do we-padding">
+                <?php /* <div class="what-we-do we-padding">
                     <div class="container">
                         <!-- Section-tittle -->
                         <div class="row d-flex justify-content-center">
@@ -138,7 +198,7 @@
                             </div>
                         </div>
                         <!-- New code -->
-                        <?php /*
+                        
                         <div class="row">
                             <div class="col-lg-4 col-md-6">
                                 <div class="single-do text-center mb-30">
@@ -181,9 +241,9 @@
 
                                 </div>
                             </div>
-                        </div> */?>
+                        </div> 
                     </div>
-                </div>
+                </div> */ ?>
                 {{--                <div class="row d-flex justify-content-center">--}}
                 {{--                    <div class="col-lg-10 col-md-9">--}}
                 {{--                        <div class="h1-testimonial-active">--}}
@@ -252,10 +312,17 @@
 
 </main>
 @endsection
-
-
-
-
+@section('scripts')
+<script>
+function showModalPopup(type){
+$("#successModalLabel").html(type);
+$(".succes-description").css('display','none');
+var trust="."+type+"-desc";
+$(trust).css('display','block');
+$("#successModal").modal();
+}
+</script>
+@endsection
 @section('2')
 active
 @endsection

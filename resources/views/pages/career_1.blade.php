@@ -49,7 +49,7 @@ position: relative;
             <div class="col-md-6">
             <h1>{{$career->title}}</h1>
             <h4 class="text-info my-5"><span class="color-light-blue"><i class="fas fa-map-marker-alt"></i> {{$career->place}}</span><span class="text-secondary">. {{$career->time}}</span></h4>
-            <a class="btn btn-primary" href="mailto:hiring@useorigin.com">Apply Now</a>
+            <a class="btn btn-primary" href="/careers/apply/{{$career->id}}">Apply Now</a>
                     </div>
             <div class="col-md-6 my-md-0 my-5">
                 <h3 class="sec-title mb-5 color-light-blue job-details-role">About The role</h3>
