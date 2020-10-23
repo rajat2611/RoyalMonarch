@@ -298,8 +298,10 @@
                             <div class="col-lg-9 col-md-6 justify-content-center">
                                 <div class="d-flex">
                                     <div data-aos="zoom-in" data-aos-delay="100">
-                                        <h4><a href="">Start</a></h4>
-                                        <p>Determine How to Work Together</p>
+                                        <h4><a href="" class="color-light-green">Start</a></h4>
+                                        <ul class="ml-20">
+                                            <li>Determine How to Work Together</li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <!-- End .content-->
@@ -312,8 +314,8 @@
                         <div class="row justify-content-center align-content-center">
                             <div class="col-lg-9 col-md-6 justify-content-center">
                                 <div class="icon-boxes d-flex flex-column justify-content-center">
-                                    <h4><a href="">Discovery Meeting</a></h4>
-                                    <ul>
+                                    <h4><a href="" class="color-light-green">Discovery Meeting</a></h4>
+                                    <ul class="ml-20">
                                         <li>Learn and understand your situation </li>
                                         <li>Identify, clarify, and prioritize your goals, values, and concerns</li>
                                     </ul>
@@ -329,8 +331,8 @@
                             <div class="col-lg-8 col-md-6 justify-content-center">
                                 <div class="icon-boxes d-flex flex-column justify-content-center">
                                     <div class="align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-                                        <h4>Develop an Investment Policy Statement</h4><br/>
-                                        <ul>
+                                        <h4 class="color-light-green">>Develop an Investment Policy Statement</h4><br/>
+                                        <ul class="ml-20">
                                             <li>Document client investment objectives and constraints. </li>
                                             <li>Provide accountability and structure to portfolio construction. </li>
                                         </ul>
@@ -348,8 +350,8 @@
                             <div class="col-lg-8 col-md-6 justify-content-center">
                                 <div class="icon-boxes d-flex justify-content-center">
                                     <div class="  align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-                                        <h4>Assess and Analyze</h4>                                            
-                                            <ul>
+                                        <h4 class="color-light-green">Assess and Analyze</h4>                                            
+                                        <ul class="ml-20">
                                                 <li>Analyse all areas of your financial life</li>
                                                 <li>Cash Flow management</li>
                                                 <li>Insurance and Protection Planning</li>
@@ -374,8 +376,8 @@
                                                                                             <div class="icon-boxes d-flex 8 justify-content-center">
 
                                                                                                 <div class="8align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                                                                                                   <h4>Design an Investment Strategy</h4>
-                                                                                                        <ul>
+                                                                                                   <h4 class="color-light-green">Design an Investment Strategy</h4>
+                                                                                                   <ul class="ml-20">
                                                                                                             <li>Integrate asset allocation with financial plan </li>
                                                                                                             <li>Incorporate capital market expectations and economic outlook </li>
                                                                                                             <li>Implement the most appropriate risk management strategy</li>
@@ -393,8 +395,8 @@
                                                                                         <div class="col-lg-8 col-md-6 justify-content-center">
                                                                                             <div class="icon-boxes d-flex justify-content-center">
                                                                                                 <div class="align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
-                                                                                                    <h4>Propose Planning and Recommendations</h4>
-                                                                                                        <ul>
+                                                                                                    <h4 class="color-light-green">Propose Planning and Recommendations</h4>
+                                                                                                    <ul class="ml-20">
                                                                                                             <li>Educate and communicate all available options</li>
                                                                                                             <li>Evaluate and offer optimal solutions</li>
                                                                                                         </ul>
@@ -411,8 +413,8 @@
                                                                                         <div class="offset-2 col-lg-12 col-md-9">
                                                                                             <div class="icon-boxes d-flex justify-content-center">
                                                                                                 <div class="align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                                                                                                    <h4>Implement Financial Plan and Investment Strategy</h4>
-                                                                                                        <ul>
+                                                                                                    <h4 class="color-light-green">Implement Financial Plan and Investment Strategy</h4>
+                                                                                                    <ul class="ml-20">
                                                                                                             <li>Establish online access </li>
                                                                                                             <li>Open new accounts </li>
                                                                                                             <li>Transfer existing assets </li>
@@ -431,8 +433,8 @@
                                                                                         <div class="offset-4 col-lg-8 col-md-6">
                                                                                             <div class="icon-boxes d-flex justify-content-center">
                                                                                                 <div class="align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
-                                                                                                    <h4>Monitor and Update Your Financial Plan</h4>
-                                                                                                        <ul>
+                                                                                                    <h4 class="color-light-green">Monitor and Update Your Financial Plan</h4>
+                                                                                                    <ul class="ml-20">
                                                                                                             <li>Revisit goals and client situation </li>
                                                                                                             <li>Review investment strategy </li>
                                                                                                             <li>Modify and track financial plan & IPS</li>
@@ -449,16 +451,36 @@
                                                                             <div id="" class="services position-9" style="margin-top: -195px;">
                                                                                 <div class="container">
                                                                                     <div class="row align-items-center justify-content-center">
-                                                                                        <div class="offset-4 col-lg-4 col-md-6">
+                                                                                        <div class="col-lg-6 col-md-6">
                                                                                             <div class="icon-boxes d-flex justify-content-center">
                                                                                                 <div class="align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                                                                                                    <h4>Refer friends, Family, and Co-workers</h4>
-                                                                                                    <ul>
+                                                                                                    <h4 class="color-light-green">Refer friends, Family, and Co-workers</h4>
+                                                                                                    <ul class="ml-20">
                                                                                                         <li>The best compliment we could ever receive is a new introduction from you </li>
                                                                                                     </ul>
                                                                                                 </div>
                                                                                             </div>
                                                                                             <!-- End .content-->
+                                                                                        </div>
+                                                                                        <div class="col-lg-6 col-md-6">
+                                                                                            <div class="card" style="box-shadow: 0 20px 20px 1px rgba(0,0,0,0.05);border: none;">
+                                                                                                <div class="card-body">
+                                                                                                    <form class="" method="post" action="">
+                                                                                                        <div class="form-group">
+                                                                                                            <input type="text" name="" placeholder="Name" class="form-control" required>
+                                                                                                        </div>
+                                                                                                        <div class="form-group">
+                                                                                                            <input type="text" name="" placeholder="Mobile" class="form-control" required>
+                                                                                                        </div>
+                                                                                                        <div class="form-group">
+                                                                                                            <input type="email" name="" placeholder="Email" class="form-control" required>
+                                                                                                        </div>
+                                                                                                        <div class="form-group">
+                                                                                                            <input type="submit" class="btn btn-sm" value="Submit">
+                                                                                                        </div>
+                                                                                                    </form>
+                                                                                                </div>
+                                                                                            </div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -768,10 +790,14 @@
 
                                                                                                                                                 </div>
                                                                                                                                             </section>
-
-
+                                                                                                                                            
                                                                                                                                             </div>
-
+                                                                                                                                                    
+<div class="container mb-50">
+                        <div class="row justify-content-center">
+                            <a href="#" class="btn" role="button" data-toggle="modal" data-target="#exampleModal">  Join us NOW  </a>
+                            </div>
+                            </div>
 
 
 

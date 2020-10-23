@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Str;
 
 class AdminController extends Controller {
 
@@ -28,6 +29,7 @@ class AdminController extends Controller {
         }
         $model = new \App\Category();
         $model->title = $request->title;
+        $model->slug = Str::slug($request->title);
         if ($model->save()) {
             return Redirect::back()->withSuccess('Category successfully addedd');
         }
@@ -176,6 +178,8 @@ class AdminController extends Controller {
                     'name' => 'required',
                     'designation' => 'required',
                     'image' => 'required',
+                    'cover_image' => 'required',
+                    'profile_image' => 'required',
                     'address' => 'required',
                     'bio' => 'required',
                     'personal_info' => 'required',
@@ -190,6 +194,13 @@ class AdminController extends Controller {
         $model = new \App\Team();
         $image = $request->file('image')->store('team', 'public');
         $model->image = $image;
+
+        $profile_image = $request->file('profile_image')->store('team', 'public');
+        $model->profile_image = $profile_image;
+
+        $cover_image = $request->file('cover_image')->store('team', 'public');
+        $model->cover_image = $cover_image;
+
         $model->name = $request->get('name');
         $model->designation = $request->get('designation');
         $model->address = $request->get('address');
@@ -237,6 +248,29 @@ class AdminController extends Controller {
             $image = $request->file('image')->store('team', 'public');
             $model->image = $image;
         }
+
+        if ($model->profile_image && $request->hasFile('profile_image')) {
+            $url = storage_path("app/public/" . $model->profile_image);
+            if (File::exists($url)) {
+                File::delete($url);
+            }
+        }
+        if ($request->hasFile('profile_image')) {
+            $image = $request->file('profile_image')->store('team', 'public');
+            $model->profile_image = $image;
+        }
+
+        if ($model->cover_image && $request->hasFile('cover_image')) {
+            $url = storage_path("app/public/" . $model->cover_image);
+            if (File::exists($url)) {
+                File::delete($url);
+            }
+        }
+        if ($request->hasFile('cover_image')) {
+            $image = $request->file('cover_image')->store('team', 'public');
+            $model->cover_image = $image;
+        }
+
         $model->name = $request->get('name');
         $model->designation = $request->get('designation');
         $model->address = $request->get('address');
