@@ -26,7 +26,15 @@
                     </div>
                     <div class="form-group">
                         <label>Image</label>
-                        <input type="file" class="form-control" name="image">
+                        <input type="file" class="form-control" name="image" aaccept="images.*">
+                    </div>
+                    <div class="form-group">
+                        <label>Cover Image</label>
+                        <input type="file" class="form-control" name="cover_image" accept="images.*">
+                    </div>
+                    <div class="form-group">
+                        <label>Profile Image</label>
+                        <input type="file" class="form-control" name="profile_image" accept="images.*">
                     </div>
                     <div class="form-group">
                         <label>Facebook</label>
@@ -57,7 +65,7 @@
                         <textarea class="form-control summernote" name="personal_info">{{old('personal_info')}}</textarea>
                     </div>
                     <div class="form-group">
-                        <input type="submit" class="btn btn-primary btn-sm" value="Add Blog">
+                        <input type="submit" class="btn btn-primary btn-sm" value="Add Team">
                     </div>
                 </form>
             </div>

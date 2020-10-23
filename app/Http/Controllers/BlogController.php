@@ -33,8 +33,7 @@ class BlogController extends Controller
     }
 
     public function show_2($item){
-        $blogs = Blog::where("category",$item)->paginate(5);
-       
+        $blogs = Blog::where("category",$item)->get();       
         return view("pages.blog",compact("blogs"));
     }
 }

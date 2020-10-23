@@ -69,7 +69,7 @@
                                                             ?>
                                                             @foreach ($list as $item=>$value)
                                                             <li>
-                                                                <a href="">{{$value->title}}</a>
+                                                                <a href="/blogs/{{$value->id}}">{{$value->title}}</a>
                                                             </li>
                                                             @endforeach
                                                         </ul>

@@ -34,7 +34,7 @@ Route::get('/team', function () {
 Route::get('/team_1', function () {
     return view('pages.team_1');
 });
-Route::get('/team/{team}', 'HomeController@teamDetails');
+Route::get('/team/{team}', 'CareersController@teamDetails');
 Route::get('/How_it_works', function () {
     return view('pages.How_it_works');
 });

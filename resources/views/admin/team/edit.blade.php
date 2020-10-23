@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Blogs')
+@section('title', 'Team')
 
 @section('content_header')
 <h1>Edit Blog</h1>
@@ -27,9 +27,23 @@
                     </div>
                     <div class="form-group">
                         <label>Image</label>
-                        <input type="file" class="form-control" name="image">
+                        <input type="file" class="form-control" name="image" accept="images.*">
                         @if($data->image)
                         <img src="{{asset('storage/'.$data->image)}}" width="70">
+                        @endif
+                    </div>
+                    <div class="form-group">
+                        <label>Cover Image</label>
+                        <input type="file" class="form-control" name="cover_image" accept="images.*">
+                        @if($data->cover_image)
+                        <img src="{{asset('storage/'.$data->cover_image)}}" width="70">
+                        @endif
+                    </div>
+                    <div class="form-group">
+                        <label>Profile Image</label>
+                        <input type="file" class="form-control" name="profile_image" accept="images.*">
+                        @if($data->profile_image)
+                        <img src="{{asset('storage/'.$data->profile_image)}}" width="70">
                         @endif
                     </div>
                     <div class="form-group">

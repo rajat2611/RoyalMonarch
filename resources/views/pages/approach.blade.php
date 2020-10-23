@@ -14,18 +14,35 @@
                             </button>
                         </div>
                         <div class="modal-body text-center successDescription">
-                            <div class="text-center">
-                                <p class="trust-desc succes-description hidden text-justify">
-                                    You can be confident that we will make decisions that are in your best interest – and based on your financial goals and objectives. When it comes to managing your hard-earned wealth, let your trusted advisor help you every step of the way.
-                                </p>
-                                <p class="transaparancy-desc succes-description text-justify hidden">
-                                    It’s important for us to communicate in a clear, straightforward way, giving our clients insight into why we make certain decisions and what the impact will be. Whether it’s disclosing all of the fees associated with your account, providing detailed trade notifications, or taking the time to discuss major economic events with you, we proactively educate clients through open and honest communication.
-                                </p>
-                                <p class="accountability-desc succes-description text-justify hidden">
-                                    When we set out to accomplish something, we do it – with integrity and teamwork. We hold ourselves accountable no matter what, which gives our clients financial confidence knowing the team that manages their wealth follows through on their word. And, in turn, when we create your financial plan, we will hold you accountable, too. That mutual sense of responsibility is one of the most important ways we help you pursue your goals.
-                                </p>
+                            <ul class="nav nav-tabs mb-20" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#nav-mission" role="tab" aria-controls="home" aria-selected="true">Trust</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#nav-vision" role="tab" aria-controls="profile" aria-selected="false">Transaparancy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#nav-promise" role="tab" aria-controls="contact" aria-selected="false">Accountability</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-mission" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    <p class="trust-desc succes-description text-justify">
+                                        You can be confident that we will make decisions that are in your best interest – and based on your financial goals and objectives. When it comes to managing your hard-earned wealth, let your trusted advisor help you every step of the way.
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    <p class="transaparancy-desc succes-description text-justify">
+                                        It’s important for us to communicate in a clear, straightforward way, giving our clients insight into why we make certain decisions and what the impact will be. Whether it’s disclosing all of the fees associated with your account, providing detailed trade notifications, or taking the time to discuss major economic events with you, we proactively educate clients through open and honest communication.
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="nav-promise" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                    <p class="accountability-desc succes-description text-justify">
+                                        When we set out to accomplish something, we do it – with integrity and teamwork. We hold ourselves accountable no matter what, which gives our clients financial confidence knowing the team that manages their wealth follows through on their word. And, in turn, when we create your financial plan, we will hold you accountable, too. That mutual sense of responsibility is one of the most important ways we help you pursue your goals.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                            </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary py-4 px-3" data-dismiss="modal">Close</button>
 
@@ -315,10 +332,6 @@
 @section('scripts')
 <script>
 function showModalPopup(type){
-$("#successModalLabel").html(type);
-$(".succes-description").css('display','none');
-var trust="."+type+"-desc";
-$(trust).css('display','block');
 $("#successModal").modal();
 }
 </script>

@@ -24,8 +24,6 @@ class HomeController extends Controller {
         return view('home');
     }
 
-    public function teamDetails(\App\Team $team) {
-        return view('pages.team_1')->with(['data' => $team]);
-    }
+    
 
 }

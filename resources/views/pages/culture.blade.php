@@ -37,7 +37,7 @@
                         </div>
                         <div class="p-5"></div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 mt-50">
                         <div class="d-md-flex mb-50 ">
                             <div class="one-forth order-last align-self-center ml-md-5 col-md-5 col-sm-12">
                                 <img src="/image/culture/Integrity.jpg" class="" alt="" width="85%">

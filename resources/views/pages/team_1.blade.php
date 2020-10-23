@@ -4,11 +4,11 @@
 @section('content')
 <main>
     <!-- Slider Area Start-->
-    <div class="services-area background-team">
+    <div class="background-team">
         <div class="container">
             <!-- Section-tittle -->
             <div class="row d-flex justify-content-center">
-                <div class="col-lg-8 ">
+                <div class="col-lg-6 mt-50">
                     <div class="section-tittle text-left mb-40 text-white">
                         <span class="text-white">Our Team</span>
                         <h2 style="margin-bottom: 0;color: white;">{{$data->name}}
@@ -33,40 +33,62 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6">
+                    <div class="team-image-wrapper">
+                        
+                    </div>
+                    <img src="{{asset('storage/team/cover.png')}}" style="width:100%">
+                </div>
             </div>
         </div>
     </div>
     <!-- Slider Area End-->
 
     <!--::team_part start::-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content container">
+                <div class="modal-header">
+                    <h5 class="modal-title text-capitalize" id="exampleModalLabel">Note from {{$data->name}}</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="text-center">
+                        <p>{!! $data->bio !!}</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary py-4 px-3" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="doctor_part single_page_doctor_part">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-3">
                     <div class="section_tittle text-center sticky">
                         <div class="team-image">
-                            <img src="{{asset('storage/'.$data->image)}}" class="rounded-circle mb-5" alt="">
+                            <img src="{{asset('storage/'.$data->profile_image)}}" class="rounded-circle mb-5" alt="">
                         </div>
-<!--                        <div class="image" style="background: url('storage/{{$data->image}}')">
-                            <img src="/img/team/1 (1).jpg" style="width: 100%; height: auto;" class="rounded-circle mb-5" alt="">
-                        </div>-->
+                        <!--                        <div class="image" style="background: url('storage/{{$data->image}}')">
+                                                    <img src="/img/team/1 (1).jpg" style="width: 100%; height: auto;" class="rounded-circle mb-5" alt="">
+                                                </div>-->
                         <bold class="mt-5">{{$data->name}}</bold>
                         <p>{{$data->designation}}</p>
-
+                        <a href="#" role="button" data-toggle="modal" data-target="#exampleModal" class="color-light-blue">Note from {{$data->name}}</a>
                     </div>
                 </div>
                 <div class="col-xl-9">
                     <div class="section_body text-left">
-                        <div class="bio">
-                            <h2 class="text-info bar-top"> Bio details
-                            </h2>
-                            <p>{!! $data->bio !!}<p>
-
-
-                            <span class="text-info">“To get something you never had, you have to do something you never did”</div>
-                      <div class="personal-info mt-5">
-                          <h2 class="text-info bar-top">Personal Info</h2>
-                          {!! $data->personal_info !!}
+                        
+                        <div class="personal-info mt-5">
+                            <h2 class="text-info bar-top">Personal Info</h2>
+                            {!! $data->personal_info !!}
                         </div>
                     </div>
                 </div>
@@ -85,8 +107,8 @@
 @endsection
 
 
-   
-  
+
+
 @section('2')
-    active
+active
 @endsection

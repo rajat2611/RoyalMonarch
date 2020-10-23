@@ -79,7 +79,7 @@
                             <p>Come for a financial job. Stay for a tech career. We support exploring new fields right under our own roof.</p>
                         </div>
                         <div class="col-md-4 align-self-center">
-                            <img src="{{asset('image/Career/We-are-Positive.png')}}" width="25" style="float:left">
+                            <img src="{{asset('image/Career/We-are-Positive.png')}}" width="16" style="float:left">
                             <h5>We’re positive. You’ll love it</h5>
                             <p>Random prank wars, team hikes, Chili Cook-offs, Pretty cool holidays and summer parties. Need we say more?</p>
                         </div>
