@@ -4,7 +4,7 @@
 @section('styles')
 <style>
     header{
-        position: static;; !important
+        position: static !important;
     }
     .sec-title{
         position: relative;
