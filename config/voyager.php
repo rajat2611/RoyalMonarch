@@ -85,6 +85,8 @@ return [
         'autoload_migrations' => true,
     ],
 
+    'prefix' => 'admin',
+
     /*
     |--------------------------------------------------------------------------
     | Multilingual configuration
