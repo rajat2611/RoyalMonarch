@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'Career')
+@section('title', 'Edit Job')
 
 @section('content_header')
-<h1>Career</h1>
+<h1>Edit Job</h1>
 @stop
 
 @section('content')
@@ -22,7 +22,7 @@
                         <input type="text" class="form-control" name="title" placeholder="Title" value="{{old('title') ? old('title') : $data->title}}">
                     </div>
                     <div class="form-group">
-                        <label>Place*</label>
+                        <label>Location*</label>
                         <input type="text" class="form-control" name="place" placeholder="Place" value="{{old('place') ? old('place') : $data->place}}">
                     </div>
                     <div class="form-group">
@@ -43,7 +43,7 @@
                         <input type="checkbox" name="status" value="1" {{old('status') == 1 ? "checked" :$data->status == 1 ? "checked" : ""}}>
                     </div>
                     <div class="form-group">
-                        <input type="submit" class="btn btn-primary btn-sm" value="Add Blog">
+                        <input type="submit" class="btn btn-primary btn-sm" value="Update Job">
                     </div>
                 </form>
             </div>

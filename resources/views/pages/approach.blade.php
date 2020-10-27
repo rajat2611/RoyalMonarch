@@ -7,14 +7,14 @@
     <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content container">
-                        <div class="modal-header">
+                        <div class="modal-header"  style="border-bottom: 0px">
                             <h5 class="modal-title text-capitalize" id="successModalLabel"></h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <div class="modal-body text-center successDescription">
-                            <ul class="nav nav-tabs mb-20" id="myTab" role="tablist">
+                        <div class="modal-body text-center successDescription" style="min-height: 325px;">
+                            <ul class="nav nav-tabs mb-20 justify-content-center" id="myTab" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#nav-mission" role="tab" aria-controls="home" aria-selected="true">Trust</a>
                                 </li>
@@ -43,7 +43,7 @@
                                 </div>
                             </div>
                             </div>
-                        <div class="modal-footer">
+                        <div class="modal-footer"  style="border-top: 0px">
                             <button type="button" class="btn btn-secondary py-4 px-3" data-dismiss="modal">Close</button>
 
                         </div>
@@ -107,7 +107,7 @@
     <!-- Slider Area End-->
 
     <!-- Testimonial Start -->
-    <div class="testimonial-area bg-light py-5">
+    <div class="testimonial-area py-5">
         <div class="container">
             <div class="testimonial-main">
                 <!-- Section-tittle -->

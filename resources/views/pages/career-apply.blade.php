@@ -57,7 +57,11 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label>Name *</label>
-                                <input type="text" name="name" class="form-control" placeholder="name" value="{{old('name')}}" required>
+                                <input type="text" name="name" class="form-control" placeholder="First name" value="{{old('name')}}" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name *</label>
+                                <input type="text" name="last_name" class="form-control" placeholder="Last name" value="{{old('last_name')}}" required>
                             </div>
                             <div class="form-group">
                                 <label>Email *</label>
@@ -79,15 +83,21 @@
                                 <hr/>
                                 <h5>Education</h5>
                             </div>
-                            <div class="form-group">
-                                <label>School Name *</label>
-                                <input type="text" name="school" class="form-control" placeholder="School Name" value="{{old('school')}}" required>
+                            <div class="education-area">
+                                <div class="education-section">
+                                    <button type="button" class="btn-danger float-right removeBtn hidden"><i class="fa fa-times-circle"></i></button>
+                                    <div class="form-group">
+                                        <label>School Name *</label>
+                                        <input type="text" name="school[]" class="form-control" placeholder="School Name" value="" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Qualification *</label>
+                                        <input type="text" name="qualification[]" class="form-control" placeholder="Qualification" value="" required>
+                                    </div>
+                                </div>
                             </div>
                             <div class="form-group">
-                                <label>Qualification *</label>
-                                <input type="text" name="qualification" class="form-control" placeholder="Qualification" value="{{old('school')}}" required>
-                            </div>
-                            <div class="form-group">
+                                <a href="javascript:void(0)" class="btn addNewSection">Add New</a>
                                 <hr/>
                                 <h5>Work experience</h5>
                             </div>
@@ -114,9 +124,9 @@
                                     <label>Is this your current job *</label>
                                     <input type="checkbox" class="last_job" name="last_job" value="1" {{old('start_date') =="1" ? "checked" :""}} required>
                                 </div>
-                                <div class="last-job" style="display:none">
+                                <div class="last-job">
                                     <div class="form-group">
-                                        <label>End Date *</label>
+                                        <label>Leaving Date *</label>
                                         <input type="date" name="end_date" class="form-control" value="{{old('end_date')}}" required>
                                     </div>
                                 </div>
@@ -149,9 +159,20 @@
     $("body").on("change", ".last_job", function () {
         if ($(this).is(":checked")) {
             $(".last-job").css('display', 'none');
+            $(".last-job input").attr('required', false);
         } else {
             $(".last-job").css('display', 'block');
+            $(".last-job input").attr('required', true);
         }
     });
+
+    $("body").on("click", ".addNewSection", function () {
+        var data = $("body").find(".education-section:first").clone();
+        $(data).find(".removeBtn").removeClass('hidden');
+        $(".education-area").append(data);
+    });
+    $("body").on("click", ".removeBtn", function () {
+        $(this).closest(".education-section").remove();
+    })
 </script>
 @endsection

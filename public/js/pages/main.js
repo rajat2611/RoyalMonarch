@@ -333,13 +333,13 @@
         type: 'line',
         data: {
 //            labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
-            labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+            labels: ["Year " + 1, "Year " + 2, "Year " + 3, "Year " + 4, "Year " + 5, "Year " + 6, "Year " + 7, "Year " + 8, "Year " + 9, "Year " + 10, "Year " + 11, "Year " + 12, "Year " + 13, "Year " + 14, "Year " + 15],
             datasets: [{
                     fill: true,
                     label: 'Wealth',
                     strokeColor: "#ff6c23",
 //                  data: [1458732, 2063745, 2861685, 3914073, 5302046, 7132618, 9546923, 12731102, 16930654, 22469362, 29774256, 39408537, 52115004, 68873314, 90975524, 120125697, 158571292, 209276437, 276150466, 364349318, 480673065, 634090187, 836429039, 1103289806, 1455247269],
-                    data: [10000, 15000, 10000, 25000, 10000, 35000, 15000, 30000, 20000, 45000, 10000, 20000, 10000, 55000,40000],
+                    data: [10000, 15000, 10000, 25000, 10000, 35000, 15000, 30000, 20000, 45000, 10000, 20000, 10000, 55000, 40000],
                     backgroundColor: gradient1,
                     borderColor: '#1b6ca8',
                     borderWidth: 2,
@@ -347,7 +347,7 @@
                     pointBorderColor: 'rgba(0, 0, 0, 0)',
                     pointBackgroundColor: 'rgba(0, 0, 0, 0)',
                     pointHoverBackgroundColor: "#1b6ca8",
-                    pointHoverBorderColor: "#1b6ca8"
+                    pointHoverBorderColor: "#1b6ca8",
 
                 }]
         },
@@ -384,18 +384,24 @@
             },
             scales: {
                 xAxes: [{
-                    gridLines: {
-                        color: "rgba(0, 0, 0, 0)",
-                    }
-                }],
+                        ticks: {
+                            display: false
+                        },
+                        gridLines: {
+                            display: false,
+                            color: "rgba(0, 0, 0, 0)",
+                        }
+                    }],
                 yAxes: [{
                         ticks: {
+                            display: false,
                             beginAtZero: true,
                             callback: function (value, index, values) {
                                 return '₹' + value;
                             }
                         },
                         gridLines: {
+                            display: false,
                             color: "rgba(0, 0, 0, 0)",
                         }
                     }]
@@ -456,17 +462,31 @@
             datasets: [{
                     fill: true,
                     label: 'Wealth',
-                    data: data,
-                    backgroundColor: gradient2,
+//                    data: data,
+//                    backgroundColor: gradient2,
+//                    borderColor: '#1b6ca8',
+//                    borderWidth: 3,
+                    backgroundColor: gradient1,
                     borderColor: '#1b6ca8',
-                    borderWidth: 3,
-
+                    borderWidth: 2,
+                    pointBorderColor: 'rgba(0, 0, 0, 0)',
+                    pointBackgroundColor: 'rgba(0, 0, 0, 0)',
+                    pointHoverBackgroundColor: "#1b6ca8",
+                    pointHoverBorderColor: "#1b6ca8",
                 }]
         },
 
         options: {
             chart: {
                 backgroundColor: "gray"
+            },
+            tooltips: {
+                mode: 'index',
+                intersect: false,
+            },
+            hover: {
+                mode: 'index',
+                intersect: false
             },
             title: {
                 display: true,
@@ -483,12 +503,17 @@
             scales: {
 
                 xAxes: [{
+                        ticks: {
+                            display: false
+                        },
                         gridLines: {
+                            display: false,
                             color: "rgba(0, 0, 0, 0)",
                         }
                     }],
                 yAxes: [{
                         ticks: {
+                            display: false,
                             beginAtZero: true,
                             callback: function (value, index, values) {
                                 return '₹' + value;
@@ -497,6 +522,7 @@
 
                         },
                         gridLines: {
+                            display: false,
                             color: "rgba(0, 0, 0, 0)",
                         }
                     }]
@@ -508,9 +534,14 @@
     function updateBarGraph(chart, data) {
         chart.data.datasets.pop();
         chart.data.datasets.push({
-            backgroundColor: 'rgba(69, 128, 196, 0.49)',
+//            backgroundColor: 'rgba(69, 128, 196, 0.49)',
+            backgroundColor: gradient1,
             borderColor: '#1b6ca8',
-            borderWidth: 3,
+            borderWidth: 2,
+            pointBorderColor: 'rgba(0, 0, 0, 0)',
+            pointBackgroundColor: 'rgba(0, 0, 0, 0)',
+            pointHoverBackgroundColor: "#1b6ca8",
+            pointHoverBorderColor: "#1b6ca8",
             fill: true,
             label: 'Wealth',
             data: data
@@ -542,34 +573,36 @@
         else
             value2 = 65 - value2;
 
-        if (value3 > 0)
-            n2 = value2;
-        if (value4 > 0)
-            n1 = value2 * 12;
+        var totalYear = value2;
+        var mainyear = 65 - $('input[name="age"]').val();
+        mainyear++;
+        for (var i = 0; i < 25; i++) {
+            var newValue = totalYear - i;
+            value2 = mainyear - newValue;
+            if (value3 > 0)
+                n2 = value2;
+            if (value4 > 0)
+                n1 = value2 * 12;
 
-        var ioi = (27 / 100) / 12;
-        var ioi21 = (27 / 100);
-        var ioi2 = ioi + 1;
-        var ioi22 = ioi21 + 1;
+            var ioi = (27 / 100) / 12;
+            var ioi21 = (27 / 100);
+            var ioi2 = ioi + 1;
+            var ioi22 = ioi21 + 1;
 
-        var saveHas = value4 * (((Math.pow(ioi2, n1)) - 1) / ioi) * (ioi + 1);
-        var investHas = value3 * (Math.pow(ioi22, n2));
-
-
-        var x = saveHas + investHas;
-        data.push(x);
+            var saveHas = value4 * (((Math.pow(ioi2, n1)) - 1) / ioi) * (ioi + 1);
+            var investHas = value3 * (Math.pow(ioi22, n2));
 
 
-
-
-
+            var x = saveHas + investHas;
+            data.push(x);
+        }
         x = Math.floor(x)
         console.log("main value: " + x);
         var res = new Number(x).toLocaleString("hi-IN");
         $('strong.inp2').text(" " + res);
         $('strong.inp3').text(value2);
         $('strong.inp1').text(value1);
-
+        console.log(data);
         updateBarGraph(myChart2, data)
     })
 

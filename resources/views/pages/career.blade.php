@@ -201,7 +201,7 @@
 <!-- What We do End-->
 
 <!--position start-->
-<div id="position" class="bg-light p-sm-5 pt-5">
+<div id="position" class="p-sm-5 pt-5">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mb-5">

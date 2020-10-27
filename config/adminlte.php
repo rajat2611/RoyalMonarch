@@ -208,32 +208,72 @@ return [
         ],
         ['header' => 'GENERAL'],
         [
-            'text' => 'Category',
-            'url' => 'admin/category',
-            'can' => 'manage-category',
-            'icon' => 'fas fa-sitemap mr-1',
-        ],
-        [
-            'text' => 'Blogs',
-            'url' => 'admin/blogs',
-            'icon' => 'fa fa-newspaper',
+            'text'    => 'Blog',
+            'icon'    => 'fa fa-newspaper',
             'can' => 'manage-blogs',
+            'submenu' => [
+                [
+                    'text' => 'Category',
+                    'url' => 'admin/category',
+                ],
+                [
+                    'text' => 'Author',
+                    'url'  => 'admin/author',
+                ],
+                [
+                    'text' => 'Manage Blog',
+                    'url'  => 'admin/blogs',
+                ],
+            ],
         ],
         [
             'text' => 'Manage Teams',
             'url' => 'admin/teams',
             'can' => 'manage-team',
             'icon' => 'fas fa-user-lock mr-1',
-        ],
+        ],      
+//        [
+//            'text' => 'Applied Career',
+//            'url' => 'admin/career-applied',
+//            'can' => 'manage-career',
+//            'icon' => 'fas fa-mail-bulk mr-1',
+//        ],  
         [
-            'text' => 'Manage Career',
-            'url' => 'admin/career',
+            'text'    => 'Career',
+            'icon'    => 'fas fa-fw fa-share',
             'can' => 'manage-career',
-            'icon' => 'fas fa-mail-bulk mr-1',
+            'submenu' => [
+                [
+                    'text' => 'Manage Career',
+                    'url' => 'admin/career',
+                ],
+                [
+                    'text' => 'Job Application',
+                    'url'  => 'admin/career-applied',
+                ],
+            ],
         ],
         [
-            'text' => 'Applied Career',
-            'url' => 'admin/career-applied',
+            'text'    => 'Lead',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Customer Lead',
+                    'url'  => 'admin/customer/lead',
+                ],
+                [
+                    'text' => 'Partner Lead',
+                    'url'  => 'admin/partner/lead',
+                ],
+                [
+                    'text' => 'Referral Lead',
+                    'url'  => 'admin/referral/lead',
+                ],
+            ],
+        ],
+        [
+            'text' => 'Contact',
+            'url' => 'admin/contacts',
             'can' => 'manage-career',
             'icon' => 'fas fa-mail-bulk mr-1',
         ],
@@ -243,40 +283,6 @@ return [
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
         ],
-//        [
-//            'text'    => 'multilevel',
-//            'icon'    => 'fas fa-fw fa-share',
-//            'submenu' => [
-//                [
-//                    'text' => 'level_one',
-//                    'url'  => '#',
-//                ],
-//                [
-//                    'text'    => 'level_one',
-//                    'url'     => '#',
-//                    'submenu' => [
-//                        [
-//                            'text' => 'level_two',
-//                            'url'  => '#',
-//                        ],
-//                        [
-//                            'text'    => 'level_two',
-//                            'url'     => '#',
-//                            'submenu' => [
-//                                [
-//                                    'text' => 'level_three',
-//                                    'url'  => '#',
-//                                ],
-//                                [
-//                                    'text' => 'level_three',
-//                                    'url'  => '#',
-//                                ],
-//                            ],
-//                        ],
-//                    ],
-//                ],
-//            ],
-//        ],
     ],
     /*
       |--------------------------------------------------------------------------

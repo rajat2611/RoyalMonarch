@@ -58,16 +58,16 @@
                                                     <div class="social_icon">
                                                         <ul>
                                                             <li>
-                                                                <a href="#"> <i class="ti-facebook"></i> </a>
+                                                                <a href="{{$team->facebook}}" target="_blank"> <i class="ti-facebook"></i> </a>
                                                             </li>
                                                             <li>
-                                                                <a href="#"> <i class="ti-twitter-alt"></i> </a>
+                                                                <a href="{{$team->twitter}}" target="_blank"> <i class="ti-twitter-alt"></i> </a>
                                                             </li>
                                                             <li>
-                                                                <a href="#"> <i class="ti-instagram"></i> </a>
+                                                                <a href="{{$team->instagram}}" target="_blank"> <i class="ti-instagram"></i> </a>
                                                             </li>
                                                             <li>
-                                                                <a href="#"> <i class="ti-skype"></i> </a>
+                                                                <a href="{{$team->skype}}" target="_blank"> <i class="ti-skype"></i> </a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -86,7 +86,7 @@
                                         
                                         
                                         <div class="col-sm-6 col-lg-3">
-                                            <div class="" style="height: 78%;background: #5c74ff;">
+                                            <div class="" style="height: 78%;background: #5c74ff;background-image: linear-gradient(#0026ff, #fffffff5);">
                                                 <div class="single_blog_img apply-job">
                                                     <h2 class="mb-20">Apply For Job</h2>
                                                     <a href="/career" class="btn">Read More</a>

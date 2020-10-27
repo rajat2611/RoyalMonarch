@@ -18,16 +18,16 @@
                         <div class="social_icons1">
                             <ul class="d-flex align-items-center">
                                 <li>
-                                    <a href="{{$data->facebook}}"> <i class="ti-facebook"></i> </a>
+                                    <a href="{{$data->facebook}}" target="_blank"> <i class="ti-facebook"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="{{$data->twitter}}"> <i class="ti-twitter-alt"></i> </a>
+                                    <a href="{{$data->twitter}}" target="_blank"> <i class="ti-twitter-alt"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="{{$data->instagram}}"> <i class="ti-instagram"></i> </a>
+                                    <a href="{{$data->instagram}}" target="_blank"> <i class="ti-instagram"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="{{$data->skype}}"> <i class="ti-skype"></i> </a>
+                                    <a href="{{$data->skype}}" target="_blank"> <i class="ti-skype"></i> </a>
                                 </li>
                             </ul>
                         </div>
@@ -37,7 +37,7 @@
                     <div class="team-image-wrapper">
                         
                     </div>
-                    <img src="{{asset('storage/team/cover.png')}}" style="width:100%">
+                    <img src="{{asset('storage/'.$data->cover_image)}}" style="width:100%">
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
 
     <!--::team_part start::-->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-md" role="document">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content container">
                 <div class="modal-header">
                     <h5 class="modal-title text-capitalize" id="exampleModalLabel">Note from {{$data->name}}</h5>
@@ -55,7 +55,7 @@
                     </button>
                 </div>
                 <div class="modal-body text-center">
-                    <div class="text-center">
+                    <div class="text-center" style="text-align: justify">
                         <p>{!! $data->bio !!}</p>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                                                 </div>-->
                         <bold class="mt-5">{{$data->name}}</bold>
                         <p>{{$data->designation}}</p>
-                        <a href="#" role="button" data-toggle="modal" data-target="#exampleModal" class="color-light-blue">Note from {{$data->name}}</a>
+                        <button type="button" role="button" data-toggle="modal" data-target="#exampleModal" class="btn" style="line-height: 1;padding: 13px 44px;">Letter from {{$data->name}}</button>
                     </div>
                 </div>
                 <div class="col-xl-9">

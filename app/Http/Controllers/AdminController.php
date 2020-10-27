@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
+use DB;
 
 class AdminController extends Controller {
 
@@ -59,15 +60,23 @@ class AdminController extends Controller {
     }
 
     public function blogs() {
-        $blog = \App\Blog::select('blogs.*', 'categories.title as category_title')
-                ->join('categories', 'blogs.category', '=', 'categories.id')
+//        $blog = \App\Blog::select('blogs.*', 'categories.title as category_title')
+//                ->join('categories', 'blogs.category', '=', 'categories.id')
+//                ->get();
+
+        $data = \DB::table("blogs")
+                ->select("blogs.*", \DB::raw("GROUP_CONCAT(categories.title) as category_title"))
+                ->leftjoin("categories", \DB::raw("FIND_IN_SET(categories.id,blogs.category)"), ">", \DB::raw("'0'"))
+//            ->where('user_id',getCurrentUser()->user_id)
+                ->groupBy("blogs.id")
                 ->get();
-        return view('admin.blogs.index')->with(['blogs' => $blog]);
+        return view('admin.blogs.index')->with(['blogs' => $data]);
     }
 
     public function blogAdd() {
         $allCategory = \App\Category::all();
-        return view('admin.blogs.add')->with(['category' => $allCategory]);
+        $allAuthor = \App\AuthorModel::all();
+        return view('admin.blogs.add')->with(['category' => $allCategory, 'authors' => $allAuthor]);
     }
 
     public function blogPost(Request $request) {
@@ -75,7 +84,8 @@ class AdminController extends Controller {
                     'title' => 'required',
                     'image' => 'required',
                     'description' => 'required',
-                    'category' => 'required'
+                    'category' => 'required',
+                    'author' => 'required',
         ]);
         if ($validator->fails()) {
             return Redirect::back()->withErrors($validator->errors())->withInput();
@@ -93,7 +103,16 @@ class AdminController extends Controller {
 
     public function blogEdit(\App\Blog $blog) {
         $allCategory = \App\Category::all();
-        return view('admin.blogs.edit')->with(['data' => $blog, 'category' => $allCategory]);
+        $allAuthor = \App\AuthorModel::all();
+//        
+//         $data=\DB::table("blogs")
+//            ->select("blogs.*",\DB::raw("GROUP_CONCAT(categories.title) as docname"))
+//            ->leftjoin("categories",\DB::raw("FIND_IN_SET(categories.id,blogs.category)"),">",\DB::raw("'0'"))
+////            ->where('user_id',getCurrentUser()->user_id)
+//            ->groupBy("blogs.id")
+//            ->get();
+//         dd($data);
+        return view('admin.blogs.edit')->with(['authors' => $allAuthor, 'data' => $blog, 'category' => $allCategory]);
     }
 
     public function blogUpdate(Request $request) {
@@ -101,7 +120,8 @@ class AdminController extends Controller {
                     'title' => 'required',
                     'blog_id' => 'required',
                     'description' => 'required',
-                    'category' => 'required'
+                    'category' => 'required',
+                    'author_id' => 'required',
         ]);
         if ($validator->fails()) {
             return Redirect::back()->withErrors($validator->errors())->withInput();
@@ -122,8 +142,11 @@ class AdminController extends Controller {
 
             $model->title = $request->title;
 
+            $category = implode(",", $request->category);
             $model->resume = $request->description;
-            $model->category = $request->category;
+            $model->category = $category;
+            $model->author_id = $request->author_id;
+            $model->published_date = $request->published_date;
             if ($model->save()) {
                 return Redirect::to('admin/blogs')->withSuccess('Blog successfully updated');
             }
@@ -399,6 +422,136 @@ class AdminController extends Controller {
                 ->where('apply_career.id', $id)
                 ->first();
         return view('admin.career.view-applied-job')->with(['data' => $data]);
+    }
+
+    public function author() {
+        $data = \App\AuthorModel::all();
+        return view('admin.author.index')->with(['data' => $data]);
+    }
+
+    public function authorAdd() {
+        return view('admin.author.add');
+    }
+
+    public function authorSave(Request $request) {
+        $validator = Validator::make($request->all(), [
+                    'first_name' => 'required',
+                    'last_name' => 'required',
+                    'qualification' => 'required',
+                    'image' => 'required',
+        ]);
+        if ($validator->fails()) {
+            return Redirect::back()->withErrors($validator->errors())->withInput();
+        }
+        DB::beginTransaction();
+        $model = new \App\AuthorModel();
+        $model->first_name = $request->get('first_name');
+        $model->last_name = $request->get('last_name');
+        $model->qualification = $request->get('qualification');
+        if ($model->save()) {
+            $profile_image = $request->file('image')->store('author/' . $model->id, 'public');
+            $model->image = $profile_image;
+            $model->save();
+            DB::commit();
+            return Redirect::to('/admin/author')->withSuccess('Author addedd successfully');
+        }
+    }
+
+    public function editAuthor(\App\AuthorModel $id) {
+        return view('admin.author.edit')->with(['data' => $id]);
+    }
+
+    public function authorUpdate(Request $request, \App\AuthorModel $author) {
+        $validator = Validator::make($request->all(), [
+                    'first_name' => 'required',
+                    'last_name' => 'required',
+                    'qualification' => 'required',
+        ]);
+        if ($validator->fails()) {
+            return Redirect::back()->withErrors($validator->errors())->withInput();
+        }
+        $author->first_name = $request->get('first_name');
+        $author->last_name = $request->get('last_name');
+        $author->qualification = $request->get('qualification');
+        if ($author->image && $request->hasFile('image')) {
+            $url = storage_path("app/public/" . $author->image);
+            if (File::exists($url)) {
+                File::delete($url);
+            }
+        }
+        if ($request->hasFile('image')) {
+            $image = $request->file('image')->store('author/' . $author->id, 'public');
+            $author->image = $image;
+        }
+        if ($author->save()) {
+            return Redirect::to('/admin/author')->withSuccess('Author updated successfully');
+        }
+    }
+
+    public function deleteAuthor(Request $request) {
+        $id = $request->get('id');
+        $author = \App\AuthorModel::find($id);
+        if ($author->delete()) {
+            return Response(['status' => 200, 'msg' => 'Author deleted successfully']);
+        }
+    }
+
+    public function contacts() {
+        $contacts = \App\Contact::all();
+        return view('admin.contact.index')->with(['data' => $contacts]);
+    }
+
+    public function contactsDetails(\App\Contact $id) {
+        return view('admin.contact.view')->with(['data' => $id]);
+    }
+
+    public function cutomerLead() {
+        $data = \App\Join::all();
+        return view('admin.leads.customer')->with(['data' => $data]);
+    }
+
+    public function viewcutomerLead($id) {
+        $data = \App\Join::find($id);
+        return view('admin.leads.customer-view')->with(['data' => $data]);
+    }
+
+    public function referralLead() {
+        $data = \App\LeadModel::where('lead_type', 'customer')->get();
+        return view('admin.leads.referral')->with(['data' => $data]);
+    }
+
+    public function partnerLead() {
+        $data = \App\LeadModel::where('lead_type', 'partner')->get();
+        return view('admin.leads.partner')->with(['data' => $data]);
+    }
+
+    public function leadStatus(Request $request) {
+        $id = $request->get('id');
+        $model = \App\LeadModel::find($id);
+        $model->status = $request->get('status');
+        if ($model->save()) {
+            return Response(['status' => 200, 'msg' => 'Status Updated successfully']);
+        }
+        return Response(['status' => 400, 'error' => 'Opps! somthing went wrong']);
+    }
+
+    public function cutomerLeadStatus(Request $request) {
+        $id = $request->get('id');
+        $model = \App\Join::find($id);
+        $model->status = $request->get('status');
+        if ($model->save()) {
+            return Response(['status' => 200, 'msg' => 'Status Updated successfully']);
+        }
+        return Response(['status' => 400, 'error' => 'Opps! somthing went wrong']);
+    }
+    public function contactStatus(Request $request) {
+        $id = $request->get('id');
+        $model = \App\Contact::find($id);
+        $model->status = $request->get('status');
+        if ($model->save()) {
+            return Response(['status' => 200, 'msg' => 'Status Updated successfully']);
+        }
+        return Response(['status' => 400, 'error' => 'Opps! somthing went wrong']);
     }
 
 }
