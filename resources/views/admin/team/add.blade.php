@@ -21,47 +21,47 @@
                         <input type="text" class="form-control" name="name" placeholder="Name" value="{{old('name')}}">
                     </div>
                     <div class="form-group">
-                        <label>Category</label>
+                        <label>Position*</label>
                         <input type="text" name="designation" class="form-control designation" placeholder="Designation" value="{{old('designation')}}">
                     </div>
                     <div class="form-group">
-                        <label>Image</label>
+                        <label>Display Image*</label>
                         <input type="file" class="form-control" name="image" aaccept="images.*">
                     </div>
                     <div class="form-group">
-                        <label>Cover Image</label>
+                        <label>Cover Image*</label>
                         <input type="file" class="form-control" name="cover_image" accept="images.*">
                     </div>
                     <div class="form-group">
-                        <label>Profile Image</label>
+                        <label>Profile Image*</label>
                         <input type="file" class="form-control" name="profile_image" accept="images.*">
                     </div>
                     <div class="form-group">
-                        <label>Facebook</label>
+                        <label>Facebook*</label>
                         <input type="text" name="facebook" class="form-control facebook" placeholder="Facebook" value="{{old('facebook')}}">
                     </div>
                     <div class="form-group">
-                        <label>Twitter</label>
+                        <label>Twitter*</label>
                         <input type="text" name="twitter" class="form-control twitter" placeholder="Twitter" value="{{old('twitter')}}">
                     </div>
                     <div class="form-group">
-                        <label>Tnstagram</label>
+                        <label>Tnstagram*</label>
                         <input type="text" name="instagram" class="form-control instagram" placeholder="Instagram" value="{{old('instagram')}}">
                     </div>
                     <div class="form-group">
-                        <label>Skype</label>
+                        <label>Skype*</label>
                         <input type="text" name="skype" class="form-control skype" placeholder="Skype" value="{{old('skype')}}">
                     </div>
                     <div class="form-group">
-                        <label>Address</label>
+                        <label>Location*</label>
                         <textarea class="form-control" name="address">{{old('address')}}</textarea>
                     </div>
                     <div class="form-group">
-                        <label>Bio Details</label>
+                        <label>Bio Details*</label>
                         <textarea class="form-control summernote" name="bio">{{old('bio')}}</textarea>
                     </div>
                     <div class="form-group">
-                        <label>Personal Info</label>
+                        <label>Personal Info*</label>
                         <textarea class="form-control summernote" name="personal_info">{{old('personal_info')}}</textarea>
                     </div>
                     <div class="form-group">

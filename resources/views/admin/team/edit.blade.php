@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'Team')
+@section('title', 'Edit Team')
 
 @section('content_header')
-<h1>Edit Blog</h1>
+<h1>Edit Team</h1>
 @stop
 
 @section('content')
@@ -22,32 +22,32 @@
                         <input type="text" class="form-control" name="name" placeholder="Name" value="{{old('name') ? old('name') : $data->name}}">
                     </div>
                     <div class="form-group">
-                        <label>Category</label>
+                        <label>Designation*</label>
                         <input type="text" name="designation" class="form-control designation" placeholder="Designation" value="{{old('designation') ? old('designation') : $data->designation}}">
                     </div>
                     <div class="form-group">
-                        <label>Image</label>
+                        <label>Display Image*</label>
                         <input type="file" class="form-control" name="image" accept="images.*">
                         @if($data->image)
                         <img src="{{asset('storage/'.$data->image)}}" width="70">
                         @endif
                     </div>
                     <div class="form-group">
-                        <label>Cover Image</label>
+                        <label>Cover Image*</label>
                         <input type="file" class="form-control" name="cover_image" accept="images.*">
                         @if($data->cover_image)
                         <img src="{{asset('storage/'.$data->cover_image)}}" width="70">
                         @endif
                     </div>
                     <div class="form-group">
-                        <label>Profile Image</label>
+                        <label>Profile Image*</label>
                         <input type="file" class="form-control" name="profile_image" accept="images.*">
                         @if($data->profile_image)
                         <img src="{{asset('storage/'.$data->profile_image)}}" width="70">
                         @endif
                     </div>
                     <div class="form-group">
-                        <label>Facebook</label>
+                        <label>Facebook*</label>
                         <input type="text" name="facebook" class="form-control facebook" placeholder="Facebook" value="{{old('facebook') ? old('facebook') : $data->facebook}}">
                     </div>
                     <div class="form-group">
@@ -55,15 +55,15 @@
                         <input type="text" name="twitter" class="form-control twitter" placeholder="Twitter" value="{{old('twitter') ? old('twitter') : $data->twitter}}">
                     </div>
                     <div class="form-group">
-                        <label>Tnstagram</label>
+                        <label>Tnstagram*</label>
                         <input type="text" name="instagram" class="form-control instagram" placeholder="Instagram" value="{{old('instagram') ? old('instagram') : $data->instagram}}">
                     </div>
                     <div class="form-group">
-                        <label>Skype</label>
+                        <label>Skype*</label>
                         <input type="text" name="skype" class="form-control skype" placeholder="Skype" value="{{old('skype') ? old('skype') : $data->skype}}">
                     </div>
                     <div class="form-group">
-                        <label>Address</label>
+                        <label>Location*</label>
                         <textarea class="form-control" name="address">{{old('address') ? old('address') : $data->address}}</textarea>
                     </div>
                     <div class="form-group">

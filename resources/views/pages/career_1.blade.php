@@ -24,6 +24,7 @@ position: relative;
     position: relative;
     vertical-align: middle;
     width: 20%;
+    margin-right: 40px;
 }
 .abt_RM p{
     text-transform: lowercase;
@@ -53,11 +54,11 @@ position: relative;
                     </div>
             <div class="col-md-6 my-md-0 my-5">
                 <h3 class="sec-title mb-5 color-light-blue job-details-role">About The role</h3>
-                <div class="abt_RM">
+<!--                <div class="abt_RM">
                     <h5 class="bold">About Royal Monarch</h5>
                     <p>
                         ROYAL MONARCH WAS FIRST FOUNDED IN 2015 IN BANGALORE AND WAS SUBSEQUENTLY RESTRUCTURED IN 2019 TO REFLECT CHANGES IN EQUITY HOLDINGS. WE ESTABLISHED ROYAL MONARCH IN RECOGNITION OF FOUR TRENDS DEFINING THE FINANCIAL PLANNING AND ASSET MANAGEMENT INDUSTRIES.</p>
-                </div>
+                </div>-->
                 <div class="abt_R">
                     <h5 class="bold">About the Role</h5>
                     <p>

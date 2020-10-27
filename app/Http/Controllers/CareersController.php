@@ -54,7 +54,7 @@ class CareersController extends Controller {
             }
             $is_first_job = false;
         }
-        if ($request->get('last_job') == "1") {
+        if (null == $request->get('last_job')) {
             $validator2 = Validator::make($request->all(), [
                         'end_date' => 'required',
             ]);
@@ -63,6 +63,15 @@ class CareersController extends Controller {
             }
             $current_job = false;
         }
+        $education = null;
+        foreach ($request->get('school') as $key => $value) {
+            $data = array(
+                'school' => $request->get('school')[$key],
+                'qualification' => $request->get('qualification')[$key],
+            );
+            $education[] = $data;
+        }
+//        dd($request->all());
         $image = $request->file('resume')->store('careers_applied', 'public');
         $apply = \App\ApplyCareer::create([
                     'career_id' => $request->get('career_id'),
@@ -71,8 +80,9 @@ class CareersController extends Controller {
                     'email' => $request->get('email'),
                     'mobile' => $request->get('mobile'),
                     'address' => $request->get('address'),
-                    'school' => $request->get('school'),
-                    'qualification' => $request->get('qualification'),
+                    'school' => json_encode($education),
+//                    'qualification' => $request->get('qualification'),
+                    'qualification' => 'qualification',
                     'is_first_job' => $is_first_job,
                     'emp_name' => $request->get('emp_name'),
                     'job_title' => $request->get('job_title'),
@@ -92,6 +102,43 @@ class CareersController extends Controller {
 
     public function teamDetails(\App\Team $team) {
         return view('pages.team_1')->with(['data' => $team]);
+    }
+
+    public function saveLead(Request $request) {
+        $validator = Validator::make($request->all(), [
+                    'name' => 'required',
+                    'mobile' => 'required|min:10|max:10',
+                    'email' => 'required',
+                    'lead_type' => 'required'
+        ]);
+        if ($validator->fails()) {
+            return Redirect::back()->withErrors($validator->errors())->withInput();
+        }
+        if ($request->get('lead_type') == "partner") {
+            $validator1 = Validator::make($request->all(), [
+                        'city' => 'required',
+            ]);
+            if ($validator1->fails()) {
+                return Redirect::back()->withErrors($validator1->errors())->withInput();
+            }
+        } else {
+            $validator1 = Validator::make($request->all(), [
+                        'friend_name' => 'required',
+            ]);
+            if ($validator1->fails()) {
+                return Redirect::back()->withErrors($validator1->errors())->withInput();
+            }
+        }
+        $model = new \App\LeadModel();
+        $model->name = $request->get('name');
+        $model->friend_name = $request->get('friend_name');
+        $model->email = $request->get('email');
+        $model->mobile = $request->get('mobile');
+        $model->city = $request->get('city');
+        $model->lead_type = $request->get('lead_type');
+        if ($model->save()) {
+            return Redirect::to('/thanks');
+        }
     }
 
 }

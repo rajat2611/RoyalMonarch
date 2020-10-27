@@ -3,7 +3,7 @@
 @section('title', 'Career')
 
 @section('content_header')
-<h1>Career</h1>
+<h1>Post New Job</h1>
 @stop
 
 @section('content')
@@ -21,7 +21,7 @@
                         <input type="text" class="form-control" name="title" placeholder="Title" value="{{old('title')}}">
                     </div>
                     <div class="form-group">
-                        <label>Place*</label>
+                        <label>Location*</label>
                         <input type="text" class="form-control" name="place" placeholder="Place" value="{{old('place')}}">
                     </div>
                     <div class="form-group">

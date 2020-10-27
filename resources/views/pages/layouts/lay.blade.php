@@ -22,9 +22,9 @@
         <link rel="stylesheet" href="{{ asset('css/pages/nice-select.css') }}">
         <link rel="stylesheet" href="{{ asset('css/pages/style.css') }}">
         <link rel="stylesheet" href="{{ asset('rafi/build/css/intlTelInput.css') }}">
-                      {{--    <link rel="stylesheet" href="{{ asset('rafi/build/css                      /demo.cs                     s') }}">--}}
+        {{--    <link rel="stylesheet" href="{{ asset('rafi/build/css                      /demo.cs                     s') }}">--}}
 
-        <style>
+                      <style>
                 #profileImage {
                     width: 50px;
                     height: 50px;
@@ -98,9 +98,11 @@
 
                                                 </li>
                                                 <li><a href="/support" class="@yield(6)">support</a></li>
+                                                <li><a href="/partner" class="@yield(7)">Become a Partner</a></li>
                                                 <li>
                                                     @auth
-                                                    @if (auth::user()->join)
+                                                    <?php /*@if (auth::user()->join) */ ?>
+                                                    @if (auth::check())
                                                     @if(auth::user()->role_id == 1)
                                                     <div class="navbar-nav flex-row order-md-last login-dropdown">
                                                         <div class="nav-item dropdown">
@@ -587,37 +589,38 @@
                                         </div>
                                     </div>
                                 </div>-->
+                    <div class="quick-footer">
+                        <div class="footer-area">
+                            <div class="container">
+                                <div class="row d-flex justify-content-between">
+                                    <ul>
+                                        <li><a href="/privacy-policies">Privacy Policy</a></li>
+                                        <li><a href="/copyrights">Copyright</a></li>
+                                        <li><a href="/terms">Terms & Condition</a></li>
+                                        <li><a href="/research">Research-Disclaimer</a></li>
+                                        <li><a href="javascript:void(0)" data-toggle="modal" data-target="#impLinksModal">Important Links</a></li>
+                                        <li><a href="/desclaimer">Disclaimer</a></li>
+                                        <li><a href="/applicant-privacy">Applicant and Candidate Privacy Policy</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#staySecureModal">Stay Secure</a></li>
+                                        <li><a href="/stay-alert">Stay Alert</a></li>
+                                        <li><a href="/ndncr">NDNCR Terms & Consitions</a></li>
+                                    </ul>
+                                    <p class="mt-2 text-center">Registered Office:Royal Monarch Finserv Private Limited,B1-504 Westgate Business Ba, Near Signature I,Corporate Road, Mukarba Crossing,S.G. Highway,Ahmedabad-380051,Gujarat Tel:<span style="color:#ff5775">079-484 666 22</span></p>
+                                    <p class="text-center">Royal Monarch Finserv Private Limited-SEBI Regn No.:BSE/NSE/MSEI/MCX</p>
+                                    <p class="text-center"><b>BSE</b> - CASH/FAQ/CD | <b>NSE</b> AP2069120373-CASH/FAQ/CD | <b>MCX</b> MCX/AP/136488-Commodities</p>
+                                    <p>Depository services through:NSDL/CDSL-IN-DP-365-2018</p>
+                                    <p>PMS:INP0000005786;Mutual Fund; ARN 20669; Research Analyst:INH00006183</p>
+                                    <p>For any complaint email at <span style="color:#ff5775">care@royalmonarch.in</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Footer End-->
 
             </footer>
 
-            <div class="bg-dark2 quick-footer">
-                <div class="footer-area">
-                    <div class="container">
-                        <div class="row d-flex justify-content-between">
-                            <ul>
-                                <li><a href="/privacy-policies">Privacy Policy</a></li>
-                                <li><a href="/copyrights">Copyright</a></li>
-                                <li><a href="/terms">Terms & Condition</a></li>
-                                <li><a href="/research">Research-Disclaimer</a></li>
-                                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#impLinksModal">Important Links</a></li>
-                                <li><a href="/desclaimer">Disclaimer</a></li>
-                                <li><a href="/applicant-privacy">Applicant and Candidate Privacy Policy</a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#staySecureModal">Stay Secure</a></li>
-                                <li><a href="/stay-alert">Stay Alert</a></li>
-                                <li><a href="/ndncr">NDNCR Terms & Consitions</a></li>
-                            </ul>
-                            <p class="mt-2 text-center">Registered Office:Royal Monarch Finserv Private Limited,B1-504 Westgate Business Ba, Near Signature I,Corporate Road, Mukarba Crossing,S.G. Highway,Ahmedabad-380051,Gujarat Tel:<span style="color:#ff5775">079-484 666 22</span></p>
-                            <p class="text-center">Royal Monarch Finserv Private Limited-SEBI Regn No.:BSE/NSE/MSEI/MCX</p>
-                            <p class="text-center"><b>BSE</b> - CASH/FAQ/CD | <b>NSE</b> AP2069120373-CASH/FAQ/CD | <b>MCX</b> MCX/AP/136488-Commodities</p>
-                            <p>Depository services through:NSDL/CDSL-IN-DP-365-2018</p>
-                            <p>PMS:INP0000005786;Mutual Fund; ARN 20669; Research Analyst:INH00006183</p>
-                            <p>For any complaint email at <span style="color:#ff5775">care@royalmonarch.in</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
             <!--    <footer>
             
@@ -787,7 +790,7 @@
                                 
                                 <script>
 
-                                                            $("#mor                    e_number").hide();
+                                                            $("#mor                            e_number").hide();
                                                     $(document).ready(function () {
 
                                                     var firstName = $('#first_name').text();

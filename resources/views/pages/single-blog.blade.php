@@ -16,7 +16,7 @@
                 </div>
                 <div class="post-feature-img-box">
                     <img src="/storage/{{$blog->image}}" style="width: 100%;height: 100%;">
-                    
+
                 </div>
             </div>
         </div>
@@ -29,6 +29,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 posts-list offset-2">
+                <div class="blog-footer">
+                    <div class="author_image">
+                        <img src="{{asset('storage/'.$blog->author_image)}}" width="100">
+                    </div>
+                    <h6>{{$blog->first_name}} {{$blog->last_name}}</h6>
+                </div>
                 <div class="single-post">
                     <div class="blog_details">
                         <p class="excert">
@@ -40,9 +46,9 @@
                 <div class="blog-author">
                     <div class="media align-items-center">
                         <div class="media-body">
-<!--                            <a href="#">
-                                <h2>Author : </h2> <h4>{{$blog->author}}</h4>
-                            </a>-->
+                            <!--                            <a href="#">
+                                                            <h2>Author : </h2> <h4>{{$blog->author}}</h4>
+                                                        </a>-->
                         </div>
                     </div>
                 </div>

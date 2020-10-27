@@ -23,10 +23,30 @@
                     </div>
                     <div class="form-group">
                         <label>Category</label>
-                        <select class="form-control" name="category">
+                        <?php
+                        $oldCategpry = explode(",", $data->category);
+                        ?>
+                        <select class="form-control category" name="category[]" multiple>
                             <option value="">Select Category</option>
                             @foreach($category as $cate)
-                            <option value="{{$cate->id}}" {{$cate->id == $data->category ? "selected" :""}}>{{$cate->title}}</option>
+                            <?php
+                            $selected = "";
+                            ?>
+                            @foreach($oldCategpry as $key => $value)
+                            @if($cate->id == $value)
+                            <?php $selected = "selected"; ?>
+                            @endif
+                            @endforeach
+                            <option value="{{$cate->id}}" {{$cate->id == $data->category ? "selected" :""}} {{$selected}}>{{$cate->title}}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Category</label>
+                        <select class="form-control" name="author_id">
+                            <option value="">Select Author</option>
+                            @foreach($authors as $cate)
+                            <option value="{{$cate->id}}" {{$cate->id == $data->author_id ? "selected" :""}}>{{$cate->first_name}} {{$cate->last_name}}</option>
                             @endforeach
                         </select>
                     </div>
@@ -36,6 +56,10 @@
                         @if($data->image)
                         <img src="{{asset('storage/'.$data->image)}}" width="70"> 
                         @endif
+                    </div>
+                    <div class="form-group">
+                        <label>Published Date</label>
+                        <input type="date" class="form-control" name="published_date" value="<?php echo date('Y-m-d',strtotime($data->published_date))?>">
                     </div>
                     <div class="form-group">
                         <label>Description</label>
@@ -54,11 +78,16 @@
 
 @section('css')
 <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.css" rel="stylesheet">
 @stop
 
 @section('js')
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 <script>
 $(".summernote").summernote({height: 200});
+$(".category").select2({
+    multiple: true
+});
 </script>
 @stop

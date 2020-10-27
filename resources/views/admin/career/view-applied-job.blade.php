@@ -41,11 +41,21 @@
                         </tr>
                         <tr>
                             <td>School</td>
-                            <td>{{$data->school}}</td>
-                        </tr>
-                        <tr>
-                            <td>Qualification</td>
-                            <td>{{$data->qualification}}</td>
+                            <td>
+                                <ol>
+                                    <?php
+                                    $schools=json_decode($data->school,true);
+//                                    dd($schools);
+                                    ?>
+                                @foreach($schools as $key => $value)
+                                <li>
+                                    <br/>
+                                    School : {{$value['school']}}<br/>
+                                    Qualification : {{$value['qualification']}}
+                                </li>
+                                @endforeach
+                                </ol>
+                            </td>
                         </tr>
                         <tr>
                             <td colspan="2"><h5>Work Experience</h5></td>
