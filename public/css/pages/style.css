@@ -5356,10 +5356,19 @@ a.unclickable {
 
 .blog_item_img {
     position: relative;
+    height: 222px;
 }
 .blog_item_img img{
     border-top-left-radius: 21px !important;
     border-top-right-radius: 21px !important;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .blog_item_img .blog_item_date {
