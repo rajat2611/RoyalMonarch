@@ -31,18 +31,18 @@
                         @include('/pages.contact_menu')
                     </div>
                     <div class="col-8 item-list-area">
-                        <div class="offset-lg-1 hero__caption hero__caption2 text-center">
+                        <div class="hero__caption hero__caption2 text-center">
                             <p data-animation="fadeInRight" data-delay=".4s" style="width: 88%;text-align: justify;margin:auto;">
-                                The foundation of the Royal Monarch culture is integrity, Authenticity, and Excellence. Our inclusive environment respects the diversity of talent and values the unique perspective of each member of our Royal Monarch family. Our culture rewards Intelligence, growth, and performance</p>
+                                The foundation of the Royal Monarch culture is integrity, Authenticity, and Excellence. Our inclusive environment respects the diversity of talent and values the unique perspective of each member of our Royal Monarch family. Our culture rewards <span class="text-blue">Intelligence, growth, and performance</span></p>
                         </div>
                         <div class="p-5"></div>
                     </div>
-                    <div class="col-12 mt-50">
+                    <div class="col-10 offset-1 mt-50">
                         <div class="d-md-flex mb-50 ">
-                            <div class="one-forth order-last align-self-center ml-md-5 col-md-5 col-sm-12">
+                            <div class="one-forth order-last align-self-center col-md-6 col-sm-12">
                                 <img src="/image/culture/Integrity.jpg" class="" alt="" width="85%">
                             </div>
-                            <div class="one-half ml-md-5 align-self-center col-md-6">
+                            <div class="one-half align-self-center col-md-6">
                                 <h2 class="mb-4 color-light-blue culture-section-title">
                                     <img src="/image/culture/Integrity-icon.png" style="width: 53px">
                                     <span>Integrity</span>
@@ -55,10 +55,10 @@
                             </div>
                         </div>
                         <div class="d-md-flex mb-50">
-                            <div class="one-forth align-self-center col-md-5 col-sm-12">
+                            <div class="one-forth align-self-center col-md-6 col-sm-12">
                                 <img src="/image/culture/Stewardship.jpg" class="" alt="">
                             </div>
-                            <div class="one-half ml-md-5 align-self-center col-md-6">
+                            <div class="one-half align-self-center col-md-6">
                                 <h2 class="mb-4 color-light-blue culture-section-title">
                                     <img src="/image/culture/Stweardship-icon.png" style="width: 53px">
                                     <span>Stewardship</span>                                
@@ -73,10 +73,10 @@
                             </div>
                         </div>
                         <div class="d-md-flex mb-50">
-                            <div class="one-forth order-last align-self-center col-md-5 col-sm-12">
+                            <div class="one-forth order-last align-self-center col-md-6 col-sm-12">
                                 <img src="/image/culture/Collaboration.jpg" class="" alt="">
                             </div>
-                            <div class="one-half ml-md-5 align-self-center col-md-6">
+                            <div class="one-half align-self-center col-md-6">
                                 <h2 class="mb-4 color-light-blue culture-section-title">
                                     <img src="/image/culture/Collaboration-icon.png" style="width: 53px">
                                     <span>Collaboration</span>
@@ -91,10 +91,10 @@
                             </div>
                         </div>
                         <div class="d-md-flex mb-50">
-                            <div class="one-forth align-self-center col-md-5 col-sm-12">
+                            <div class="one-forth align-self-center col-md-6 col-sm-12">
                                 <img src="/image/culture/Diversity.jpg" class="" alt="">
                             </div>
-                            <div class="one-half ml-md-5 align-self-center col-md-6">
+                            <div class="one-half align-self-center col-md-6">
                                 <h2 class="mb-4 color-light-blue culture-section-title">
                                     <img src="/image/culture/DIVERSITY-icon.png" style="width: 53px">
                                     <span>Diversity</span>
@@ -110,10 +110,10 @@
                             </div>
                         </div>
                         <div class="d-md-flex mb-50">
-                            <div class="one-forth order-last align-self-center ml-md-5 col-md-5 col-sm-12">
+                            <div class="one-forth order-last align-self-center ml-md-6 col-md-5 col-sm-12">
                                 <img src="/image/culture/Innovation.jpg" class="" alt="">
                             </div>
-                            <div class="one-half ml-md-5 align-self-center co-md-6">
+                            <div class="one-half align-self-center co-md-6">
                                 <h2 class="mb-4 color-light-blue culture-section-title">
                                     <img src="/image/culture/Innovation-icon.png" style="width: 53px">
                                     <span>Innovation</span>
@@ -128,10 +128,10 @@
                             </div>
                         </div>
                         <div class="d-md-flex mb-50">
-                            <div class="one-forth align-self-center col-md-5 col-sm-12">
+                            <div class="one-forth align-self-center col-md-6 col-sm-12">
                                 <img src="/image/culture/Education.jpg" class="" alt="">
                             </div>
-                            <div class="one-half ml-md-5 align-self-center col-md-6">
+                            <div class="one-half align-self-center col-md-6">
                                 <h2 class="mb-4 color-light-blue culture-section-title">
                                 <img src="/image/culture/Education-icon.png" style="width: 53px">
                                 <span>Education</span>

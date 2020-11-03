@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="col-6 offset-lg-3">
-                    <h4 style="text-align: left">We believe in being fair and square</h4>
+                    <h4 style="text-align: left;font-weight: bold">We believe in being fair and square</h4>
                     <p style="    text-align: justify;"  data-delay=".6s">
                         We’re building an inclusive economy where all classes have equal access to opportunity. We strive to live by these same values in all our workplaces. We invest in the personal and professional growth of every member of Royal Monarch. As a company pioneering the future of financial benefits, we also want to be a beacon for people development.
                     </p>
@@ -65,6 +65,8 @@
                             <img src="{{asset('image/Career/Carer_Room_To_grow.png')}}" width="25" style="float:left">
                             <h5>Room to grow</h5>
                             <p>Learning is built into every role here. You’ll get mentorship and take ownership.</p>
+                            <br/>
+                            <br/>
                         </div>
                     </div>
                     <div class="row career_perk">                        
@@ -89,7 +91,7 @@
                         <div class="col-md-6 align-self-center">
                             <img src="{{asset('image/Career/All-Inclusive.png')}}" style="box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);" width="100%">
                         </div>                                    
-                        <div class="col-md-6 align-self-center">
+                        <div class="col-md-5 ml-md-5 align-self-center">
                             <img src="{{asset('image/Career/We-have-got-you-covered.png')}}" width="25" style="float:left">
                             <h4><b>All Inclusive</b></h4>
                             <p>Be yourself. That’s who we’re hiring. Our culture celebrates and supports the difference that make each of us unique. It’s how we build better products for the world...and career growth for you.</p>
@@ -201,7 +203,8 @@
 <!-- What We do End-->
 
 <!--position start-->
-<div id="position" class="p-sm-5 pt-5">
+<div id="position" class="p-sm-5 pt-5"></div>
+<div id="" class="p-sm-5 pt-5">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mb-5">
@@ -212,9 +215,10 @@
             @forelse ($careers as $career)
             <div class="col-md-10 d-flex justify-content-between job_title">
                 <a href="/career/{{$career->id}}">
-                    <h5>{{$career->title}}</h5> </a>
+                    <h4 class="font-weight-600">{{$career->title}}</h4> 
+                </a>
                 <a href="/career/{{$career->id}}">
-                    <h6 class="text-info"> <span class="new_job_title"><i class="fas fa-map-marker-alt"></i> {{$career->place}}</span> <span class="text-secondary">. {{$career->time}}</span></h6></a>
+                    <h5 class="text-info"> <span class="new_job_title"><i class="fas fa-map-marker-alt"></i> {{$career->place}}</span> <span class="text-secondary"> &bull; {{$career->time}}</span></h5></a>
             </div>
 
             @empty

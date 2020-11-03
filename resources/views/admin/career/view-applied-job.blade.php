@@ -44,16 +44,16 @@
                             <td>
                                 <ol>
                                     <?php
-                                    $schools=json_decode($data->school,true);
+                                    $schools = json_decode($data->school, true);
 //                                    dd($schools);
                                     ?>
-                                @foreach($schools as $key => $value)
-                                <li>
-                                    <br/>
-                                    School : {{$value['school']}}<br/>
-                                    Qualification : {{$value['qualification']}}
-                                </li>
-                                @endforeach
+                                    @foreach($schools as $key => $value)
+                                    <li>
+                                        <br/>
+                                        School : {{$value['school']}}<br/>
+                                        Qualification : {{$value['qualification']}}
+                                    </li>
+                                    @endforeach
                                 </ol>
                             </td>
                         </tr>
@@ -64,29 +64,28 @@
                             <td>Applying for your first job</td>
                             <td>{{$data->is_first_job==1 ? "Yes":"No"}}</td>
                         </tr>
-                        @if($data->is_first_job==1)
+                        @if($data->is_first_job==0)
+                        <?php $experience = json_decode($data->job_title, true); ?>
                         <tr>
-                            <td>Employee Name</td>
-                            <td>{{$data->emp_name}}</td>
+                            <td>Work Experience</td>
+                            <td>
+                                <ol>
+                                    @foreach($experience as $key => $value)
+                                    <br/>
+                                    <li>
+                                        <b>Employee Name : </b>{{$value['emp_name']}}<br/>
+                                        <b>Job Title :</b> {{$value['job_title']}}<br/>
+                                        <b>Start Date : </b>{{$value['start_date']}}<br/>
+                                        <b>Is this current Job : </b>{{$value['last_job'] == "1" ? "Yes":"No"}}<br/>
+                                        @if($value['last_job']=="2")
+                                        <b>Leaving Date : </b>{{date('Y-m-d',strtotime($value['start_date']))}}
+                                        @endif
+                                    </li>
+                                    @endforeach
+                                </ol>
+                            </td>
                         </tr>
-                        <tr>
-                            <td>Employee Name</td>
-                            <td>{{$data->job_title}}</td>
-                        </tr>
-                        <tr>
-                            <td>Start Date</td>
-                            <td>{{$data->start_date}}</td>
-                        </tr>
-                        <tr>
-                            <td>Is this current job</td>
-                            <td>{{$data->current_job == 1 ? "Yes" : "No" }}</td>
-                        </tr>
-                        @if($data->current_job == 0)
-                        <tr>
-                            <td>End Date</td>
-                            <td>{{$data->end_date}}</td>
-                        </tr>
-                        @endif
+                        
                         @endif
                     </tbody>
                 </table>

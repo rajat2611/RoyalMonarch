@@ -75,15 +75,15 @@
                         <div class="col-lg-2 col-md-9 about_menu_link">
                             @include('/pages.contact_menu')
                         </div>
-                        <div class="col-8 offset-lg-1">
+                        <div class="col-9 ml-3">
                             <div class="hero__caption hero__caption2">
                                 <p data-animation="fadeInRight" data-delay=".6s">
-                                    When we talk about the ways that wealth and financial stability can define the individual, it has little to do with a balance sheet, and more to do with a balanced life. True Wealth is all that money can’t buy and death can’t take away. It takes far more than financial planning. It requires a comprehensive approach with as much imagination as innovation – creativity paired with careful calculation.</p>
+                                    When we talk about the ways that wealth and financial stability can define the individual, it has little to do with a <span class="text-blue">balance sheet</span>, and more to do with a <span class="text-blue">balanced life.</span> True Wealth is all that money can’t buy and death can’t take away. It takes far more than financial planning. It requires a comprehensive approach with as much imagination as innovation – creativity paired with careful calculation.</p>
                                 <div class="mb-10">
-                                    <p>As your trusted advisor, we are wholly dedicated to helping you reach a higher purpose for your wealth and design a lasting legacy for your family. We leverage deep industry knowledge, a vast network of specialized services, proven investment strategies and a passion for serving you.</p>
+                                    <p>As your trusted advisor, we are wholly dedicated to helping you reach a <span class="text-blue">higher purpose for your wealth and design a lasting legacy for your family.</span> We leverage deep industry knowledge, a vast network of specialized services, proven investment strategies and a passion for serving you.</p>
 
                                 </div>
-                                <h3 class="color-light-blue text-center" data-animation="fadeInLeft" data-delay=".8s"> "Live your life by design, not by default."</h3>
+                                <h2 class="color-light-blue text-center font-weight-600" data-animation="fadeInLeft" data-delay=".8s"> "Live your life by design, not by default."</h2>
 
                             </div>
                         </div>

@@ -5,12 +5,12 @@
 <main>
     <!-- Slider Area Start-->
     <div class="background-team">
-        <div class="container">
+        <div class="container-fluid" style="grid-auto-flow: column;padding: 0;display: grid;margin-bottom: 4em;">
             <!-- Section-tittle -->
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-6 mt-50">
                     <div class="section-tittle text-left mb-40 text-white">
-                        <span class="text-white">Our Team</span>
+                        <span class="text-white">OUR TEAM</span>
                         <h2 style="margin-bottom: 0;color: white;">{{$data->name}}
                         </h2>
                         <p class="text-white">{{$data->designation}}</p>
@@ -34,11 +34,36 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="team-image-wrapper">
-                        
-                    </div>
+                    <div class="team-image-wrapper"></div>
                     <img src="{{asset('storage/'.$data->cover_image)}}" style="width:100%">
                 </div>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row justify-content-center">
+                <div class="col-xl-3">
+                    <div class="section_tittle text-center sticky">
+                        <div class="team-image">
+                            <img src="{{asset('storage/'.$data->profile_image)}}" class="rounded-circle mb-5" alt="">
+                        </div>
+                        <!--                        <div class="image" style="background: url('storage/{{$data->image}}')">
+                                                    <img src="/img/team/1 (1).jpg" style="width: 100%; height: auto;" class="rounded-circle mb-5" alt="">
+                                                </div>-->
+                        <bold class="mt-5">{{$data->name}}</bold>
+                        <p>{{$data->designation}}</p>
+                        <button type="button" role="button" data-toggle="modal" data-target="#exampleModal" class="btn" style="line-height: 1;padding: 13px 44px;">Letter from {{$data->name}}</button>
+                    </div>
+                </div>
+                <div class="col-xl-9">
+                    <div class="section_body text-left">
+                        
+                        <div class="personal-info mt-5">
+                            <h2 class="text-info bar-top">Personal Info</h2>
+                            {!! $data->personal_info !!}
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -68,32 +93,8 @@
     </div>
 
     <section class="doctor_part single_page_doctor_part">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-3">
-                    <div class="section_tittle text-center sticky">
-                        <div class="team-image">
-                            <img src="{{asset('storage/'.$data->profile_image)}}" class="rounded-circle mb-5" alt="">
-                        </div>
-                        <!--                        <div class="image" style="background: url('storage/{{$data->image}}')">
-                                                    <img src="/img/team/1 (1).jpg" style="width: 100%; height: auto;" class="rounded-circle mb-5" alt="">
-                                                </div>-->
-                        <bold class="mt-5">{{$data->name}}</bold>
-                        <p>{{$data->designation}}</p>
-                        <button type="button" role="button" data-toggle="modal" data-target="#exampleModal" class="btn" style="line-height: 1;padding: 13px 44px;">Letter from {{$data->name}}</button>
-                    </div>
-                </div>
-                <div class="col-xl-9">
-                    <div class="section_body text-left">
-                        
-                        <div class="personal-info mt-5">
-                            <h2 class="text-info bar-top">Personal Info</h2>
-                            {!! $data->personal_info !!}
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+        <div class="container"></div>
+            
     </section>
     <!--::team_part end::-->
 
