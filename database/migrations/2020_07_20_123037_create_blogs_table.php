@@ -17,10 +17,15 @@ class CreateBlogsTable extends Migration
             $table->bigIncrements('id');
             $table->text('title');
             $table->text('resume');
-            $table->string('author');
-            $table->text('about_author');
+            $table->text('slug');
+            $table->text('category');
+            $table->string('author')->nullable();
+            $table->text('about_author')->nullable();
+            $table->unsignedBigInteger('author_id');
             $table->text('body');
             $table->text("image")->nullable();
+            $table->boolean('status');
+            $table->dateTime('published_date');
 
 
             

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCareersTable extends Migration
+class CreateAuthorTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,12 @@ class CreateCareersTable extends Migration
      */
     public function up()
     {
-        Schema::create('careers', function (Blueprint $table) {
+        Schema::create('author', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('title');
-            $table->string('place');
-            $table->string('time');
-            $table->text('about_role');
-            $table->boolean('status');
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('qualification');
+            $table->string('image');
             $table->timestamps();
         });
     }
@@ -31,6 +30,6 @@ class CreateCareersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('careers');
+        Schema::dropIfExists('author');
     }
 }
