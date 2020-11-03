@@ -13,13 +13,13 @@
     </div>
     <!-- Slider Area End-->
     <!-- ================ contact section start ================= -->
-    <section class="contact-section">
+    <section class="contact-section" id="signupform">
         <div class="section-title">
             <h1 class="font-weight-600"> <span style="color: #CDCDCD;">Trust.</span><span style="color: #999999;"> Transparency.</span><span style="color: #1b31a7;"> Accountability.</span></h1>
         </div>
         <div style="">
             <div class="bannerSection">
-                <div class="container">
+                <div class="container" >
                     <div class="row">
                         <div class="col-md-10 offset-1 row">
                             <div class="col-md-6 align-self-center">
@@ -27,7 +27,7 @@
                                     Earn over <br><span class="blue-text">₹ 1 lakh/month</span>
                                 </h1>
                                 <div class="BannerText">
-                                    We are one of the fastest growing brokers in the country. Earn commissions without any unwanted deductions.
+                                    We are one of the fastest growing Financial Planners in the country. Write your own cheque without any unwanted deductions.
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -63,7 +63,7 @@
                 </div>
             </div>
 
-            <div class="container mt-50 pt-10 partner_section_2">
+            <div class="container mt-50 mb-50 pt-10 partner_section_2">
                 <div class="row">
                     <div class="col-md-10 offset-1 row pb-40">
                         <h1>
@@ -85,26 +85,94 @@
                     </div>
                 </div>
             </div>
-
-            <div class="container mt-50 pt-10 partner_section_2">
-                <div class="row">
-                    <div class="col-md-10 offset-1 row pb-40">
-                        <h1>
-                            Earning potential <span class="text-blue">around you</span>
-                        </h1>
-                    </div>
-                    <div class="col-md-10 offset-1 row">
-                        <div class="col-md-5">
-                            <ul class="map-text-left">
-                                <li>
-                                    <h2 class="blue-text">3,50,000+</h2>
-                                    <h4>Market Potential</h4>
-                                </li>
-                            </ul>
+            <div class="bg-light">
+                <div class="container mt-50 partner_section_2">
+                    <div class="row">
+                        <div class="col-md-10 offset-1 row">
+                            <h2 class="font-weight-600">
+                                Earning potential <span class="text-blue">around you</span>
+                            </h2>
                         </div>
-                        <div class="col-md-7">
-                            <div id="myChartMap" class="">
+                        <div class="col-md-10 offset-1 row">
+                            <div class="col-md-5">
+                                <ul class="map-text-left">
+                                    <li>
+                                        <h2 class="blue-text">3,50,000+</h2>
+                                        <h4>Market Potential</h4>
+                                    </li>
+                                </ul>
                             </div>
+                            <div class="col-md-7">
+                                <div id="myChartMap" class="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-50 pt-10 mb-50">
+                <div class="row who_partners text-center">
+                    <div class="col-lg-12 col-md-12 justify-content-center text-center">
+                        <h2 class="text-center font-weight-600">Who can <span class="text-blue">Partner?</span></h2>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="partnerimg mb-2">
+                            <img src="{{asset('image/finance.svg')}}" alt="">
+                        </div>
+                        <h3 class="mb-2" style="
+                            font-size: 20px;
+                            font-weight: 600;
+                            ">Finance enthusiast</h3>
+                        <p class="para-margin">Your interest lies in finance and the stock market. You take great pleasure in guiding others with investment options.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="partnerimg mb-2">
+                            <img src="{{asset('image/internet.svg')}}" alt="">
+                        </div>
+                        <h3 class="mb-2" style="
+                            font-size: 20px;
+                            font-weight: 600;
+                            ">Internet Influencer</h3>
+                        <p class="para-margin">Social media is your playground. You have
+                            a good number of followers who easily
+                            consume all the content you share.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="partnerimg mb-2">
+                            <img src="{{asset('image/people.svg')}}" alt="">
+                        </div>
+                        <h3 class="mb-2" style="
+                            font-size: 20px;
+                            font-weight: 600;
+                            ">People Person</h3>
+                        <p class="para-margin">People love you! And you love people!
+                            So, by default, marketing comes to you,
+                            naturally. You can sell, and do it rather
+                            well.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="partnerimg mb-2">
+                            <img src="{{asset('image/self.svg')}}" alt="">
+                        </div>
+                        <h3 class="mb-2" style="
+                            font-size: 20px;
+                            font-weight: 600;
+                            ">Self Starter</h3>
+                        <p class="para-margin">"I'm my own boss", that's your mantra.
+                            You just want to earn and grow. The
+                            desire is powered by your dedication.
+                            And that takes you places!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-50 mb-50 pt-30 pb-30">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 offset-1">
+                        <div class="rtp-block">
+                            <h2 class="font-weight-600">Ready to <span class="text-blue">Partner?</span></h2>
+                            <h4 class="rtp-para">Register to jump-start your journey as an Upstox Partner.</h4>
+                            <a href="#signupform" id="rtp-signup-button" class="btn">Sign up</a>
                         </div>
                     </div>
                 </div>

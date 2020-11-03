@@ -333,13 +333,14 @@
         type: 'line',
         data: {
 //            labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
-            labels: ["Year " + 1, "Year " + 2, "Year " + 3, "Year " + 4, "Year " + 5, "Year " + 6, "Year " + 7, "Year " + 8, "Year " + 9, "Year " + 10, "Year " + 11, "Year " + 12, "Year " + 13, "Year " + 14, "Year " + 15],
+            labels: ["Year " + 1, "Year " + 2, "Year " + 3, "Year " + 4, "Year " + 5, "Year " + 6, "Year " + 7, "Year " + 8, "Year " + 9, "Year " + 10, "Year " + 11, "Year " + 12, "Year " + 13, "Year " + 14, "Year " + 15, "Year " + 16, "Year " + 17, "Year " + 18, "Year " + 19, "Year " + 20, "Year " + 21, "Year " + 22, "Year " + 23, "Year " + 24, "Year " + 25, "Year " + 26, "Year " + 27, ],
             datasets: [{
                     fill: true,
-                    label: 'Wealth',
+                    label: '',
                     strokeColor: "#ff6c23",
 //                  data: [1458732, 2063745, 2861685, 3914073, 5302046, 7132618, 9546923, 12731102, 16930654, 22469362, 29774256, 39408537, 52115004, 68873314, 90975524, 120125697, 158571292, 209276437, 276150466, 364349318, 480673065, 634090187, 836429039, 1103289806, 1455247269],
-                    data: [10000, 15000, 10000, 25000, 10000, 35000, 15000, 30000, 20000, 45000, 10000, 20000, 10000, 55000, 40000],
+//                    data: [10000, 15000, 10000, 25000, 10000, 35000, 15000, 30000, 20000, 45000, 10000, 20000, 10000, 55000, 40000],
+                    data: [1409082, 1933631, 2606357, 3469271, 4576342, 5996911, 7820087, 10160406, 13165112, 17023537, 21979175, 28345242, 36524713, 47036150, 60546983, 77916416, 100250751, 128974720, 165923509, 213461462, 274635261, 353371607, 454732400, 585244192, 753323620, 969826874, 1248759507],
                     backgroundColor: gradient1,
                     borderColor: '#1b6ca8',
                     borderWidth: 2,
@@ -371,12 +372,23 @@
             tooltips: {
                 mode: 'index',
                 intersect: false,
+                callbacks: {
+                    label: function (tooltipItem, data) {
+                        var value = data.datasets[0].data[tooltipItem.index];
+                        if (parseInt(value) >= 1000) {
+                            return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                        } else {
+                            return value;
+                        }
+                    }
+                } // end callbacks:
             },
             hover: {
                 mode: 'index',
                 intersect: false
             },
             legend: {
+                display: false,
                 position: "top",
                 labels: {
                     fontColor: "black"
@@ -482,7 +494,16 @@
             },
             tooltips: {
                 mode: 'index',
-                intersect: false,
+                intersect: false, callbacks: {
+                    label: function (tooltipItem, data) {
+                        var value = data.datasets[0].data[tooltipItem.index];
+                        if (parseInt(value) >= 1000) {
+                            return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                        } else {
+                            return value;
+                        }
+                    }
+                } // end callbacks:
             },
             hover: {
                 mode: 'index',
@@ -495,6 +516,7 @@
                 fontSize: 20,
             },
             legend: {
+                display: false,
                 position: "bottom",
                 labels: {
                     fontColor: "black"
@@ -531,8 +553,9 @@
     });
 
     /*Function to update the bar chart*/
-    function updateBarGraph(chart, data) {
+    function updateBarGraph(chart, data, label) {
         chart.data.datasets.pop();
+        chart.data.labels = label;
         chart.data.datasets.push({
 //            backgroundColor: 'rgba(69, 128, 196, 0.49)',
             backgroundColor: gradient1,
@@ -576,7 +599,10 @@
         var totalYear = value2;
         var mainyear = 65 - $('input[name="age"]').val();
         mainyear++;
-        for (var i = 0; i < 25; i++) {
+        var labels = [];
+        for (var i = 0; i < (65 - $('input[name="age"]').val()); i++) {
+            labels.push("Year "+ (i+1));
+
             var newValue = totalYear - i;
             value2 = mainyear - newValue;
             if (value3 > 0)
@@ -594,7 +620,7 @@
 
 
             var x = saveHas + investHas;
-            data.push(x);
+            data.push( Math.round(x));
         }
         x = Math.floor(x)
         console.log("main value: " + x);
@@ -603,7 +629,7 @@
         $('strong.inp3').text(value2);
         $('strong.inp1').text(value1);
         console.log(data);
-        updateBarGraph(myChart2, data)
+        updateBarGraph(myChart2, data, labels)
     })
 
     var lis = $(".join_form .dashboardcode-bsmultiselect").find(".dropdown-menu li");

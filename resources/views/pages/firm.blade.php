@@ -79,17 +79,17 @@
                             <div class="col-lg-2 col-md-9 about_menu_link">
                                 @include('/pages.contact_menu')
                             </div>
-                            <div class="col-lg-5 col-md-9 offset-lg-2">
+                            <div class="col-lg-8 ml-3 col-md-9">
                                 <div class="hero__caption hero__caption2">
                                     {{--                                <p data-animation="fadeInRight" data-delay=".6s" class="text-lowercase">--}}
 {{--                                    ROYAL MONARCH WAS FIRST FOUNDED IN 2015 IN BANGALORE AND WAS SUBSEQUENTLY RESTRUCTURED IN 2019 TO REFLECT CHANGES IN EQUITY HOLDINGS. WE ESTABLISHED ROYAL MONARCH IN RECOGNITION OF FOUR TRENDS DEFINING THE FINANCIAL PLANNING AND ASSET MANAGEMENT INDUSTRIES.--}}
 {{--                                         </p>--}}
                                 <p class="mb-0" data-animation="fadeInRight" data-delay=".6s" >
-                                        Royal Monarch was first founded in 2015 in Bangalore and was subsequently restructured in 2019 to reflect changes in equity holdings
+                                        Royal Monarch <span class="text-blue">was first founded</span> in 2015 in Bangalore and was subsequently restructured in 2019 to reflect changes in equity holdings
                                     </p>
                                     <br/>
                                     <p class="mb-2" data-animation="fadeInRight" data-delay=".6s" >
-                                        We established Royal Monarch in recognition of four trends defining the financial planning and asset management industries.
+                                        We established Royal Monarch in recognition of four trends defining the <span class="text-blue">financial planning</span> and <span class="text-blue">asset management</span> industries.
                                     </p><br/>
                                     <div class="mb-30">
                                         <ul class="unordered-list">
@@ -294,6 +294,11 @@
 
 </main>
 @endsection
+
+@section('2')
+active
+@endsection
+
 @section('styles')
 <!--<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
 <link href="{{asset('css/pages/aos.css')}}" rel="stylesheet">

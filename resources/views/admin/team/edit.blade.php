@@ -27,14 +27,14 @@
                     </div>
                     <div class="form-group">
                         <label>Display Image*</label>
-                        <input type="file" class="form-control" name="image" accept="images.*">
+                        <input type="file" class="form-control" name="image">
                         @if($data->image)
                         <img src="{{asset('storage/'.$data->image)}}" width="70">
                         @endif
                     </div>
                     <div class="form-group">
                         <label>Cover Image*</label>
-                        <input type="file" class="form-control" name="cover_image" accept="images.*">
+                        <input type="file" class="form-control" name="cover_image">
                         @if($data->cover_image)
                         <img src="{{asset('storage/'.$data->cover_image)}}" width="70">
                         @endif

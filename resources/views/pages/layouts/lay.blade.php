@@ -22,9 +22,9 @@
         <link rel="stylesheet" href="{{ asset('css/pages/nice-select.css') }}">
         <link rel="stylesheet" href="{{ asset('css/pages/style.css') }}">
         <link rel="stylesheet" href="{{ asset('rafi/build/css/intlTelInput.css') }}">
-        {{--    <link rel="stylesheet" href="{{ asset('rafi/build/css                      /demo.cs                     s') }}">--}}
+                      {{--    <link rel="stylesheet" href="{{ asset('rafi/build/css                      /demo.cs                    s') }}">--}}
 
-                      <style>
+        <style>
                 #profileImage {
                     width: 50px;
                     height: 50px;
@@ -65,7 +65,7 @@
                 <!-- Header Start -->
                 <div class="header-area header-transparrent ">
                     <div class="main-header header-sticky">
-                        <div class="container">
+                        <div class="container-fluid">
                             <div class="row align-items-center" style="line-height: 1;">
                                 <!-- Logo -->
                                 <div class="col-xl-2 col-lg-2 col-md-1">
@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="col-xl-10 col-lg-10 col-md-10">
                                     <!-- Main-menu -->
-                                    <div class="main-menu f-right d-none d-lg-block">
+                                    <div class="main-menu f-center d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
                                                 <li><a href="/index" class="active-link @yield(1)"> Home</a>
@@ -101,7 +101,7 @@
                                                 <li><a href="/partner" class="@yield(7)">Become a Partner</a></li>
                                                 <li>
                                                     @auth
-                                                    <?php /*@if (auth::user()->join) */ ?>
+                                                    <?php /* @if (auth::user()->join) */ ?>
                                                     @if (auth::check())
                                                     @if(auth::user()->role_id == 1)
                                                     <div class="navbar-nav flex-row order-md-last login-dropdown">
@@ -454,17 +454,17 @@
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12">
                                         <ul class="important-links">
-                                            <li><a href="https://www1.nseindia.com/live_market/dynaContent/live_watch/pre_open_market/pre_open_market.htm">PRE OPEN SESSION</a></li>
-                                            <li><a href="https://www.nseindia.com/">NSE India</a></li>
-                                            <li><a href="https://www.bseindia.com/">BSE India</a></li>
-                                            <li><a href="http://www.sebi.gov.in/">SEBI</a></li>
-                                            <li><a href="http://www.sebi.gov.in/">RBI</a></li>
-                                            <li><a href="https://www.mcxindia.com/">MCX</a></li>
-                                            <li><a href="https://www.msei.in/">MSEI</a></li>
-                                            <li><a href="https://www.msei.in/">NCDEX</a></li>
-                                            <li><a href="https://www.nsdl.co.in/">NSDL</a></li>
-                                            <li><a href="http://www.cdslindia.com/">CDSL</a></li>
-                                            <li><a href="https://www.msei.in/">MSEI</a></li>
+                                            <li><a target="_blank" href="https://www1.nseindia.com/live_market/dynaContent/live_watch/pre_open_market/pre_open_market.htm">PRE OPEN SESSION</a></li>
+                                            <li><a target="_blank" href="https://www.nseindia.com/">NSE India</a></li>
+                                            <li><a target="_blank" href="https://www.bseindia.com/">BSE India</a></li>
+                                            <li><a target="_blank" href="http://www.sebi.gov.in/">SEBI</a></li>
+                                            <li><a target="_blank" href="http://www.sebi.gov.in/">RBI</a></li>
+                                            <li><a target="_blank" href="https://www.mcxindia.com/">MCX</a></li>
+                                            <li><a target="_blank" href="https://www.msei.in/">MSEI</a></li>
+                                            <li><a target="_blank" href="https://www.msei.in/">NCDEX</a></li>
+                                            <li><a target="_blank" href="https://www.nsdl.co.in/">NSDL</a></li>
+                                            <li><a target="_blank" href="http://www.cdslindia.com/">CDSL</a></li>
+                                            <li><a target="_blank" href="https://www.msei.in/">MSEI</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -548,9 +548,9 @@
                                         <div class="footer-tittle ">
                                             <h4>SUPPORT:</h4>
                                             <ul>
-                                                <li><a href="#">Get Started</a></li>
-                                                <li><a href="# "> Contact</a></li>
-                                                <li><a href="# ">Blog</a></li>
+                                                <li><a href="#" data-toggle="modal" data-target="#exampleModal">Get Started</a></li>
+                                                <li><a href="/support"> Contact</a></li>
+                                                <li><a href="/blog">Blog</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -560,8 +560,8 @@
                                         <div class="footer-tittle ">
                                             <h4>RESOURCES:</h4>
                                             <ul>
-                                                <li><a href="#">Reading Room</a></li>
-                                                <li><a href="# "> How it Work</a></li>
+                                                <li><a href="/blog">Reading Room</a></li>
+                                                <li><a href="/How_it_works"> How it Work</a></li>
                                                 <li><a href="# ">Calculate Wealth</a></li>
                                             </ul>
                                         </div>
@@ -605,12 +605,12 @@
                                         <li><a href="/stay-alert">Stay Alert</a></li>
                                         <li><a href="/ndncr">NDNCR Terms & Consitions</a></li>
                                     </ul>
-                                    <p class="mt-2 text-center">Registered Office:Royal Monarch Finserv Private Limited,B1-504 Westgate Business Ba, Near Signature I,Corporate Road, Mukarba Crossing,S.G. Highway,Ahmedabad-380051,Gujarat Tel:<span style="color:#ff5775">079-484 666 22</span></p>
+                                    <p class="mt-2 text-center">Registered Office:Royal Monarch Finserv Private Limited,B1-504 Westgate Business Ba, Near Signature I,Corporate Road, Mukarba Crossing,S.G. Highway,Ahmedabad-380051,Gujarat Tel:<a href="tel:079-484 666 22" style="color:#ff5775">079-484 666 22</a></p>
                                     <p class="text-center">Royal Monarch Finserv Private Limited-SEBI Regn No.:BSE/NSE/MSEI/MCX</p>
                                     <p class="text-center"><b>BSE</b> - CASH/FAQ/CD | <b>NSE</b> AP2069120373-CASH/FAQ/CD | <b>MCX</b> MCX/AP/136488-Commodities</p>
                                     <p>Depository services through:NSDL/CDSL-IN-DP-365-2018</p>
                                     <p>PMS:INP0000005786;Mutual Fund; ARN 20669; Research Analyst:INH00006183</p>
-                                    <p>For any complaint email at <span style="color:#ff5775">care@royalmonarch.in</span></p>
+                                    <p>For any complaint email at <span><a href="mailto:care@royalmonarch.in" style="color:#ff5775">care@royalmonarch.in</a></span></p>
                                 </div>
                             </div>
                         </div>
@@ -764,55 +764,55 @@
             <script>
                                                     var input = document.querySelector("#phone");
                                                     window.intlTelInput(input, {
-                                                    // allowDropdown: false,
-                                                    // autoHideDialCode: false,
-                                                    // autoPlaceholder: "off",
-                                                    // dropdownContainer: document.body,
-                                                    // excludeCountries: ["us"],
-                                                    // formatOnDisplay: false,
-                                                    // geoIpLookup: function(callback) {
-                                                    //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-                                                    //     var countryCode = (resp && resp.country) ? resp.country : "";
-                                                    //     callback(countryCode);
-                                                    //   });
-                                                    // },
-                                                    // hiddenInput: "full_number",
-                                                    // initialCountry: "auto",
-                                                    // localizedCountries: { 'de': 'Deutschland' },
-                                                    // nationalMode: false,
-                                                    // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-                                                    // placeholderNumberType: "MOBILE",
-                                                    preferredCountries: ['in', 'us'],
-                                                            // separateDialCode: true,
-                                                            utilsScript: "rafi/build/js/utils.js",
+                                                        // allowDropdown: false,
+                                                        // autoHideDialCode: false,
+                                                        // autoPlaceholder: "off",
+                                                        // dropdownContainer: document.body,
+                                                        // excludeCountries: ["us"],
+                                                        // formatOnDisplay: false,
+                                                        // geoIpLookup: function(callback) {
+                                                        //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+                                                        //     var countryCode = (resp && resp.country) ? resp.country : "";
+                                                        //     callback(countryCode);
+                                                        //   });
+                                                        // },
+                                                        // hiddenInput: "full_number",
+                                                        // initialCountry: "auto",
+                                                        // localizedCountries: { 'de': 'Deutschland' },
+                                                        // nationalMode: false,
+                                                        // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+                                                        // placeholderNumberType: "MOBILE",
+                                                        preferredCountries: ['in', 'us'],
+                                                        // separateDialCode: true,
+                                                        utilsScript: "rafi/build/js/utils.js",
                                                     });
-                                        </scrip            t                >
-                                
-                                <script>
+                                        </script>
+                                    
+    <script>
 
-                                                            $("#mor                            e_number").hide();
-                                                    $(document).ready(function () {
-
-                                                    var firstName = $('#first_name').text();
-                                                    var lastName = $('#last_name').text();
-                                                    var intials = firstName.charAt(0) + lastName.charAt(0);
-                                                    var profileImage = $('#profileImage').text("ss");
-                                                    });
-                                                    $('#dependants').on('change', function  () {
-                                                    var depends = $('#dependants').val();
-                                                    console.log(depends);
-                                                    if (depends == "more") {
-
-                                                    $("#more_number").show();
-                                                    var more = document.getElementById('more_number');
-                                                    more.style.display = "flex";
-                                                    } else {
-        //more.style.display  = "none";
         $("#more_number").hide();
-        }
+        $(document).ready(function () {
 
-                                                    })
-                                                </scri        pt>
-                                                </bod    y>
+            var firstName = $('#first_name').text();
+            var lastName = $('#last_name').text();
+            var intials = firstName.charAt(0) + lastName.charAt(0);
+            var profileImage = $('#profileImage').text("ss");
+        });
+        $('#dependants').on('change', function () {
+            var depends = $('#dependants').val();
+            console.log(depends);
+            if (depends == "more") {
+
+                $("#more_number").show();
+                var more = document.getElementById('more_number');
+                more.style.display = "flex";
+            } else {
+                //more.style.display  = "none";
+                $("#more_number").hide();
+            }
+
+        })
+                                                </script>
+                                                </body>
                                                 
                                                 </html>

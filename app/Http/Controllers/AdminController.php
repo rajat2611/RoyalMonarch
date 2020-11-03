@@ -260,6 +260,7 @@ class AdminController extends Controller {
         if ($validator->fails()) {
             return Redirect::back()->withErrors($validator->errors())->withInput();
         }
+//        dd($request->all());
         $model = \App\Team::find($request->get('team_id'));
         if ($model->image && $request->hasFile('image')) {
             $url = storage_path("app/public/" . $model->image);

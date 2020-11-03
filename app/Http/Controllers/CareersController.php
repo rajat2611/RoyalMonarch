@@ -43,6 +43,7 @@ class CareersController extends Controller {
         }
         $is_first_job = true;
         $current_job = true;
+        $work_expe=array();
         if ($request->get('is_first_job') == "2") {
             $validator1 = Validator::make($request->all(), [
                         'emp_name' => 'required',
@@ -53,6 +54,18 @@ class CareersController extends Controller {
                 return Redirect::back()->withErrors($validator1->errors())->withInput();
             }
             $is_first_job = false;
+            
+            // prep data
+            foreach ($request->get('emp_name') as $key => $value) {
+                $data=array(
+                    'emp_name'=>$request->get('emp_name')[$key],
+                    'job_title'=>$request->get('job_title')[$key],
+                    'start_date'=>$request->get('start_date')[$key],
+                    'last_job'=>$request->get('last_job_'.$key),
+                    'end_date'=>$request->get('end_date')[$key],
+                );
+                $work_expe[]=$data;
+            }
         }
         if (null == $request->get('last_job')) {
             $validator2 = Validator::make($request->all(), [
@@ -84,11 +97,11 @@ class CareersController extends Controller {
 //                    'qualification' => $request->get('qualification'),
                     'qualification' => 'qualification',
                     'is_first_job' => $is_first_job,
-                    'emp_name' => $request->get('emp_name'),
-                    'job_title' => $request->get('job_title'),
-                    'start_date' => $request->get('start_date'),
-                    'current_job' => $current_job,
-                    'end_date' => $request->get('end_date')
+//                    'emp_name' => $request->get('emp_name'),
+                    'job_title' =>json_encode($work_expe),
+//                    'start_date' => $request->get('start_date'),
+//                    'current_job' => $current_job,
+//                    'end_date' => $request->get('end_date')
         ]);
         if ($apply->save()) {
             return Redirect::to('apply-thanks/' . $request->name);

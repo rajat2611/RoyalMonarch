@@ -56,7 +56,7 @@
                         </div>
                         <div class="card-body">
                             <div class="form-group">
-                                <label>Name *</label>
+                                <label>First Name *</label>
                                 <input type="text" name="name" class="form-control" placeholder="First name" value="{{old('name')}}" required>
                             </div>
                             <div class="form-group">
@@ -101,36 +101,42 @@
                                 <hr/>
                                 <h5>Work experience</h5>
                             </div>
-                            <div class="form-group">
-                                <label>Applying for your first job?  *</label><br>
-                                <input type="radio" class="is_first_job" name="is_first_job" value="1" {{old('is_first_job')=="1" ? "checked":""}} required> Yes
-                                <input type="radio" class="is_first_job" name="is_first_job" value="2" {{old('is_first_job')=="2" ? "checked":""}} required> No
-                            </div>
-                            <div class="first-job" style="display:none">
+                            <div class="experience_section">
                                 <div class="form-group">
-                                    <label>Employer Name *</label>
-                                    <input type="text" name="emp_name" class="form-control" placeholder="Employer Name " value="{{old('emp_name')}}" required>
+                                    <label>Applying for your first job?  *</label><br>
+                                    <input type="radio" class="is_first_job" name="is_first_job" value="1" {{old('is_first_job')=="1" ? "checked":""}} required> Yes
+                                    <input type="radio" class="is_first_job" name="is_first_job" value="2" {{old('is_first_job')=="2" ? "checked":""}} required> No
                                 </div>
-                                <div class="form-group">
-                                    <label>Job Title *</label>
-                                    <input type="text" name="job_title" class="form-control" placeholder="Job Title" value="{{old('job_title')}}" required>
-                                </div>
-                                <div class="form-group">
-                                    <label>Start Date *</label>
-                                    <input type="date" name="start_date" class="form-control" value="{{old('start_date')}}" required>
-                                </div>
-                                <div class="form-group">
-                                    <hr/>
-                                    <label>Is this your current job *</label>
-                                    <input type="checkbox" class="last_job" name="last_job" value="1" {{old('start_date') =="1" ? "checked" :""}} required>
-                                </div>
-                                <div class="last-job">
-                                    <div class="form-group">
-                                        <label>Leaving Date *</label>
-                                        <input type="date" name="end_date" class="form-control" value="{{old('end_date')}}" required>
+                                <div class="main-job-section" style="display:none">
+                                    <div class="first-job" >
+                                        <div class="form-group">
+                                            <label>Employer Name *</label>
+                                            <input type="text" name="emp_name[]" class="form-control" placeholder="Employer Name " value="{{old('emp_name')}}" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Job Title *</label>
+                                            <input type="text" name="job_title[]" class="form-control" placeholder="Job Title" value="{{old('job_title')}}" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Start Date *</label>
+                                            <input type="date" name="start_date[]" class="form-control" value="{{old('start_date')}}" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <hr/>
+                                            <label>Is this your current job *</label>
+                                            <input type="radio" class="last_job" name="last_job_0" value="1" {{old('start_date') =="1" ? "checked" :""}} checked="" required> Yes
+                                            <input type="radio" class="last_job" name="last_job_0" value="2" {{old('start_date') =="2" ? "checked" :""}} required> No
+                                        </div>
+                                        <div class="last-job" style="display: none">
+                                            <div class="form-group">
+                                                <label>Leaving Date *</label>
+                                                <input type="date" name="end_date[]" class="form-control" value="{{old('end_date')}}" required>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>                        
+                                <a href="javascript:void(0)" class="btn add_experience" style="display:none">Add New</a>
+                            </div>
                         </div>
                         <div class="card-footer">
                             <div class="form-group">
@@ -151,18 +157,24 @@
 <script>
     $("body").on("change", ".is_first_job", function () {
         if ($(this).val() == "2") {
-            $(".first-job").css('display', 'block');
+            $(".main-job-section").css('display', 'block');
+            $(".add_experience").css('display', '');
         } else {
-            $(".first-job").css('display', 'none');
+            $(".main-job-section").css('display', 'none');
+            $(".add_experience").css('display', 'none');
         }
     });
     $("body").on("change", ".last_job", function () {
-        if ($(this).is(":checked")) {
-            $(".last-job").css('display', 'none');
-            $(".last-job input").attr('required', false);
+        $(".last-job").css('display', 'none');
+        $(".last-job input").attr('required', false);
+        var last_job = $(this).closest(".first-job").find(".last-job");
+        var last_job_input = $(this).closest(".first-job").find(".last-job input");
+        if ($(this).val() == "1") {
+            $(last_job).css('display', 'none');
+            $(last_job_input).attr('required', false);
         } else {
-            $(".last-job").css('display', 'block');
-            $(".last-job input").attr('required', true);
+            $(last_job).css('display', 'block');
+            $(last_job_input).attr('required', true);
         }
     });
 
@@ -170,6 +182,14 @@
         var data = $("body").find(".education-section:first").clone();
         $(data).find(".removeBtn").removeClass('hidden');
         $(".education-area").append(data);
+    });
+    $("body").on("click", ".add_experience", function () {
+        var length= $("body").find(".first-job").length;
+        var data = $("body").find(".first-job:first").clone();
+        $(data).find(".removeBtn").removeClass('hidden');
+//        $(data).find('input').val('');
+        $(data).find('.last_job').attr('name','last_job_'+length);
+        $(".main-job-section").append(data);
     });
     $("body").on("click", ".removeBtn", function () {
         $(this).closest(".education-section").remove();

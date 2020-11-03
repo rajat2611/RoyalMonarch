@@ -171,20 +171,36 @@
                                 <h5 class="panel-title">
                                     How much can I afford to spend on a car while paying down my student loans?
                                 </h5>
-                                <span>
+                                <div class="collapsed accordion-item-trigger" >
                                     <a class="collapsed open-collapse-area" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
-                                        <i class="more-less fa fa-plus-circle"></i>
+                                        <div class="accordion-open-btn btn-1">
+                                            <div class="plus-btn-row-1"></div>
+                                            <div class="plus-btn-row-2"></div>
+                                        </div>
                                     </a>
-                                </span>
+                                </div>
+<!--                                <span>
+                                <a class="collapsed open-collapse-area" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="more-less fa fa-plus-circle"></i>
+                                </a>
+                            </span>-->
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                 <div class="panel-body">
                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                    <span class="click-span">
+                                    <div class="collapsed click-span accordion-item-trigger" >
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                                            <div class="accordion-open-btn btn-1">
+                                                <div class="plus-btn-row-1"></div>
+                                                <!--<div class="plus-btn-row-2"></div>-->
+                                            </div>
+                                        </a>
+                                    </div>
+<!--                                    <span class="click-span">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
                                             <i class="more-less fa fa-minus-circle"></i>
                                         </a>
-                                    </span>
+                                    </span>-->
                                 </div>
                             </div>
                         </div>
@@ -195,20 +211,36 @@
                                     How much can I spend on a house if I also want to have kids?
 
                                 </h5>
-                                <span>
+                                <div class="collapsed accordion-item-trigger" >
                                     <a class="collapsed open-collapse-area" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <i class="more-less fa fa-plus-circle"></i>
+                                        <div class="accordion-open-btn btn-1">
+                                            <div class="plus-btn-row-1"></div>
+                                            <div class="plus-btn-row-2"></div>
+                                        </div>
                                     </a>
-                                </span>
+                                </div>
+<!--                                <span>
+                                <a class="collapsed open-collapse-area" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="more-less fa fa-plus-circle"></i>
+                                </a>
+                            </span>-->
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                 <div class="panel-body">
                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                    <span class="click-span">
+                                    <div class="collapsed click-span accordion-item-trigger" >
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <div class="accordion-open-btn btn-1">
+                                                <div class="plus-btn-row-1"></div>
+                                                <!--<div class="plus-btn-row-2"></div>-->
+                                            </div>
+                                        </a>
+                                    </div>
+<!--                                    <span class="click-span">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             <i class="more-less fa fa-minus-circle"></i>
                                         </a>
-                                    </span>
+                                    </span>-->
                                 </div>
                             </div>
                         </div>
@@ -218,20 +250,36 @@
                                 <h5 class="panel-title">
                                     I’m 30 and I’m just starting to save $10,000 per year. When can I comfortably retire?
                                 </h5>
-                                <span>
+                                <div class="collapsed accordion-item-trigger" >
                                     <a class="collapsed open-collapse-area" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        <i class="more-less fa fa-plus-circle"></i>
+                                        <div class="accordion-open-btn btn-1">
+                                            <div class="plus-btn-row-1"></div>
+                                            <div class="plus-btn-row-2"></div>
+                                        </div>
                                     </a>
-                                </span>
+                                </div>                                
+<!--                                <span>
+                                <a class="collapsed open-collapse-area" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="more-less fa fa-plus-circle"></i>
+                                </a>
+                            </span>-->
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                 <div class="panel-body">
                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                    <span class="click-span">
+                                    <div class="collapsed click-span accordion-item-trigger" >
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <div class="accordion-open-btn btn-1">
+                                                <div class="plus-btn-row-1"></div>
+                                                <!--<div class="plus-btn-row-2"></div>-->
+                                            </div>
+                                        </a>
+                                    </div> 
+<!--                                    <span class="click-span">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             <i class="more-less fa fa-minus-circle"></i>
                                         </a>
-                                    </span>
+                                    </span>-->
                                 </div>
                             </div>
                         </div>
@@ -242,206 +290,208 @@
         </div>
 
     </div>
-    <svg class="desk-roadmap mt-50" width="1440px" height="400px" viewBox="0 0 1440 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-    <stop stop-color="#6CC727" stop-opacity="0" offset="0%"></stop>
-    <stop stop-color="#6CC727" offset="100%"></stop>
-    </linearGradient>
+    <div class="container">
+        <svg class="desk-roadmap mt-50" width="" height="400px" viewBox="0 0 1440 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+        <stop stop-color="#6CC727" stop-opacity="0" offset="0%"></stop>
+        <stop stop-color="#6CC727" offset="100%"></stop>
+        </linearGradient>
 
-    <linearGradient id="fadeGrad" x1="0%" y1="50%" x2="100%" y2="50%">
-    <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
-    <stop stop-color="#FFFFFF" offset="10%"></stop>
-    <stop stop-color="#FFFFFF" offset="90%"></stop>
-    <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
-    </linearGradient>
+        <linearGradient id="fadeGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+        <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+        <stop stop-color="#FFFFFF" offset="10%"></stop>
+        <stop stop-color="#FFFFFF" offset="90%"></stop>
+        <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
 
-    <mask id="fade" maskContentUnits="objectBoundingBox">
-        <rect width="1" height="1" fill="url(#fadeGrad)"></rect>
-    </mask>
-    </defs>
-    <g id="roadmap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,3)">
-    <path mask="url(#fade)" class="roadmap-path-line" d="M1,289 C28.0711977,262 62.904531,248.5 105.5,248.5 C169.393204,248.5 182,276.5 249,269 C316,261.5 366,212 437,212 C508,212 524,227 579,222 C634,217 650,172 721,172 C792,172 817,182 863,182 C909,182 933.87307,132 1005,132 C1076.12693,132 1088,142 1147.5,142 C1207,142 1229.13932,108.718056 1289,82 C1328.90712,64.1879627 1379.57379,47.1879627 1441,31" id="Path-2" stroke="#6CC727" stroke-width="2"></path>
-    <g id="flag" transform="translate(1199.000000, -2.000000)">
-    <g transform="translate(4.000000, 132.000000)" class="roadmap-path-flag-point-container">
-    <circle id="Oval" fill="#6CC727" r="4" class="roadmap-path-flag-point"></circle>
-    </g>
-    <path class="roadmap-path-flag-line" d="M4,131.5 L4,0" id="Path-3" stroke="#6CC727" stroke-width="2" stroke-linecap="round"></path>
-    <g class="roadmap-path-flag-poly">
-    <polyline id="Path-4" stroke="#6CC727" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="4.5 4 92 4 82 31.5 92 58.5 4.5 58.5"></polyline>
-    </g>
-    <g transform="translate(-10.000000, 0.000000)">
-    <path class="roadmap-path-flag-text" d="M21.56,12.6 L18.74,17.772 L18.74,21 L16.82,21 L16.82,17.772 L14,12.6 L16.184,12.6 L17.78,15.84 L19.376,12.6 L21.56,12.6 Z M26.088,21.168 C23.676,21.168 21.72,19.272 21.72,16.8 C21.72,14.328 23.676,12.432 26.088,12.432 C28.5,12.432 30.456,14.328 30.456,16.8 C30.456,19.272 28.5,21.168 26.088,21.168 Z M26.088,19.296 C27.456,19.296 28.536,18.3 28.536,16.8 C28.536,15.3 27.456,14.304 26.088,14.304 C24.72,14.304 23.64,15.3 23.64,16.8 C23.64,18.3 24.72,19.296 26.088,19.296 Z M35.056,21.168 C33.208,21.168 31.816,20.088 31.816,18.288 L31.816,12.6 L33.736,12.6 L33.736,18.12 C33.736,18.756 34.036,19.296 35.056,19.296 C36.076,19.296 36.376,18.756 36.376,18.12 L36.376,12.6 L38.296,12.6 L38.296,18.288 C38.296,20.088 36.904,21.168 35.056,21.168 Z M44.492,21 L42.908,18.24 L41.996,18.24 L41.996,21 L40.076,21 L40.076,12.6 L43.436,12.6 C45.032,12.6 46.316,13.884 46.316,15.48 C46.316,16.512 45.692,17.448 44.768,17.916 L46.556,21 L44.492,21 Z M41.996,14.4 L41.996,16.56 L43.436,16.56 C43.964,16.56 44.396,16.092 44.396,15.48 C44.396,14.868 43.964,14.4 43.436,14.4 L41.996,14.4 Z M17.66,35.168 C15.896,35.168 14.768,34.328 14.3,33.092 L15.956,32.132 C16.256,32.828 16.772,33.296 17.72,33.296 C18.632,33.296 18.86,32.936 18.86,32.612 C18.86,32.096 18.38,31.892 17.12,31.544 C15.872,31.196 14.648,30.596 14.648,28.988 C14.648,27.368 16.016,26.432 17.468,26.432 C18.848,26.432 19.928,27.092 20.54,28.328 L18.92,29.276 C18.632,28.676 18.236,28.304 17.468,28.304 C16.868,28.304 16.568,28.604 16.568,28.94 C16.568,29.324 16.772,29.588 18.08,29.984 C19.352,30.368 20.78,30.812 20.78,32.588 C20.78,34.208 19.484,35.168 17.66,35.168 Z M25.32,35.168 C23.472,35.168 22.08,34.088 22.08,32.288 L22.08,26.6 L24,26.6 L24,32.12 C24,32.756 24.3,33.296 25.32,33.296 C26.34,33.296 26.64,32.756 26.64,32.12 L26.64,26.6 L28.56,26.6 L28.56,32.288 C28.56,34.088 27.168,35.168 25.32,35.168 Z M34.348,35.168 C31.816,35.168 29.98,33.272 29.98,30.8 C29.98,28.328 31.816,26.432 34.348,26.432 C35.872,26.432 37.216,27.188 37.948,28.376 L36.292,29.336 C35.92,28.688 35.2,28.304 34.348,28.304 C32.86,28.304 31.9,29.3 31.9,30.8 C31.9,32.3 32.86,33.296 34.348,33.296 C35.2,33.296 35.932,32.912 36.292,32.264 L37.948,33.224 C37.228,34.412 35.884,35.168 34.348,35.168 Z M43.136,35.168 C40.604,35.168 38.768,33.272 38.768,30.8 C38.768,28.328 40.604,26.432 43.136,26.432 C44.66,26.432 46.004,27.188 46.736,28.376 L45.08,29.336 C44.708,28.688 43.988,28.304 43.136,28.304 C41.648,28.304 40.688,29.3 40.688,30.8 C40.688,32.3 41.648,33.296 43.136,33.296 C43.988,33.296 44.72,32.912 45.08,32.264 L46.736,33.224 C46.016,34.412 44.672,35.168 43.136,35.168 Z M49.956,33.152 L53.316,33.152 L53.316,35 L48.036,35 L48.036,26.6 L53.256,26.6 L53.256,28.448 L49.956,28.448 L49.956,29.84 L52.956,29.84 L52.956,31.664 L49.956,31.664 L49.956,33.152 Z M57.736,35.168 C55.972,35.168 54.844,34.328 54.376,33.092 L56.032,32.132 C56.332,32.828 56.848,33.296 57.796,33.296 C58.708,33.296 58.936,32.936 58.936,32.612 C58.936,32.096 58.456,31.892 57.196,31.544 C55.948,31.196 54.724,30.596 54.724,28.988 C54.724,27.368 56.092,26.432 57.544,26.432 C58.924,26.432 60.004,27.092 60.616,28.328 L58.996,29.276 C58.708,28.676 58.312,28.304 57.544,28.304 C56.944,28.304 56.644,28.604 56.644,28.94 C56.644,29.324 56.848,29.588 58.156,29.984 C59.428,30.368 60.856,30.812 60.856,32.588 C60.856,34.208 59.56,35.168 57.736,35.168 Z M64.916,35.168 C63.152,35.168 62.024,34.328 61.556,33.092 L63.212,32.132 C63.512,32.828 64.028,33.296 64.976,33.296 C65.888,33.296 66.116,32.936 66.116,32.612 C66.116,32.096 65.636,31.892 64.376,31.544 C63.128,31.196 61.904,30.596 61.904,28.988 C61.904,27.368 63.272,26.432 64.724,26.432 C66.104,26.432 67.184,27.092 67.796,28.328 L66.176,29.276 C65.888,28.676 65.492,28.304 64.724,28.304 C64.124,28.304 63.824,28.604 63.824,28.94 C63.824,29.324 64.028,29.588 65.336,29.984 C66.608,30.368 68.036,30.812 68.036,32.588 C68.036,34.208 66.74,35.168 64.916,35.168 Z M17.66,49.168 C15.896,49.168 14.768,48.328 14.3,47.092 L15.956,46.132 C16.256,46.828 16.772,47.296 17.72,47.296 C18.632,47.296 18.86,46.936 18.86,46.612 C18.86,46.096 18.38,45.892 17.12,45.544 C15.872,45.196 14.648,44.596 14.648,42.988 C14.648,41.368 16.016,40.432 17.468,40.432 C18.848,40.432 19.928,41.092 20.54,42.328 L18.92,43.276 C18.632,42.676 18.236,42.304 17.468,42.304 C16.868,42.304 16.568,42.604 16.568,42.94 C16.568,43.324 16.772,43.588 18.08,43.984 C19.352,44.368 20.78,44.812 20.78,46.588 C20.78,48.208 19.484,49.168 17.66,49.168 Z M27.48,40.6 L27.48,42.448 L25.32,42.448 L25.32,49 L23.4,49 L23.4,42.448 L21.24,42.448 L21.24,40.6 L27.48,40.6 Z M32.248,49.168 C29.836,49.168 27.88,47.272 27.88,44.8 C27.88,42.328 29.836,40.432 32.248,40.432 C34.66,40.432 36.616,42.328 36.616,44.8 C36.616,47.272 34.66,49.168 32.248,49.168 Z M32.248,47.296 C33.616,47.296 34.696,46.3 34.696,44.8 C34.696,43.3 33.616,42.304 32.248,42.304 C30.88,42.304 29.8,43.3 29.8,44.8 C29.8,46.3 30.88,47.296 32.248,47.296 Z M42.512,49 L40.928,46.24 L40.016,46.24 L40.016,49 L38.096,49 L38.096,40.6 L41.456,40.6 C43.052,40.6 44.336,41.884 44.336,43.48 C44.336,44.512 43.712,45.448 42.788,45.916 L44.576,49 L42.512,49 Z M40.016,42.4 L40.016,44.56 L41.456,44.56 C41.984,44.56 42.416,44.092 42.416,43.48 C42.416,42.868 41.984,42.4 41.456,42.4 L40.016,42.4 Z M52.476,40.6 L49.656,45.772 L49.656,49 L47.736,49 L47.736,45.772 L44.916,40.6 L47.1,40.6 L48.696,43.84 L50.292,40.6 L52.476,40.6 Z" id="YOURSUCCESSSTORY" fill="#6CC727" fill-rule="nonzero"></path>
-    </g>
-    </g>
-    <foreignObject class="roadmap-text node" x="210.5000" y="205.0000">
-    <div class="roadmap-text">Start</div>                
-    </foreignObject>
-    <foreignObject class="roadmap-text node" x="274.5" y="170">
-    <div class="">Discovery Meeting</div>                
-    </foreignObject>
-    <foreignObject class="roadmap-text node" x="417" y="119.50000" >
-    <div class="roadmap-text">Develop an Investment Policy Statement</div>                
-    </foreignObject>
-    <foreignObject class="roadmap-text node" x="531" y="97" >
-    <div class="roadmap-text">Assess and Analyze</div>                
-    </foreignObject>
-    <foreignObject class="roadmap-text node" x="644" y="75" >
-    <div class="roadmap-text">Design an Investment Strategy</div>                
-    </foreignObject>
-    <foreignObject class="roadmap-text node" x="737" y="75" >
-    <div class="roadmap-text">Propose Planning and Recommendations</div>                
-    </foreignObject>
-    <foreignObject class="roadmap-text node" x="866.5" y="35.5" >
-    <div class="roadmap-text">Implement Financial Plan and Investment Strategy</div>                
-    </foreignObject>
-    <foreignObject class="roadmap-text node" x="980.5" y="28.5" >
-    <div class="roadmap-text">Monitor and Update Your Financial Plan</div>                
-    </foreignObject>
-    <foreignObject class="roadmap-text node" x="1085.5" y="13.5" >
-    <div class="roadmap-text">Refer friends, Family, and Co-workers</div>                
-    </foreignObject>
+        <mask id="fade" maskContentUnits="objectBoundingBox">
+            <rect width="1" height="1" fill="url(#fadeGrad)"></rect>
+        </mask>
+        </defs>
+        <g id="roadmap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,3)">
+        <path mask="url(#fade)" class="roadmap-path-line" d="M1,289 C28.0711977,262 62.904531,248.5 105.5,248.5 C169.393204,248.5 182,276.5 249,269 C316,261.5 366,212 437,212 C508,212 524,227 579,222 C634,217 650,172 721,172 C792,172 817,182 863,182 C909,182 933.87307,132 1005,132 C1076.12693,132 1088,142 1147.5,142 C1207,142 1229.13932,108.718056 1289,82 C1328.90712,64.1879627 1379.57379,47.1879627 1441,31" id="Path-2" stroke="#6CC727" stroke-width="2"></path>
+        <g id="flag" transform="translate(1199.000000, -2.000000)">
+        <g transform="translate(4.000000, 132.000000)" class="roadmap-path-flag-point-container">
+        <circle id="Oval" fill="#6CC727" r="4" class="roadmap-path-flag-point"></circle>
+        </g>
+        <path class="roadmap-path-flag-line" d="M4,131.5 L4,0" id="Path-3" stroke="#6CC727" stroke-width="2" stroke-linecap="round"></path>
+        <g class="roadmap-path-flag-poly">
+        <polyline id="Path-4" stroke="#6CC727" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="4.5 4 92 4 82 31.5 92 58.5 4.5 58.5"></polyline>
+        </g>
+        <g transform="translate(-10.000000, 0.000000)">
+        <path class="roadmap-path-flag-text" d="M21.56,12.6 L18.74,17.772 L18.74,21 L16.82,21 L16.82,17.772 L14,12.6 L16.184,12.6 L17.78,15.84 L19.376,12.6 L21.56,12.6 Z M26.088,21.168 C23.676,21.168 21.72,19.272 21.72,16.8 C21.72,14.328 23.676,12.432 26.088,12.432 C28.5,12.432 30.456,14.328 30.456,16.8 C30.456,19.272 28.5,21.168 26.088,21.168 Z M26.088,19.296 C27.456,19.296 28.536,18.3 28.536,16.8 C28.536,15.3 27.456,14.304 26.088,14.304 C24.72,14.304 23.64,15.3 23.64,16.8 C23.64,18.3 24.72,19.296 26.088,19.296 Z M35.056,21.168 C33.208,21.168 31.816,20.088 31.816,18.288 L31.816,12.6 L33.736,12.6 L33.736,18.12 C33.736,18.756 34.036,19.296 35.056,19.296 C36.076,19.296 36.376,18.756 36.376,18.12 L36.376,12.6 L38.296,12.6 L38.296,18.288 C38.296,20.088 36.904,21.168 35.056,21.168 Z M44.492,21 L42.908,18.24 L41.996,18.24 L41.996,21 L40.076,21 L40.076,12.6 L43.436,12.6 C45.032,12.6 46.316,13.884 46.316,15.48 C46.316,16.512 45.692,17.448 44.768,17.916 L46.556,21 L44.492,21 Z M41.996,14.4 L41.996,16.56 L43.436,16.56 C43.964,16.56 44.396,16.092 44.396,15.48 C44.396,14.868 43.964,14.4 43.436,14.4 L41.996,14.4 Z M17.66,35.168 C15.896,35.168 14.768,34.328 14.3,33.092 L15.956,32.132 C16.256,32.828 16.772,33.296 17.72,33.296 C18.632,33.296 18.86,32.936 18.86,32.612 C18.86,32.096 18.38,31.892 17.12,31.544 C15.872,31.196 14.648,30.596 14.648,28.988 C14.648,27.368 16.016,26.432 17.468,26.432 C18.848,26.432 19.928,27.092 20.54,28.328 L18.92,29.276 C18.632,28.676 18.236,28.304 17.468,28.304 C16.868,28.304 16.568,28.604 16.568,28.94 C16.568,29.324 16.772,29.588 18.08,29.984 C19.352,30.368 20.78,30.812 20.78,32.588 C20.78,34.208 19.484,35.168 17.66,35.168 Z M25.32,35.168 C23.472,35.168 22.08,34.088 22.08,32.288 L22.08,26.6 L24,26.6 L24,32.12 C24,32.756 24.3,33.296 25.32,33.296 C26.34,33.296 26.64,32.756 26.64,32.12 L26.64,26.6 L28.56,26.6 L28.56,32.288 C28.56,34.088 27.168,35.168 25.32,35.168 Z M34.348,35.168 C31.816,35.168 29.98,33.272 29.98,30.8 C29.98,28.328 31.816,26.432 34.348,26.432 C35.872,26.432 37.216,27.188 37.948,28.376 L36.292,29.336 C35.92,28.688 35.2,28.304 34.348,28.304 C32.86,28.304 31.9,29.3 31.9,30.8 C31.9,32.3 32.86,33.296 34.348,33.296 C35.2,33.296 35.932,32.912 36.292,32.264 L37.948,33.224 C37.228,34.412 35.884,35.168 34.348,35.168 Z M43.136,35.168 C40.604,35.168 38.768,33.272 38.768,30.8 C38.768,28.328 40.604,26.432 43.136,26.432 C44.66,26.432 46.004,27.188 46.736,28.376 L45.08,29.336 C44.708,28.688 43.988,28.304 43.136,28.304 C41.648,28.304 40.688,29.3 40.688,30.8 C40.688,32.3 41.648,33.296 43.136,33.296 C43.988,33.296 44.72,32.912 45.08,32.264 L46.736,33.224 C46.016,34.412 44.672,35.168 43.136,35.168 Z M49.956,33.152 L53.316,33.152 L53.316,35 L48.036,35 L48.036,26.6 L53.256,26.6 L53.256,28.448 L49.956,28.448 L49.956,29.84 L52.956,29.84 L52.956,31.664 L49.956,31.664 L49.956,33.152 Z M57.736,35.168 C55.972,35.168 54.844,34.328 54.376,33.092 L56.032,32.132 C56.332,32.828 56.848,33.296 57.796,33.296 C58.708,33.296 58.936,32.936 58.936,32.612 C58.936,32.096 58.456,31.892 57.196,31.544 C55.948,31.196 54.724,30.596 54.724,28.988 C54.724,27.368 56.092,26.432 57.544,26.432 C58.924,26.432 60.004,27.092 60.616,28.328 L58.996,29.276 C58.708,28.676 58.312,28.304 57.544,28.304 C56.944,28.304 56.644,28.604 56.644,28.94 C56.644,29.324 56.848,29.588 58.156,29.984 C59.428,30.368 60.856,30.812 60.856,32.588 C60.856,34.208 59.56,35.168 57.736,35.168 Z M64.916,35.168 C63.152,35.168 62.024,34.328 61.556,33.092 L63.212,32.132 C63.512,32.828 64.028,33.296 64.976,33.296 C65.888,33.296 66.116,32.936 66.116,32.612 C66.116,32.096 65.636,31.892 64.376,31.544 C63.128,31.196 61.904,30.596 61.904,28.988 C61.904,27.368 63.272,26.432 64.724,26.432 C66.104,26.432 67.184,27.092 67.796,28.328 L66.176,29.276 C65.888,28.676 65.492,28.304 64.724,28.304 C64.124,28.304 63.824,28.604 63.824,28.94 C63.824,29.324 64.028,29.588 65.336,29.984 C66.608,30.368 68.036,30.812 68.036,32.588 C68.036,34.208 66.74,35.168 64.916,35.168 Z M17.66,49.168 C15.896,49.168 14.768,48.328 14.3,47.092 L15.956,46.132 C16.256,46.828 16.772,47.296 17.72,47.296 C18.632,47.296 18.86,46.936 18.86,46.612 C18.86,46.096 18.38,45.892 17.12,45.544 C15.872,45.196 14.648,44.596 14.648,42.988 C14.648,41.368 16.016,40.432 17.468,40.432 C18.848,40.432 19.928,41.092 20.54,42.328 L18.92,43.276 C18.632,42.676 18.236,42.304 17.468,42.304 C16.868,42.304 16.568,42.604 16.568,42.94 C16.568,43.324 16.772,43.588 18.08,43.984 C19.352,44.368 20.78,44.812 20.78,46.588 C20.78,48.208 19.484,49.168 17.66,49.168 Z M27.48,40.6 L27.48,42.448 L25.32,42.448 L25.32,49 L23.4,49 L23.4,42.448 L21.24,42.448 L21.24,40.6 L27.48,40.6 Z M32.248,49.168 C29.836,49.168 27.88,47.272 27.88,44.8 C27.88,42.328 29.836,40.432 32.248,40.432 C34.66,40.432 36.616,42.328 36.616,44.8 C36.616,47.272 34.66,49.168 32.248,49.168 Z M32.248,47.296 C33.616,47.296 34.696,46.3 34.696,44.8 C34.696,43.3 33.616,42.304 32.248,42.304 C30.88,42.304 29.8,43.3 29.8,44.8 C29.8,46.3 30.88,47.296 32.248,47.296 Z M42.512,49 L40.928,46.24 L40.016,46.24 L40.016,49 L38.096,49 L38.096,40.6 L41.456,40.6 C43.052,40.6 44.336,41.884 44.336,43.48 C44.336,44.512 43.712,45.448 42.788,45.916 L44.576,49 L42.512,49 Z M40.016,42.4 L40.016,44.56 L41.456,44.56 C41.984,44.56 42.416,44.092 42.416,43.48 C42.416,42.868 41.984,42.4 41.456,42.4 L40.016,42.4 Z M52.476,40.6 L49.656,45.772 L49.656,49 L47.736,49 L47.736,45.772 L44.916,40.6 L47.1,40.6 L48.696,43.84 L50.292,40.6 L52.476,40.6 Z" id="YOURSUCCESSSTORY" fill="#6CC727" fill-rule="nonzero"></path>
+        </g>
+        </g>
+        <foreignObject class="roadmap-text node" x="210.5000" y="205.0000">
+        <div class="roadmap-text">Start</div>                
+        </foreignObject>
+        <foreignObject class="roadmap-text node" x="274.5" y="170">
+        <div class="">Discovery Meeting</div>                
+        </foreignObject>
+        <foreignObject class="roadmap-text node" x="417" y="119.50000" >
+        <div class="roadmap-text">Develop an Investment Policy Statement</div>                
+        </foreignObject>
+        <foreignObject class="roadmap-text node" x="531" y="97" >
+        <div class="roadmap-text">Assess and Analyze</div>                
+        </foreignObject>
+        <foreignObject class="roadmap-text node" x="644" y="75" >
+        <div class="roadmap-text">Design an Investment Strategy</div>                
+        </foreignObject>
+        <foreignObject class="roadmap-text node" x="737" y="75" >
+        <div class="roadmap-text">Propose Planning and Recommendations</div>                
+        </foreignObject>
+        <foreignObject class="roadmap-text node" x="866.5" y="35.5" >
+        <div class="roadmap-text" style="width: 117px;">Implement Financial Plan and Investment Strategy</div>                
+        </foreignObject>
+        <foreignObject class="roadmap-text node" x="980.5" y="28.5" >
+        <div class="roadmap-text">Monitor and Update Your Financial Plan</div>                
+        </foreignObject>
+        <foreignObject class="roadmap-text node" x="1085.5" y="13.5" >
+        <div class="roadmap-text">Refer friends, Family, and Co-workers</div>                
+        </foreignObject>
 
-    <g transform="translate(223.5000, 270.0000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" fill="#6CC727" position="1" data-pos="1"></circle>
-    <rect fill="#999999" class="roadmap-desc-line line-1" id="roadmap-desc-line1" width="1" height="100"></rect>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(196.000000, 239.000000)" id="active-point-container1" class="desc-container container-1">
-    <g class="roadmap-active-point" id="active-point1" position="1">
-    <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
-    <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
-    <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Start.png"></image>                                
-    <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
-    </g>
-    </g>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(335.05, 240.00000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="2" data-pos="2"></circle>
-    <rect fill="#999999" class="roadmap-desc-line-hide line-2" id="roadmap-desc-line2" width="1" height="100"></rect>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(307, 205)" class="desc-container container-2">
-    <g class="roadmap-active-point-hide" id="active-point2" data-position="2">
-    <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
-    <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
-    <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Discovery-Meeting.png"></image>                                
-    <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
-    </g>
-    </g>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(446.6, 212.50000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="3"  data-pos="3"></circle>
-    <rect fill="#999999" class="roadmap-desc-line-hide line-3" id="roadmap-desc-line3" width="1" height="100"></rect>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(420, 182.5)" class="desc-container container-3">
-    <g class="roadmap-active-point-hide" id="active-point3" data-position="3">
-    <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
-    <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
-    <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Develop-and-INvestment-Policy-Statement.png"></image>                                
-    <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
-    </g>
-    </g>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(558.15, 222.50000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <circle class="roadmap-dot-click" r="11" cursor="pointer" position="4" pointer-events="visible" data-pos="4"></circle>
-    <rect fill="#999999" class="roadmap-desc-line-hide line-4" id="roadmap-desc-line4" width="1" height="100"></rect>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(530, 191.5)" class="desc-container container-4">
-    <g class="roadmap-active-point-hide" id="active-point4" position="4" data-position="4">
-    <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
-    <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
-    <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Assess-Analyze.png"></image>                                
-    <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
-    </g>
-    </g>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(669.7, 181.00000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="5" data-pos="5"></circle>
-    <rect fill="#999999" class="roadmap-desc-line-hide line-5" id="roadmap-desc-line5" width="1" height="100"></rect>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(643, 150)" class="desc-container container-5">
-    <g class="roadmap-active-point-hide" id="active-point5" data-position="5">
-    <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
-    <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
-    <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Design-an-investment-strategy.png"></image>
-    <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
-    </g>
-    </g>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(781.25, 174.50000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="6" data-pos="6"></circle>
-    <rect fill="#999999" class="roadmap-desc-line-hide line-6" id="roadmap-desc-line6" width="1" height="100"></rect>
-    </g>
+        <g transform="translate(223.5000, 270.0000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" fill="#6CC727" position="1" data-pos="1"></circle>
+        <rect fill="#999999" class="roadmap-desc-line line-1" id="roadmap-desc-line1" width="1" height="100"></rect>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(196.000000, 239.000000)" id="active-point-container1" class="desc-container container-1">
+        <g class="roadmap-active-point" id="active-point1" position="1">
+        <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
+        <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Start.png"></image>                                
+        <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
+        </g>
+        </g>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(335.05, 240.00000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="2" data-pos="2"></circle>
+        <rect fill="#999999" class="roadmap-desc-line-hide line-2" id="roadmap-desc-line2" width="1" height="100"></rect>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(307, 205)" class="desc-container container-2">
+        <g class="roadmap-active-point-hide" id="active-point2" data-position="2">
+        <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
+        <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Discovery-Meeting.png"></image>                                
+        <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
+        </g>
+        </g>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(446.6, 212.50000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="3"  data-pos="3"></circle>
+        <rect fill="#999999" class="roadmap-desc-line-hide line-3" id="roadmap-desc-line3" width="1" height="100"></rect>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(420, 182.5)" class="desc-container container-3">
+        <g class="roadmap-active-point-hide" id="active-point3" data-position="3">
+        <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
+        <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Develop-and-INvestment-Policy-Statement.png"></image>                                
+        <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
+        </g>
+        </g>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(558.15, 222.50000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle class="roadmap-dot-click" r="11" cursor="pointer" position="4" pointer-events="visible" data-pos="4"></circle>
+        <rect fill="#999999" class="roadmap-desc-line-hide line-4" id="roadmap-desc-line4" width="1" height="100"></rect>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(530, 191.5)" class="desc-container container-4">
+        <g class="roadmap-active-point-hide" id="active-point4" position="4" data-position="4">
+        <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
+        <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Assess-Analyze.png"></image>                                
+        <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
+        </g>
+        </g>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(669.7, 181.00000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="5" data-pos="5"></circle>
+        <rect fill="#999999" class="roadmap-desc-line-hide line-5" id="roadmap-desc-line5" width="1" height="100"></rect>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(643, 150)" class="desc-container container-5">
+        <g class="roadmap-active-point-hide" id="active-point5" data-position="5">
+        <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
+        <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Design-an-investment-strategy.png"></image>
+        <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
+        </g>
+        </g>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(781.25, 174.50000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="6" data-pos="6"></circle>
+        <rect fill="#999999" class="roadmap-desc-line-hide line-6" id="roadmap-desc-line6" width="1" height="100"></rect>
+        </g>
 
-    <!-- Click icon -->
-    <g transform="translate(753, 144.5)" class="desc-container container-6">
-    <g class="roadmap-active-point-hide" id="active-point6" data-position="6">
-    <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
-    <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
-    <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Propose-Planning-and-Recommendations.png"></image>
-    <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
-    </g>
-    </g>
-    </g>
-    <!-- Click icon -->
+        <!-- Click icon -->
+        <g transform="translate(753, 144.5)" class="desc-container container-6">
+        <g class="roadmap-active-point-hide" id="active-point6" data-position="6">
+        <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
+        <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Propose-Planning-and-Recommendations.png"></image>
+        <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
+        </g>
+        </g>
+        </g>
+        <!-- Click icon -->
 
-    <g transform="translate(892.8, 173.50000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="7" data-pos="7"></circle>
-    <rect fill="#999999" class="roadmap-desc-line-hide line-7" id="roadmap-desc-line7" width="1" height="100"></rect>
-    </g>
+        <g transform="translate(892.8, 173.50000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="7" data-pos="7"></circle>
+        <rect fill="#999999" class="roadmap-desc-line-hide line-7" id="roadmap-desc-line7" width="1" height="100"></rect>
+        </g>
 
-    <!-- Click icon -->
-    <g transform="translate(865.5, 141.5)" class="desc-container container-7">
-    <g class="roadmap-active-point-hide" id="active-point7" data-position="7">
-    <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
-    <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
-    <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Impletement-Financial-plan-and-investment-Strategy.png"></image>
-    <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
-    </g>
-    </g>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(1004.35, 131.50000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="8" data-pos="8"></circle>
-    <rect fill="#999999" class="roadmap-desc-line-hide line-8" id="roadmap-desc-line8" width="1" height="100"></rect>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(975.5, 100.5)" class="desc-container container-8">
-    <g class="roadmap-active-point-hide" id="active-point8" data-position="8">
-    <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
-    <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
-    <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Monitor-and-update-your-financial-plan.png"></image>
-    <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
-    </g>
-    </g>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(1115.9, 138.50000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="9" data-pos="9"></circle>
-    <rect fill="#999999" class="roadmap-desc-line-hide line-9" id="roadmap-desc-line9" width="1" height="100"></rect>
-    </g>
-    <!-- Click icon -->
-    <g transform="translate(1087.5, 109.5)" class="desc-container container-9">
-    <g class="roadmap-active-point-hide" id="active-point9" data-position="9">
-    <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
-    <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
-    <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Refer-Friend.png"></image>
-    <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
-    </g>
-    </g>
-    </g>
-    <!-- Click icon -->
-    </g>
-    </svg>
+        <!-- Click icon -->
+        <g transform="translate(865.5, 141.5)" class="desc-container container-7">
+        <g class="roadmap-active-point-hide" id="active-point7" data-position="7">
+        <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
+        <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Impletement-Financial-plan-and-investment-Strategy.png"></image>
+        <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
+        </g>
+        </g>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(1004.35, 131.50000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="8" data-pos="8"></circle>
+        <rect fill="#999999" class="roadmap-desc-line-hide line-8" id="roadmap-desc-line8" width="1" height="100"></rect>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(975.5, 100.5)" class="desc-container container-8">
+        <g class="roadmap-active-point-hide" id="active-point8" data-position="8">
+        <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
+        <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Monitor-and-update-your-financial-plan.png"></image>
+        <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
+        </g>
+        </g>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(1115.9, 138.50000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle class="roadmap-dot-click" r="11" cursor="pointer" pointer-events="visible" position="9" data-pos="9"></circle>
+        <rect fill="#999999" class="roadmap-desc-line-hide line-9" id="roadmap-desc-line9" width="1" height="100"></rect>
+        </g>
+        <!-- Click icon -->
+        <g transform="translate(1087.5, 109.5)" class="desc-container container-9">
+        <g class="roadmap-active-point-hide" id="active-point9" data-position="9">
+        <circle id="bg" fill="#6CC727" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
+        <g id="atoms/icons/32/roadmap/a-ic-32-roadmap-team-on-same-page" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <image width="32px" height="32px" preserveAspectRatio="xMidYMid slice" xlink:href="/image/How_it_works/Refer-Friend.png"></image>
+        <!--<path d="M26.5,1 C27.2796961,1 27.9204487,1.59488808 27.9931334,2.35553999 L28,2.5 L28,27.5 C28,29.6801701 27.0351745,30.913139 25.1999568,30.9955789 L25,31 L4.97033286,30.9991191 C3.89756706,30.935355 3.08518362,30.5291632 2.58397485,29.7773501 C2.23095616,29.2478221 2.03165372,28.6752973 1.99070724,28.0674813 C1.95605298,27.5556976 2.31285791,27.1079033 2.80528538,27.0168164 L2.94609317,27.0009216 L6,27 L6,2.5 C6,1.72030388 6.59488808,1.07955132 7.35553999,1.00686658 L7.5,1 L26.5,1 Z M26.5,2 L7.5,2 C7.25454011,2 7.05039163,2.17687516 7.00805567,2.41012437 L7,2.5 L7,27 L22.0173853,27 C22.5415027,26.9999004 22.9767382,27.4045056 23.0148787,27.9272244 C23.1198918,29.3664422 23.7403123,30 25,30 C26.3135734,30 26.9482859,29.3013965 26.9969612,27.7043276 L27,27.5 L27,2.5 C27,2.25454011 26.8231248,2.05039163 26.5898756,2.00805567 L26.5,2 Z M22.0175301,27.9999964 L2.9884342,27.9999964 L3.00775088,28.1833198 C3.06014491,28.5466474 3.19526483,28.8915094 3.41602515,29.2226499 C3.70177717,29.6512779 4.15829173,29.9055127 4.80144048,29.98229 L5,29.9999964 L22.6852998,29.9999964 L22.564057,29.8287411 C22.2561377,29.3546633 22.0716624,28.7418864 22.0175301,27.9999964 Z M13.5,18 C13.7761424,18 14,18.2238576 14,18.5 L14,22.5 C14,22.7761424 13.7761424,23 13.5,23 L9.5,23 C9.22385763,23 9,22.7761424 9,22.5 L9,18.5 C9,18.2238576 9.22385763,18 9.5,18 L13.5,18 Z M13,19 L10,19 L10,22 L13,22 L13,19 Z M24,20 L24,21 L16,21 L16,20 L24,20 Z M13.5,11 C13.7761424,11 14,11.2238576 14,11.5 L14,15.5 C14,15.7761424 13.7761424,16 13.5,16 L9.5,16 C9.22385763,16 9,15.7761424 9,15.5 L9,11.5 C9,11.2238576 9.22385763,11 9.5,11 L13.5,11 Z M13,12 L10,12 L10,15 L13,15 L13,12 Z M24,13 L24,14 L16,14 L16,13 L24,13 Z M13,4 L13,5 L10,5 L10,8 L13,8 L13,7.5 L14,7.5 L14,8.5 C14,8.74545989 13.8231248,8.94960837 13.5898756,8.99194433 L13.5,9 L9.5,9 C9.25454011,9 9.05039163,8.82312484 9.00805567,8.58987563 L9,8.5 L9,4.5 C9,4.25454011 9.17687516,4.05039163 9.41012437,4.00805567 L9.5,4 L13,4 Z M15.1746043,3.6203717 L15.8253957,4.3796283 L12.3253957,7.3796283 C12.1518223,7.52840548 11.903627,7.53830399 11.7205258,7.4146896 L11.6464466,7.35355339 L10.6464466,6.35355339 L11.3535534,5.64644661 L12.0261519,6.31904516 L15.1746043,3.6203717 Z M24,6 L24,7 L16,7 L16,6 L24,6 Z" id="Shape"></path>-->
+        </g>
+        </g>
+        </g>
+        <!-- Click icon -->
+        </g>
+        </svg>
+    </div>
     <div class="p-5 desk-roadmap">
         <div id="" class="services position-1" style="margin-top: -70px;margin-left: -150px;">
             <div class="container">
@@ -613,7 +663,7 @@
                         </div>
                         <!-- End .content-->
                     </div>
-                    <div class="col-lg-5 col-md-5">
+                    <div class="col-lg-4 col-md-4">
                         <div class="card" style="box-shadow: 0 20px 20px 1px rgba(0,0,0,0.05);border: none;">
                             <div class="card-body">
                                 <form class="" action="/save-lead" method="post">
@@ -949,6 +999,34 @@
 
     </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 how_works_heading mb-50">
+                <h2><span class="blue-text">First time </span> creating a financial plan?</h2>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-50">
+                <h4 class="font-weight-600 mb-20">What does Origin do?</h4>
+                <p>Royal Monarch will help you build and implement a holistic financial plan. We combine cutting edge technology with certified planners to give you personalized recommendations that <span class="blue-text">help you reach your goals and manage your financial life.</span></p>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-50">
+                <h4 class="font-weight-600 mb-20">Are we on the same side?</h4>
+                <p>Yes! <span class="blue-text">Every financial planner at Royal Monarch is a fiduciary.</span> That means we are required by law only to recommend financial plans and products that are in your best interest.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-50">
+                <h4 class="font-weight-600 mb-20">What can you help me with?</h4>
+                <p>Got student loans? A baby on the way? Planning to buy a home? Worried whether you’re saving enough?  We give you unlimited access to our financial planners to help answer any question you might have. We can help you <span class="blue-text">plan your savings, student loans and other debt payoff, estate, insurance, retirement and more.</span></p>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-50">
+                <h4 class="font-weight-600 mb-20">How does it work?</h4>
+                <p>Think of us like primary care for your financial life. You’ll start with a 1:1 video <span class="blue-text">meeting with one of our (amazing) financial planners.</span> They’ll work hand-in-hand with you to collect some basic information about your life goals and wishes. From there, we use a combination of expert insight and financial technology to develop and implement a financial plan that's tailor-made for you and your family.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-50">
+                <h4 class="font-weight-600 mb-20">Is my information safe?</h4>
+                <p>We use best-in-class, <span class="blue-text">bank-level 256-bit AES data encryption and other security protocols</span> to protect your information. We never share your information with your employer.</p>
+            </div>
+        </div>
+    </div>
+
     <div class="container mb-50">
         <div class="row justify-content-center">
             <a href="#" class="btn" role="button" data-toggle="modal" data-target="#exampleModal">  Join us NOW  </a>
@@ -1098,11 +1176,11 @@ $("body").on("click", ".roadmap-dot-click", function () {
         $('section').not(currentSection).hide();
     });
     $("body").on("click", ".open-collapse-area", function () {
-        $(this).hide();
+        $(this).closest(".accordion-item-trigger").hide();
         $(this).closest(".panel-heading").css("border-bottom-width", "0px");
     });
     $("body").on("click", ".click-span", function () {
-        $(this).closest(".panel").find(".panel-heading span a").show();
+        $(this).closest(".panel").find(".accordion-item-trigger").show();
         $(this).closest(".panel").find(".panel-heading").css("border-bottom-width", "10px");
     });
 </script>

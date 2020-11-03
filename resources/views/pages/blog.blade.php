@@ -64,6 +64,9 @@
 
                                     <h4 class="widget_title">Category</h4>
                                     <ul class="list cat-list">
+                                        <li>
+                                            <a href="/blog">All</a>
+                                        </li>
                                         <?php
                                         $list = \App\Category::where('status', '1')->get();
                                         ?>

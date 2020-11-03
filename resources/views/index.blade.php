@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="we-create-cap">
-                        <p>“Congratulations!! <strong class="inp1 color_light_green">Rahul</strong>, You can make  <i class="fa fa-rupee-sign color_light_green"></i> <strong class="inp2 color_light_green">   4,74,85,20,901  </strong>  <span class="color_light_green">in </span><strong class="inp3 color_light_green">35</strong> <span class="color_light_green">Years</span>, If you start today. </p>
+                        <p>“Congratulations!! <strong class="inp1 color_light_green">Rahul</strong>, You can make  <i class="fa fa-rupee-sign color_light_green"></i> <strong class="inp2 color_light_green">   4,74,85,20,901  </strong> in <span class="color_light_green"> </span><strong class="inp3 color_light_green">35</strong> <span class="color_light_green">Years</span>, If you start today. </p>
                         <!-- Hero-btn -->
                         <div class="hero__btn text-center text-lg-left" data-animation="fadeInLeft" data-delay=".8s">
                             <a href="#" role="button" data-toggle="modal" data-target="#exampleModal" class="btn hero-btn">Get Started</a>
@@ -114,7 +114,7 @@
                 <div class="col-lg-8">
                     <div class="section-tittle text-center">
                         <h2>“Live your life by design, not by default.”</h2>
-                        <h4>Why do you need us?</h4>
+                        <h4 class="font-weight-600 blue-text">Why do you need us?</h4>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@
                     <div class="single-do text-center mb-30">
                         <div class="do-icon">
                             <svg width="100" height="100" viewBox="0 0 600 600" style="width: 150px;height: 150px;position: absolute;top: 20px;left: 119px;" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke="none" stroke-width="0" fill="rgba(255, 192, 203, 0.19)" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                            <path stroke="none" stroke-width="0" fill="rgba(255, 192, 203, 0.09)" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
                             </svg>
                             <img src="{{asset('rafi/Royal_Icons_3/Home/Together.png')}}" alt="">
                         </div>
@@ -218,31 +218,31 @@
                             <div class="single_feature">
                                 <div class="single_feature_part">
                                     <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Confused.png')}}" alt=""></span>
-                                    <h4>Confused</h4>
+                                    <h4 class="blue-text">Confused</h4>
 
                                 </div>
                             </div>
                             <div class="single_feature">
                                 <div class="single_feature_part">
                                     <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/No savings.png')}}" style="width:50px;" alt=""></span>
-                                    <h4>No savings</h4>
+                                    <h4 class="blue-text">No savings</h4>
                                 </div>
                             </div>
                             <div class="single_feature">
                                 <div class="single_feature_part">
                                     <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Financial Issues.png')}}" alt=""></span>
-                                    <h4>Financial Issues</h4>
+                                    <h4 class="blue-text">Financial Issues</h4>
                                 </div>
                             </div>
                             <div class="single_feature">
                                 <div class="single_feature_part">
                                     <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Dreaming.png')}}" alt=""></span>
-                                    <h4>Only Dreaming</h4>
+                                    <h4 class="blue-text">Only Dreaming</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <h5 class="text-center">Without Us</h5>
+                            <h5 class="text-center mb-2">Without Us</h5>
                             <div class="single_feature_img">
                                 <img src="/image/Home/comparison_LEFT.png" alt="" style="max-width: 100%;">
                             </div>
@@ -252,7 +252,7 @@
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-md-6">
-                            <h5 class="text-center">With Us</h5>
+                            <h5 class="text-center mb-2">With Us</h5>
                             <div class="single_feature_img">
                                 <img src="/image/Home/comparison_RIGHT.png" alt="" style="max-width: 100%;">
                             </div>
@@ -261,28 +261,28 @@
                             <div class="single_feature">
                                 <div class="single_feature_part">
                                     <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Goal Oriented.png')}}" alt=""></span>
-                                    <h4>Goal oriented</h4>
+                                    <h4 class="blue-text">Goal oriented</h4>
 
                                 </div>
                             </div>
                             <div class="single_feature">
                                 <div class="single_feature_part">
                                     <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Saving and Investment.png')}}" alt=""></span>
-                                    <h4>Saving + Investment</h4>
+                                    <h4 class="blue-text">Saving + Investment</h4>
 
                                 </div>
                             </div>
                             <div class="single_feature">
                                 <div class="single_feature_part">
                                     <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Financial Secured.png')}}" alt=""></span>
-                                    <h4>Financially Secured</h4>
+                                    <h4 class="blue-text">Financially Secured</h4>
 
                                 </div>
                             </div>
                             <div class="single_feature">
                                 <div class="single_feature_part">
                                     <span class="single_feature_icon"><img src="{{asset('rafi/Royal_Icons_3/Home/Chasing Dreams.png')}}" alt=""></span>
-                                    <h4>Chasing Dreams</h4>
+                                    <h4 class="blue-text">Chasing Dreams</h4>
 
                                 </div>
                             </div>
@@ -419,7 +419,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="owl-carousel row">
+                <div class="owl-carousel testimonial-carousel">
                     <div class="col-lg-12 col-md-12">
                         <div class="single-generating d-flex flex-column text-center mb-30 text-center p-5">
                             <p>“Simple, reliable, scalable, and consistent - that’s what I look for in passive investments and Royal Monarch to deliver.  Royal Monarch do the heavy lifting, generating competitive returns for investors in the form of both cash and peace of mind.” </p>
@@ -502,7 +502,22 @@ $("#goals").bsMultiSelect({
         },
     }
 });
-$(".owl-carousel").owlCarousel();
+$(".owl-carousel").owlCarousel({
+    loop: true,
+//            stagePadding: 15,
+//            margin: 30,
+            nav: true,
+//            center:true,
+            navText: ['<span class=""><i class="fa fa-arrow-left"></i></span>', '<span <i class="fa fa-arrow-right"></i></span>'],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                1200: {
+                    items: 2
+                }
+            }
+});
 //$("form.invest").submit();
 </script>
 @endsection
