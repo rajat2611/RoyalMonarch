@@ -85,7 +85,7 @@
                                                     </div>
                                                 </div>
                                                 @endforeach
-                                                <div class="col-xl-3 col-6 team-member-card">
+                                                <div class="col-md-6 col-sm-12 team-member-card">
                                                     <div class="team-jobs">
                                                         <h3 class="apply">Apply for job</h3>
                                                         <a href="/career" class="team-member-btn-href white">

@@ -513,7 +513,7 @@
                                         <div class="single-footer-caption mb-30 ">
                                             <!-- logo -->
                                             <div class="footer-logo ">
-                                                <a href="index.html "><img src="/image/footer.png " class="w-100"></a>
+                                                <a href="/"><img src="/image/footer.png " class="w-100"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -521,18 +521,18 @@
                                 <div class="col-lg-4 col-md-4 col-sm-5 ">
                                     <div class="single-footer-caption mb-50 ">
                                         <div class="footer-tittle ">
-                                            <h3>Royal Monarch</h3>
-                                            <h5>A GUILT FREE DECISION</h5>
+                                            <h3><span style="font-size: 40px">R</span>oyal <span style="font-size: 40px">M</span>onarch</h3>
+                                            <h5><i><b style="color:white">A guilt free decisions</b></i></h5>
                                             <p class="mt-3">+ 91 79 484 666 22</p>
                                             <p>care@royalmonarch.in</p>
-                                            <p>Made with love in India | Copyright © 2020, Royal Monarch</p>
+                                            <p>Made with love in India<br/> Copyright © 2020, Royal Monarch</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-4 col-sm-5 ">
                                     <div class="single-footer-caption mb-50 ">
                                         <div class="footer-tittle ">
-                                            <h4>COMPANY:</h4>
+                                            <h5 class="font-weight-bold">COMPANY:</h5>
                                             <ul>
                                                 <li><a href="/firm">Our Firm</a></li>
                                                 <li><a href="/culture">Our Culture</a></li>
@@ -546,7 +546,7 @@
                                 <div class="col-lg-2 col-md-4 col-sm-7 ">
                                     <div class="single-footer-caption mb-50 ">
                                         <div class="footer-tittle ">
-                                            <h4>SUPPORT:</h4>
+                                            <h5 class="font-weight-bold">SUPPORT:</5>
                                             <ul>
                                                 <li><a href="#" data-toggle="modal" data-target="#exampleModal">Get Started</a></li>
                                                 <li><a href="/support"> Contact</a></li>
@@ -558,7 +558,7 @@
                                 <div class="col-lg-2 col-md-4 col-sm-7 ">
                                     <div class="single-footer-caption mb-50 ">
                                         <div class="footer-tittle ">
-                                            <h4>RESOURCES:</h4>
+                                            <h5 class="font-weight-bold">RESOURCES:</h5>
                                             <ul>
                                                 <li><a href="/blog">Reading Room</a></li>
                                                 <li><a href="/How_it_works"> How it Work</a></li>
@@ -761,6 +761,15 @@
             @yield('scripts')
             <script src="{{ asset('rafi/build/js/intlTelInput.js') }}"></script>
 
+            <script>
+                $("#goals").bsMultiSelect({
+    cssPatch: {
+        choices: {
+            columnCount: '3'
+        },
+    }
+});
+            </script>
             <script>
                                                     var input = document.querySelector("#phone");
                                                     window.intlTelInput(input, {

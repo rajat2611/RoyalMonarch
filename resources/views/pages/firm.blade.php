@@ -85,7 +85,7 @@
 {{--                                    ROYAL MONARCH WAS FIRST FOUNDED IN 2015 IN BANGALORE AND WAS SUBSEQUENTLY RESTRUCTURED IN 2019 TO REFLECT CHANGES IN EQUITY HOLDINGS. WE ESTABLISHED ROYAL MONARCH IN RECOGNITION OF FOUR TRENDS DEFINING THE FINANCIAL PLANNING AND ASSET MANAGEMENT INDUSTRIES.--}}
 {{--                                         </p>--}}
                                 <p class="mb-0" data-animation="fadeInRight" data-delay=".6s" >
-                                        Royal Monarch <span class="text-blue">was first founded</span> in 2015 in Bangalore and was subsequently restructured in 2019 to reflect changes in equity holdings
+                                        Royal Monarch <span class="text-blue">was founded</span> in 2015 in Bangalore and was subsequently restructured in 2019 to reflect changes in equity holdings
                                     </p>
                                     <br/>
                                     <p class="mb-2" data-animation="fadeInRight" data-delay=".6s" >

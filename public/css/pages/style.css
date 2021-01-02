@@ -378,6 +378,9 @@ section.services{
     .desk-roadmap{
         display: none;
     }
+    .d-flex{
+        display:block !important;
+    }
 }
 
 /* owl-carousel button style */
@@ -4737,7 +4740,7 @@ header {
     background: linear-gradient(to right,#112642 0,rgba(17,38,66,0.9) 28%,rgba(17,51,153,0.3) 70%,rgba(255,255,255,0) 100%);
 }
 .social_icons1 {
-        margin-top: 50px;
+    margin-top: 50px;
 }
 .social_icons1 li {
     padding-right: 20px;
@@ -7578,11 +7581,11 @@ ul li:not(#navigation li)::before {
     color: #5c74ff;
 }
 .how_work_answer_section span{
-    position: absolute;
-    font-size: 46px;
-    /*margin-top: 8px;*/
-    margin-left: 25%;
-    bottom: -40px;
+    /*    position: absolute;
+        font-size: 46px;
+        margin-top: 8px;
+        margin-left: 25%;
+        bottom: -40px;*/
 }
 
 .accordion-item-trigger {
@@ -7744,6 +7747,11 @@ ul li:not(#navigation li)::before {
 }
 #myChartMap .highcharts-background{
     fill:transparent;
+}
+#myChartMap .highcharts-zoom-in,
+#myChartMap .highcharts-zoom-out
+{
+    display:none;
 }
 .map-text-left li{
     font-size: 34px;
@@ -7962,4 +7970,7 @@ ul li:not(#navigation li)::before {
         transform:scale(1);
         opacity: 1;
     }
+}
+.font-22{
+    font-size: 22px;
 }
