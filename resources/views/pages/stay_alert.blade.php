@@ -12,7 +12,7 @@
         <div class="row d-flex justify-content-center">
             <div class="col-lg-8">
                 <div class="section-tittle mb-20">
-                    <h3>Beware of fraudulent tips and advice on stock market</h3>
+                    <h3><b>Beware of fraudulent tips and advice on stock market</b></h3>
                 </div>
             </div>
             <div class="col-lg-8">

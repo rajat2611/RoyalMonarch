@@ -12,7 +12,7 @@
         <div class="row d-flex justify-content-center">
             <div class="col-lg-8">
                 <div class="section-tittle mb-20">
-                    <h3>Terms and conditions</h3>
+                    <h3><b>Terms and conditions</b></h3>
                 </div>
             </div>
             <div class="col-lg-8">

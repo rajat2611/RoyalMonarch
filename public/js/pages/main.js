@@ -311,17 +311,8 @@
         }
     })
 
-    // chart .js
-    var ctx = document.getElementById('myChart').getContext('2d');
-    var ctx2 = document.getElementById('myChart2').getContext('2d');
-    var gradient = ctx.createLinearGradient(0, 0, 0, 225);
-    gradient.addColorStop(0, 'rgba(215, 227, 244, 1)');
+    // chart .js   
 
-    var gradient1 = ctx.createLinearGradient(0, 0, 0, 400);
-    gradient1.addColorStop(0, 'rgba(50, 148, 250, 0.48)');
-    gradient1.addColorStop(1, 'rgba(255, 255, 255, 0)');
-    var gradient2 = ctx2.createLinearGradient(0, 0, 0, 225);
-    gradient2.addColorStop(0, 'rgba(215, 227, 244, 1)');
 
     // // global options :
     // Chart.defaults.global.defaultFontFamily = "Arial";
@@ -329,6 +320,13 @@
     // Chart.defaults.global.defaultFontColor = "red";
 
 
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var gradient = ctx.createLinearGradient(0, 0, 0, 225);
+    gradient.addColorStop(0, 'rgba(215, 227, 244, 1)');
+
+    var gradient1 = ctx.createLinearGradient(0, 0, 0, 400);
+    gradient1.addColorStop(0, 'rgba(50, 148, 250, 0.48)');
+    gradient1.addColorStop(1, 'rgba(255, 255, 255, 0)');
     var myChart = new Chart(ctx, {
         type: 'line',
         data: {
@@ -420,6 +418,7 @@
             },
         }
     });
+
     var data = [];
     var value1 = $('input[name="name"]').val();
     var value2 = $('input[name="age"]').val();
@@ -462,12 +461,13 @@
         labels.push(i);
     }
 
+    var myChart2 = null;
+    var ctx2 = document.getElementById('myChart2').getContext('2d');
 
+    var gradient2 = ctx2.createLinearGradient(0, 0, 0, 225);
+    gradient2.addColorStop(0, 'rgba(215, 227, 244, 1)');
 
-
-
-
-    var myChart2 = new Chart(ctx2, {
+    myChart2 = new Chart(ctx2, {
         type: 'line',
         data: {
             labels: labels,
@@ -601,7 +601,7 @@
         mainyear++;
         var labels = [];
         for (var i = 0; i < (65 - $('input[name="age"]').val()); i++) {
-            labels.push("Year "+ (i+1));
+            labels.push("Year " + (i + 1));
 
             var newValue = totalYear - i;
             value2 = mainyear - newValue;
@@ -620,17 +620,23 @@
 
 
             var x = saveHas + investHas;
-            data.push( Math.round(x));
+            data.push(Math.round(x));
         }
         x = Math.floor(x)
         console.log("main value: " + x);
+        value2 = $('input[name="age"]').val();
+        if (value2 > 50)
+            value2 = 15;
+        else
+            value2 = 65 - value2;
+
         var res = new Number(x).toLocaleString("hi-IN");
         $('strong.inp2').text(" " + res);
         $('strong.inp3').text(value2);
         $('strong.inp1').text(value1);
         console.log(data);
         updateBarGraph(myChart2, data, labels)
-    })
+    });
 
     var lis = $(".join_form .dashboardcode-bsmultiselect").find(".dropdown-menu li");
     setTimeout(function () {

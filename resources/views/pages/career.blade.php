@@ -38,7 +38,7 @@
                         We’re building an inclusive economy where all classes have equal access to opportunity. We strive to live by these same values in all our workplaces. We invest in the personal and professional growth of every member of Royal Monarch. As a company pioneering the future of financial benefits, we also want to be a beacon for people development.
                     </p>
                     <!-- Hero-btn -->
-                    <div class="hero__btn text-center" data-animation="fadeInLeft" data-delay=".8s">
+                    <div class="hero__btn text-center mt-5" data-animation="fadeInLeft" data-delay=".8s">
                         <a href="#position" class="btn hero-btn">Open Position</a>
                     </div>
                 </div>

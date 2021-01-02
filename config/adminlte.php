@@ -40,7 +40,7 @@ return [
       | https://github.com/jeroennoten/Laravel-AdminLTE/#63-logo
       |
      */
-    'logo' => '<b>Royal Monarch</b>',
+    'logo' => '<b><span style="font-size: 45px">R</span>oyal <span style="font-size: 45px">M</span>onarch</b>',
     'logo_img' => '/image/login-main.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,

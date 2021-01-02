@@ -15,7 +15,7 @@
     <!-- ================ contact section start ================= -->
     <section class="contact-section" id="signupform">
         <div class="section-title">
-            <h1 class="font-weight-600"> <span style="color: #CDCDCD;">Trust.</span><span style="color: #999999;"> Transparency.</span><span style="color: #1b31a7;"> Accountability.</span></h1>
+            <h1 class="font-weight-600 font-60"> <span style="color: #CDCDCD;">Clarity.</span><span style="color: #999999;"> Confidence.</span><span style="color: #1b31a7;"> Control.</span></h1>
         </div>
         <div style="">
             <div class="bannerSection">
@@ -30,7 +30,7 @@
                                     We are one of the fastest growing Financial Planners in the country. Write your own cheque without any unwanted deductions.
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-5">
                                 <div class="card">
                                     <div class="card-header" data-gtm-vis-recent-on-screen-2375348_458="1124" data-gtm-vis-first-on-screen-2375348_458="1124" data-gtm-vis-total-visible-time-2375348_458="100" data-gtm-vis-has-fired-2375348_458="1">
                                         <h4>SIGN UP</h4>
@@ -97,7 +97,7 @@
                             <div class="col-md-5">
                                 <ul class="map-text-left">
                                     <li>
-                                        <h2 class="blue-text">3,50,000+</h2>
+                                        <h2 class="blue-text market_potential" id="market_potential">8,565,000</h2>
                                         <h4>Market Potential</h4>
                                     </li>
                                 </ul>
@@ -171,7 +171,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 offset-1">
                         <div class="rtp-block">
                             <h2 class="font-weight-600">Ready to <span class="text-blue">Partner?</span></h2>
-                            <h4 class="rtp-para">Register to jump-start your journey as an Upstox Partner.</h4>
+                            <h4 class="rtp-para">Register to jump-start your journey a Royal Monarch Partner.</h4>
                             <a href="#signupform" id="rtp-signup-button" class="btn">Sign up</a>
                         </div>
                     </div>
@@ -196,7 +196,7 @@ active
 @section('scripts')
 <script src="https://code.highcharts.com/maps/highmaps.js"></script>
 <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/mapdata/countries/in/in-all.js"></script>
+<script src="https://code.highcharts.com/mapdata/countries/in/custom/in-all-disputed.js"></script>
 <script>
 let chartConfig = {
     shapes: [
@@ -301,59 +301,146 @@ let chartConfig = {
 // Prepare demo data
 // Data is joined to map using value of 'hc-key' property by default.
 // See API docs for 'joinBy' for more info on linking data and map.
+//var data = [
+//    ['madhya pradesh', 0],
+//    ['uttar pradesh', 1],
+//    ['karnataka', 2],
+//    ['nagaland', 3],
+//    ['bihar', 4],
+//    ['lakshadweep', 5],
+//    ['andaman and nicobar', 6],
+//    ['assam', 7],
+//    ['west bengal', 8],
+//    ['puducherry', 9],
+//    ['daman and diu', 10],
+//    ['gujarat', 11],
+//    ['rajasthan', 12],
+//    ['dadara and nagar havelli', 13],
+//    ['chhattisgarh', 14],
+//    ['tamil nadu', 15],
+//    ['chandigarh', 16],
+//    ['punjab', 17],
+//    ['haryana', 18],
+//    ['andhra pradesh', 19],
+//    ['maharashtra', 20],
+//    ['himachal pradesh', 21],
+//    ['meghalaya', 22],
+//    ['kerala', 23],
+//    ['telangana', 24],
+//    ['mizoram', 25],
+//    ['tripura', 26],
+//    ['manipur', 27],
+//    ['arunanchal pradesh', 28],
+//    ['jharkhand', 29],
+//    ['goa', 30],
+//    ['nct of delhi', 31],
+//    ['odisha', 32],
+//    ['jammu and kashmir', 33],
+//    ['sikkim', 34],
+//    ['uttarakhand', 35]
+//];
 var data = [
-    ['in-py', 0],
-    ['in-ld', 1],
-    ['in-wb', 2],
-    ['in-or', 3],
-    ['in-br', 4],
-    ['in-sk', 5],
-    ['in-ct', 6],
-    ['in-tn', 7],
-    ['in-mp', 8],
-    ['in-2984', 9],
-    ['in-ga', 10],
-    ['in-nl', 11],
-    ['in-mn', 12],
-    ['in-ar', 13],
-    ['in-mz', 14],
-    ['in-tr', 15],
-    ['in-3464', 16],
-    ['in-dl', 17],
-    ['in-hr', 18],
-    ['in-ch', 19],
-    ['in-hp', 20],
-    ['in-jk', 21],
-    ['in-kl', 22],
-    ['in-ka', 23],
-    ['in-dn', 24],
-    ['in-mh', 25],
-    ['in-as', 26],
-    ['in-ap', 27],
-    ['in-ml', 28],
-    ['in-pb', 29],
-    ['in-rj', 30],
-    ['in-up', 31],
-    ['in-ut', 32],
-    ['in-jh', 33]
+    ['madhya pradesh', 9078000],
+    ['uttar pradesh', 16650000],
+    ['karnataka', 10200000],
+    ['nagaland', 570000],
+    ['bihar', 8675000],
+    ['lakshadweep', 14500],
+    ['andaman and nicobar', 143000],
+    ['assam', 5200000],
+    ['west bengal', 11410000],
+    ['puducherry', 852000],
+    ['daman and diu', 10],
+    ['gujarat', 10075000],
+    ['rajasthan', 11425000],
+    ['dadara and nagar havelli', 342000],
+    ['chhattisgarh', 4250000],
+    ['tamil nadu', 12025000],
+    ['chandigarh', 1025000],
+    ['punjab', 4625000],
+    ['haryana', 4225000],
+    ['andhra pradesh', 8565000],
+    ['maharashtra', 18729000],
+    ['himachal pradesh', 688000],
+    ['meghalaya', 595000],
+    ['kerala', 5565000],
+    ['telangana', 5850000],
+    ['mizoram', 571000],
+    ['tripura', 961000],
+    ['manipur', 775000],
+    ['arunanchal pradesh', 315000],
+    ['jharkhand', 5550000],
+    ['goa', 905000],
+    ['nct of delhi', 3350000],
+    ['odisha', 6995000],
+    ['jammu and kashmir', 2048000],
+    ['sikkim', 152000],
+    ['uttarakhand', 3050000]
 ];
 
 // Create the chart
+//Highcharts.mapChart('myChartMap1', {
+//    chart: {
+//        map: 'countries/in/in-all'
+//    },
+//
+//    title: {
+////        text: 'Highmaps basic demo'
+//    },
+//
+//    subtitle: {
+////        text: '<a href="http://code.highcharts.com/mapdata/countries/in/in-all.js">India</a>'
+//    },
+//
+//    mapNavigation: {
+//        enabled: false,
+//        buttonOptions: {
+//            verticalAlign: 'bottom'
+//        }
+//    },
+//
+//    colorAxis: {
+//        min: 0
+//    },
+//    tooltip: {
+//        useHTML: true,
+//        formatter: function () {
+//            return this.key;
+//        }
+//    },
+//    series: [{
+//            data: data,
+////        name: 'Random data',
+//            states: {
+//                hover: {
+////                color: '#BADA55'
+//                }
+//            },
+//            dataLabels: {
+//                enabled: false,
+////            format: '{point.name}'
+//            }
+//        }]
+//});
+
 Highcharts.mapChart('myChartMap', {
     chart: {
-        map: 'countries/in/in-all'
+        zoomType: "",
+        map: 'countries/in/custom/in-all-disputed'
     },
-
+    navigator: {
+        enabled: false
+    },
     title: {
 //        text: 'Highmaps basic demo'
     },
 
     subtitle: {
-//        text: '<a href="http://code.highcharts.com/mapdata/countries/in/in-all.js">India</a>'
+//        text: 'Source map: <a href="http://code.highcharts.com/mapdata/countries/in/custom/in-all-disputed.js">India with disputed territories</a>'
     },
 
     mapNavigation: {
-        enabled: false,
+        enabled: true,
         buttonOptions: {
             verticalAlign: 'bottom'
         }
@@ -369,19 +456,35 @@ Highcharts.mapChart('myChartMap', {
         }
     },
     series: [{
+            point: {
+                events: {
+                    mouseOver: function () {
+                        var value = this.value;
+                        if (parseInt(value) >= 1000) {
+                            value = value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                        }
+                        document.getElementById("market_potential").innerHTML = value;
+                    }
+                }
+            },
             data: data,
-//        name: 'Random data',
             states: {
                 hover: {
-//                color: '#BADA55'
+                    color: '#BADA55'
                 }
             },
             dataLabels: {
                 enabled: false,
-//            format: '{point.name}'
-            }
-        }]
-});
+                format: '{point.name}'
+            },
 
+        }],
+
+});
+//Highcharts.each(Highcharts.charts, function (p, i) {
+//    $(p.renderTo).mouseover(function () {
+//        console.log(p)
+//    })
+//})
 </script>
 @endsection

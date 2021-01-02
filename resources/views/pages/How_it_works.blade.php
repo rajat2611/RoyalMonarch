@@ -169,7 +169,7 @@
                         <div class="panel panel-default col-md-4">
                             <div class="panel-heading" role="tab" id="headingOne">
                                 <h5 class="panel-title">
-                                    How much can I afford to spend on a car while paying down my student loans?
+                                    <span class="blue-text mb-0">How much can I afford</span> to spend on a car while paying down my student loans?s
                                 </h5>
                                 <div class="collapsed accordion-item-trigger" >
                                     <a class="collapsed open-collapse-area" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
@@ -187,7 +187,8 @@
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    <p>We know how paralyzing student loans can feel. Unlike a home loan, student loans can also feel peskier because you don't have a visible asset like a home to support the payments. We are here to tell you that you can take on additional debt if you need to purchase something like a car. However, understanding how much debt is critical to ensuring you live within your means and are still able to save for your future.</p>
+                                    <p>Your future isn't just about other goals like buying a home and traveling, it's also about your retirement. In order to understand how much car, you can afford, we would consider your debt relative to your income. We can help you consider financing a car purchase vs. paying cash, and make sure you get a competitive auto loan rate. A Royal Monarch planner is here to make sure you get the right information and guidance to make the right decision for you and your future.</p>
                                     <div class="collapsed click-span accordion-item-trigger" >
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
                                             <div class="accordion-open-btn btn-1">
@@ -208,7 +209,7 @@
                         <div class="panel panel-default col-md-4">
                             <div class="panel-heading" role="tab" id="headingTwo">
                                 <h5 class="panel-title">
-                                    How much can I spend on a house if I also want to have kids?
+                                    How much can I spend on a house <span class="blue-text">if I also want to have kids?</span>
 
                                 </h5>
                                 <div class="collapsed accordion-item-trigger" >
@@ -227,7 +228,8 @@
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    <p>With so many moving pieces to your financial picture, a decision like this can be overwhelming. There’s no one way to answer this question because this decision cannot be made in a vacuum.</p>
+                                    <p>As financial planners we consider your income, spending, and saving. We look at the time horizon for buying a house and having children. We’ll need to consider future goals such as retirement and college funding as well. Once we have an idea of the overall picture, then we can adequately recommend a purchase price for your home that will not put your other goals (both short term and long term) at risk. You’re asking the right question- with a little digging, we can get you to the right answer.</p>
                                     <div class="collapsed click-span accordion-item-trigger" >
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             <div class="accordion-open-btn btn-1">
@@ -248,7 +250,7 @@
                         <div class="panel panel-default col-md-4">
                             <div class="panel-heading" role="tab" id="headingThree">
                                 <h5 class="panel-title">
-                                    I’m 30 and I’m just starting to save $10,000 per year. When can I comfortably retire?
+                                    I’m 30 and I’m just starting to save ₹ 2,50,000 per year. When <span class="blue-text"> can I comfortably retire?</span>
                                 </h5>
                                 <div class="collapsed accordion-item-trigger" >
                                     <a class="collapsed open-collapse-area" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -266,7 +268,8 @@
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    <p>This is a great start to saving! To answer this question, we would want to consider your spending patterns and current account balances (by tax-status).</p>
+                                    <p>We would also want to understand future goals that you might be saving for (a home, new car, kids, etc.) as money spent on these goals will not be available to save for retirement. Healthcare also becomes an important consideration when people want to retire early, as purchasing private insurance (after quitting your job but before you are eligible for Medicare) can be expensive. By taking a holistic view of your current financial situation and future financial goals we can provide a more precise answer to how early you could retire.</p>
                                     <div class="collapsed click-span accordion-item-trigger" >
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             <div class="accordion-open-btn btn-1">
@@ -291,7 +294,7 @@
 
     </div>
     <div class="container">
-        <svg class="desk-roadmap mt-50" width="" height="400px" viewBox="0 0 1440 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="desk-roadmap mt-50" width="100%" height="400px" viewBox="0 0 1440 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
         <stop stop-color="#6CC727" stop-opacity="0" offset="0%"></stop>
@@ -500,7 +503,7 @@
                         <div class="d-flex">
                             <div data-aos="zoom-in" data-aos-delay="100">
                                 <h4><a href="" class="color-light-green">Start</a></h4>
-                                <ul class="ml-20">
+                                <ul class="unordered-list ml-20">
                                     <li>Determine How to Work Together</li>
                                 </ul>
                             </div>
@@ -516,7 +519,7 @@
                     <div class="col-lg-9 col-md-6 justify-content-center">
                         <div class="icon-boxes d-flex flex-column justify-content-center">
                             <h4><a href="" class="color-light-green">Discovery Meeting</a></h4>
-                            <ul class="ml-20">
+                            <ul class="unordered-list ml-20">
                                 <li>Learn and understand your situation </li>
                                 <li>Identify, clarify, and prioritize your goals, values, and concerns</li>
                             </ul>
@@ -532,8 +535,8 @@
                     <div class="col-lg-8 col-md-6 justify-content-center">
                         <div class="icon-boxes d-flex flex-column justify-content-center">
                             <div class="align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-                                <h4 class="color-light-green">>Develop an Investment Policy Statement</h4><br/>
-                                <ul class="ml-20">
+                                <h4 class="color-light-green">Develop an Investment Policy Statement</h4><br/>
+                                <ul class="unordered-list ml-20">
                                     <li>Document client investment objectives and constraints. </li>
                                     <li>Provide accountability and structure to portfolio construction. </li>
                                 </ul>
@@ -552,7 +555,7 @@
                         <div class="icon-boxes d-flex justify-content-center">
                             <div class="  align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
                                 <h4 class="color-light-green">Assess and Analyze</h4>                                            
-                                <ul class="ml-20">
+                                <ul class="unordered-list ml-20">
                                     <li>Analyse all areas of your financial life</li>
                                     <li>Cash Flow management</li>
                                     <li>Insurance and Protection Planning</li>
@@ -578,7 +581,7 @@
 
                             <div class="8align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                 <h4 class="color-light-green">Design an Investment Strategy</h4>
-                                <ul class="ml-20">
+                                <ul class="unordered-list ml-20">
                                     <li>Integrate asset allocation with financial plan </li>
                                     <li>Incorporate capital market expectations and economic outlook </li>
                                     <li>Implement the most appropriate risk management strategy</li>
@@ -597,7 +600,7 @@
                         <div class="icon-boxes d-flex justify-content-center">
                             <div class="align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
                                 <h4 class="color-light-green">Propose Planning and Recommendations</h4>
-                                <ul class="ml-20">
+                                <ul class="unordered-list ml-20">
                                     <li>Educate and communicate all available options</li>
                                     <li>Evaluate and offer optimal solutions</li>
                                 </ul>
@@ -615,7 +618,7 @@
                         <div class="icon-boxes d-flex justify-content-center">
                             <div class="align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                 <h4 class="color-light-green">Implement Financial Plan and Investment Strategy</h4>
-                                <ul class="ml-20">
+                                <ul class="unordered-list ml-20">
                                     <li>Establish online access </li>
                                     <li>Open new accounts </li>
                                     <li>Transfer existing assets </li>
@@ -635,7 +638,7 @@
                         <div class="icon-boxes d-flex justify-content-center">
                             <div class="align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
                                 <h4 class="color-light-green">Monitor and Update Your Financial Plan</h4>
-                                <ul class="ml-20">
+                                <ul class="unordered-list ml-20">
                                     <li>Revisit goals and client situation </li>
                                     <li>Review investment strategy </li>
                                     <li>Modify and track financial plan & IPS</li>
@@ -656,7 +659,7 @@
                         <div class="icon-boxes d-flex justify-content-center">
                             <div class="align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                 <h4 class="color-light-green">Refer friends, Family, and Co-workers</h4>
-                                <ul class="ml-20">
+                                <ul class="unordered-list ml-20">
                                     <li>The best compliment we could ever receive is a new introduction from you </li>
                                 </ul>
                             </div>
@@ -1005,8 +1008,8 @@
                 <h2><span class="blue-text">First time </span> creating a financial plan?</h2>
             </div>
             <div class="col-lg-6 col-md-6 mb-50">
-                <h4 class="font-weight-600 mb-20">What does Origin do?</h4>
-                <p>Royal Monarch will help you build and implement a holistic financial plan. We combine cutting edge technology with certified planners to give you personalized recommendations that <span class="blue-text">help you reach your goals and manage your financial life.</span></p>
+                <h4 class="font-weight-600 mb-20">What does Royal Monarch do?</h4>
+                <p>Royal Monarch will help you build and implement a holistic financial plan. We combine cutting edge technology with certified planners to give you personalized recommendations that <span class="blue-text"> help you reach your goals and manage your financial life.</span></p>
             </div>
             <div class="col-lg-6 col-md-6 mb-50">
                 <h4 class="font-weight-600 mb-20">Are we on the same side?</h4>
@@ -1014,7 +1017,7 @@
             </div>
             <div class="col-lg-6 col-md-6 mb-50">
                 <h4 class="font-weight-600 mb-20">What can you help me with?</h4>
-                <p>Got student loans? A baby on the way? Planning to buy a home? Worried whether you’re saving enough?  We give you unlimited access to our financial planners to help answer any question you might have. We can help you <span class="blue-text">plan your savings, student loans and other debt payoff, estate, insurance, retirement and more.</span></p>
+                <p>Got student loans? A baby on the way? Planning to buy a home? Worried whether you’re saving enough?  We give you unlimited access to our financial planners to help answer any question you might have. We can help you <span class="blue-text">plan your savings, student loans and other debt payoff, estate, insurance, retirement and more.</span></p>
             </div>
             <div class="col-lg-6 col-md-6 mb-50">
                 <h4 class="font-weight-600 mb-20">How does it work?</h4>
@@ -1022,7 +1025,11 @@
             </div>
             <div class="col-lg-6 col-md-6 mb-50">
                 <h4 class="font-weight-600 mb-20">Is my information safe?</h4>
-                <p>We use best-in-class, <span class="blue-text">bank-level 256-bit AES data encryption and other security protocols</span> to protect your information. We never share your information with your employer.</p>
+                <p>We use best-in-class, <span class="blue-text">bank-level 256-bit AES data encryption and other security protocols</span> to protect your information. We never share your information with your anyone.</p>
+            </div>
+            <div class="col-lg-12 col-md-12 mb-50">
+                Still have questions? Contact us here:
+                <p><a class="blue-text" href="mailto:care@royalmonarch.in">care@royalmonarch.in</a></p>
             </div>
         </div>
     </div>

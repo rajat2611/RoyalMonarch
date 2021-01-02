@@ -15,7 +15,7 @@
                         <div class="col-lg-7 col-md-9 ">
                             <div class="hero__caption">
                                 <h1 data-animation="fadeInLeft" data-delay=".4s">Taking care of what's important. so you can focus on what matters most to you .</h1>
-                                <p data-animation="fadeInLeft" data-delay=".6s">we give you clarity, confidence and control over your financial decision.</p>
+                                <h4 class="" style="color:gray" data-animation="fadeInLeft" data-delay=".6s">We give you clarity, confidence and control over your financial decision.</h4>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
                                     <a href="#" role="button" data-toggle="modal" data-target="#exampleModal" class="btn hero-btn">Get Started</a>
@@ -43,7 +43,7 @@
                     <div class="we-create-cap">
                         <h3>Make your money work for you </h3>
                         <h4>Making ₹ 100 Crores is not a myth </h4>
-                        <p>Have you ever imagined to be the <b>wealthiest 1% of the world?</b>
+                        <p class="mt-4">Have you ever imagined to be the <b class="text-blue">wealthiest 1% of the world?</b>
                             <!--<br>The calculator is for the illustrative purposes only and may not apply to your individual circumstances. </p>-->
 
                     </div>
@@ -77,7 +77,7 @@
                         <form action="#" class="invest" validated>
                             <p style="line-height: 1.5;margin-bottom: 50px;"> Hey My Name is <input type="text" class="text" name="name" value="Rahul"> and I am <input type="text" class="age" name="age" value="30" required> years young . I can invest    <i class="fa fa-rupee-sign"></i> <input type="text" class="text" name="invest"
                                                                                                                                                                                                         value="5,00,000" required> today and save  <i class="fa fa-rupee-sign"></i> <input type="text" class="te" value="5,000" name="monthly" required> every month.</p>
-                            <button type="submit" href="#chart" class=" btn btn2 py-4 px-2">Calculate SIP</button>
+                            <button type="submit" href="#chart" class=" btn btn2 py-4 px-2">Check Your Wealth</button>
                         </form>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
                         </div>
 
                         <div class="do-caption">
-                            <h4>Supoort</h4>
+                            <h4>Support</h4>
                             <p>Your dedicated team of advisors develops a personalized plan, tailored to your Values and life goals.</p>
                         </div>
 
@@ -463,7 +463,7 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="we-create-cap">
                         <h3>It's not Luck!! But, the Right decision at the Right Time. </h3>
-                        <p>
+                        <p class="font-22">
                             So, are you ready to make a guilt free decision? </p>
                         <a href="#" class="btn" role="button" data-toggle="modal" data-target="#exampleModal">  Join us NOW  </a>
                     </div>
@@ -495,13 +495,13 @@ active
 @section('scripts')
 <script src="{{asset('js/pages/owl.carousel.min.js')}}"></script>
 <script>
-$("#goals").bsMultiSelect({
-    cssPatch: {
-        choices: {
-            columnCount: '3'
-        },
-    }
-});
+//$("#goals").bsMultiSelect({
+//    cssPatch: {
+//        choices: {
+//            columnCount: '3'
+//        },
+//    }
+//});
 $(".owl-carousel").owlCarousel({
     loop: true,
 //            stagePadding: 15,
