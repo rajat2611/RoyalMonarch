@@ -96,22 +96,22 @@
                     <a href="#" class="btn" role="button" data-toggle="modal" data-target="#exampleModal">  Get Started  </a>
                 </div>  
                 <div class="col-md-7 row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-2">
                         <img src="{{asset('image/How_it_works/how1.png')}}" class="w-100">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-2">
                         <img src="{{asset('image/How_it_works/how2.png')}}" class="w-100">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-2">
                         <img src="{{asset('image/How_it_works/how3.png')}}" class="w-100">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-2">
                         <img src="{{asset('image/How_it_works/how4.png')}}" class="w-100">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-2">
                         <img src="{{asset('image/How_it_works/how5.png')}}" class="w-100">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-2">
                         <img src="{{asset('image/How_it_works/how6.png')}}" class="w-100">
                     </div>
                 </div>  
@@ -166,7 +166,7 @@
                 </div>
                 <div class="col-md-12 mt-50 how_work_answer_section">
                     <div class="panel-group row" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default col-md-4">
+                        <div class="panel panel-default col-md-4 mb-2">
                             <div class="panel-heading" role="tab" id="headingOne">
                                 <h5 class="panel-title">
                                     <span class="blue-text mb-0">How much can I afford</span> to spend on a car while paying down my student loans?s
@@ -206,7 +206,7 @@
                             </div>
                         </div>
 
-                        <div class="panel panel-default col-md-4">
+                        <div class="panel panel-default col-md-4 mb-2">
                             <div class="panel-heading" role="tab" id="headingTwo">
                                 <h5 class="panel-title">
                                     How much can I spend on a house <span class="blue-text">if I also want to have kids?</span>
@@ -247,7 +247,7 @@
                             </div>
                         </div>
 
-                        <div class="panel panel-default col-md-4">
+                        <div class="panel panel-default col-md-4 mb-2">
                             <div class="panel-heading" role="tab" id="headingThree">
                                 <h5 class="panel-title">
                                     I’m 30 and I’m just starting to save ₹ 2,50,000 per year. When <span class="blue-text"> can I comfortably retire?</span>
