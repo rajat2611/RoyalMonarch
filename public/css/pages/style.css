@@ -358,6 +358,10 @@ section.services{
 .mobile-roadmap{
     display: none;
 }
+.career_section_1{
+    width:50%;
+    margin:auto;
+}
 @media (max-width: 767px) {
     .mb-90 {
         margin-bottom: 30px;
@@ -380,6 +384,10 @@ section.services{
     }
     .d-flex{
         display:block !important;
+    }
+    .career_section_1{
+        width:85%;
+        margin:auto;
     }
 }
 

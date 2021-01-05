@@ -3,7 +3,7 @@
 @section('title', 'Blogs')
 
 @section('content_header')
-<h1>Manage Author <a href="/admin/author/add" class="btn btn-primary">Add New</a></h1>
+<h1>Contact <a href="/admin/author/add" class="btn btn-primary">Add New</a></h1>
 @stop
 
 @section('content')

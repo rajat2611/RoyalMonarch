@@ -20,9 +20,9 @@ class CreateBlogsTable extends Migration
             $table->text('slug');
             $table->text('category');
             $table->string('author')->nullable();
-            $table->text('about_author')->nullable();
+            $table->longText('about_author')->nullable();
             $table->unsignedBigInteger('author_id');
-            $table->text('body');
+            $table->longText('body');
             $table->text("image")->nullable();
             $table->boolean('status');
             $table->dateTime('published_date');

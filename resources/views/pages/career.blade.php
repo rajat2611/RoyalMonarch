@@ -32,7 +32,7 @@
 
                     </div>
                 </div>
-                <div class="col-6 offset-lg-3">
+                <div class="career_section_1">
                     <h4 style="text-align: left;font-weight: bold">We believe in being fair and square</h4>
                     <p style="    text-align: justify;"  data-delay=".6s">
                         We’re building an inclusive economy where all classes have equal access to opportunity. We strive to live by these same values in all our workplaces. We invest in the personal and professional growth of every member of Royal Monarch. As a company pioneering the future of financial benefits, we also want to be a beacon for people development.
@@ -48,7 +48,7 @@
             <div class="container">
                 <div class="row">
                     <div class="row mb-20">
-                        <h4><b>The perks</b></h4>
+                        <div class="col-md-12"><h4><b>The perks</b></h4></div>
                     </div>
                     <div class="row career_perk mb-70">                        
                         <div class="col-md-4 align-self-center">

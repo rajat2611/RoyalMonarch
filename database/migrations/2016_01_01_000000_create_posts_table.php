@@ -19,12 +19,12 @@ class CreatePostsTable extends Migration
             $table->integer('category_id')->nullable();
             $table->string('title');
             $table->string('seo_title')->nullable();
-            $table->text('excerpt');
-            $table->text('body');
+            $table->longText('excerpt');
+            $table->longText('body');
             $table->string('image')->nullable();
             $table->string('slug')->unique();
-            $table->text('meta_description');
-            $table->text('meta_keywords');
+            $table->longText('meta_description');
+            $table->longText('meta_keywords');
             $table->enum('status', ['PUBLISHED', 'DRAFT', 'PENDING'])->default('DRAFT');
             $table->boolean('featured')->default(0);
             $table->timestamps();
