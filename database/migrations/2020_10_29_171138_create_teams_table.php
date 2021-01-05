@@ -16,11 +16,11 @@ class CreateTeamsTable extends Migration
         Schema::create('teams', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->string('designation');
+            $table->longText('designation');
             $table->string('image');
-            $table->string('address');
-            $table->string('bio');
-            $table->string('personal_info');
+            $table->longText('address');
+            $table->longText('bio');
+            $table->longText('personal_info');
             $table->string('facebook');
             $table->string('twitter');
             $table->string('instagram');

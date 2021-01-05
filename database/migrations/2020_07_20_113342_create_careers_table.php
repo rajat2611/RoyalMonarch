@@ -18,7 +18,7 @@ class CreateCareersTable extends Migration
             $table->string('title');
             $table->string('place');
             $table->string('time');
-            $table->text('about_role');
+            $table->longText('about_role');
             $table->boolean('status');
             $table->timestamps();
         });
