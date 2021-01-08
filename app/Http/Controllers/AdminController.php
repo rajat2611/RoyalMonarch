@@ -31,6 +31,7 @@ class AdminController extends Controller {
         $model = new \App\Category();
         $model->title = $request->title;
         $model->slug = Str::slug($request->title);
+        $model->status = 1;
         if ($model->save()) {
             return Redirect::back()->withSuccess('Category successfully addedd');
         }
@@ -545,6 +546,7 @@ class AdminController extends Controller {
         }
         return Response(['status' => 400, 'error' => 'Opps! somthing went wrong']);
     }
+
     public function contactStatus(Request $request) {
         $id = $request->get('id');
         $model = \App\Contact::find($id);
@@ -553,6 +555,31 @@ class AdminController extends Controller {
             return Response(['status' => 200, 'msg' => 'Status Updated successfully']);
         }
         return Response(['status' => 400, 'error' => 'Opps! somthing went wrong']);
+    }
+    public function passwordForm(){
+        return view('admin.password');
+    }
+
+    public function updatePassword(Request $request) {
+        $validator = Validator::make($request->all(), [
+                    'old_password' => 'required',
+                    'password' => 'required|min:6|confirmed',
+        ]);
+        if ($validator->fails()) {
+            return Redirect::back()->withErrors($validator->errors())->withInput();
+        }
+        $id = \Auth::user()->id;
+        $user = \App\User::find($id);
+        $password = $user->password;
+        if (false === \Hash::check($request->get('old_password'), $password)) {
+            return Redirect::back()->withErrors('Old Password does not match!');
+        }
+        $user->password = bcrypt($request->password);
+        if ($user->save()) {
+            auth()->logout();
+            return Redirect::to('/login')->withSuccess('Password updated successfully.Please login with new password.');
+        }
+        return Redirect::back()->withErrors('Opps something went wrong.Try again');
     }
 
 }

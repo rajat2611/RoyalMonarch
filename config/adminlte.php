@@ -280,7 +280,7 @@ return [
         ['header' => 'account_settings'],
         [
             'text' => 'change_password',
-            'url' => 'admin/settings',
+            'url' => 'admin/password',
             'icon' => 'fas fa-fw fa-lock',
         ],
     ],

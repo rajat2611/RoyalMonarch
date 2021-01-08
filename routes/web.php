@@ -195,6 +195,9 @@ Route::group(['prefix' => 'admin', 'middleware' => ['web', 'isAdmin']], function
     Route::get('referral/lead','AdminController@referralLead');
     Route::get('partner/lead','AdminController@partnerLead');
     Route::get('lead/status','AdminController@leadStatus');
+    
+    Route::get('password','AdminController@passwordForm');
+    Route::post('change/password','AdminController@updatePassword');
 //    Voyager::routes();
 });
 

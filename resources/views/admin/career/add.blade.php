@@ -42,7 +42,7 @@
                         <input type="checkbox" name="status" value="1" {{old('status') == 1 ? "checked" :""}}>
                     </div>
                     <div class="form-group">
-                        <input type="submit" class="btn btn-primary btn-sm" value="Add Blog">
+                        <input type="submit" class="btn btn-primary btn-sm" value="Add Career">
                     </div>
                 </form>
             </div>
