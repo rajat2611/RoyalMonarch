@@ -130,7 +130,7 @@
                                         <div class="last-job" style="display: none">
                                             <div class="form-group">
                                                 <label>Leaving Date *</label>
-                                                <input type="date" name="end_date[]" class="form-control" value="{{old('end_date')}}" required>
+                                                <input type="date" name="end_date[]" class="form-control" value="{{old('end_date')}}">
                                             </div>
                                         </div>
                                     </div>

@@ -75,7 +75,7 @@
                     <div class="section-tittle text-center">
                         <h2>Let’s see how much You can make with your savings</h2>
                         <form action="#" class="invest" validated>
-                            <p style="line-height: 1.5;margin-bottom: 50px;"> Hey My Name is <input type="text" class="text" name="name" value="Rahul"> and I am <input type="text" class="age" name="age" value="30" required> years young . I can invest    <i class="fa fa-rupee-sign"></i> <input type="text" class="text" name="invest"
+                            <p style="line-height: 1.5;margin-bottom: 50px;"> Hey my name is <input type="text" class="text" name="name" value="Rahul"> and I am <input type="text" class="age" name="age" value="30" required> years young. I can invest    <i class="fa fa-rupee-sign"></i> <input type="text" class="text" name="invest"
                                                                                                                                                                                                         value="5,00,000" required> today and save  <i class="fa fa-rupee-sign"></i> <input type="text" class="te" value="5,000" name="monthly" required> every month.</p>
                             <button type="submit" href="#chart" class=" btn btn2 py-4 px-2">Check Your Wealth</button>
                         </form>

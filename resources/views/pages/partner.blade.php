@@ -46,13 +46,13 @@
                                                 <input type="email" class="form-control" name="email" placeholder="Email" required>
                                             </div>
                                             <div class="form-group">
-                                                <input type="text" class="form-control" name="mobile" placeholder="Phone No." required>
+                                                <input type="number" class="form-control mobile_no" name="mobile" placeholder="Phone No." required>
                                             </div>
                                             <div class="form-group">
                                                 <input type="text" class="form-control" name="city" placeholder="City" required>
                                             </div>
                                             <div class="form-group">
-                                                <input type="submit" class="btn btn-sm btn-block" value="Submit">
+                                                <input type="submit" class="btn btn-sm btn-block submit_btn" value="Submit">
                                             </div>
                                         </form>
                                     </div>
@@ -486,5 +486,14 @@ Highcharts.mapChart('myChartMap', {
 //        console.log(p)
 //    })
 //})
+
+$("body").on("keyup",".mobile_no",function(){
+    var value=$(this).val().length;
+    if(value > 10){
+        $(this).closest("form").find(".submit_btn").attr('disabled',true);
+    }else{
+        $(this).closest("form").find(".submit_btn").attr('disabled',false);
+    }
+});
 </script>
 @endsection

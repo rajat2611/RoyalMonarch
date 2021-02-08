@@ -20,6 +20,7 @@ class Blog extends Model {
         $model->author_id = $request->author;
         $model->published_date= $request->published_date;
         $model->slug = Str::slug($request->title);
+        $model->status=true;
         return $model->save();
     }
 

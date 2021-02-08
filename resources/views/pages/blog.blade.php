@@ -22,7 +22,7 @@
                       <!-- Sli        der Are             aEnd-->        
 
 <!--===========            =====Blog Ar        ea =============                                ====-->
-        <section class="blog        _area sectio        n-paddingr">
+        <section class="blog_area section-paddingr">
                 <div class="container">
                     <div class="row justify-content-center mb-2">
                         <div class="col-md-12">
@@ -30,7 +30,7 @@
                                 <h2 class="mb-50 font-weight-600 font-60"> <span style="color: #CDCDCD;">Experience.</span><span style="color: #999999;"> Wisdom.</span><span style="color: #1b31a7;"> Influence.</span></h2>
                             </div>
                         </div>
-                        <div class="career_section_1">
+                        <div class="blog_section_1">
                             <h4 style="text-align: left" class="mb-3"> Sharing is Caring</h4>
 
                             <p style="text-align: left">

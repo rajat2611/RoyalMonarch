@@ -99,9 +99,10 @@
                                                 </li>
                                                 <li><a href="/support" class="@yield(6)">support</a></li>
                                                 <li><a href="/partner" class="@yield(7)">Become a Partner</a></li>
+                                                <?php /*
                                                 <li>
                                                     @auth
-                                                    <?php /* @if (auth::user()->join) */ ?>
+                                                    <?php /* @if (auth::user()->join) 
                                                     @if (auth::check())
                                                     @if(auth::user()->role_id == 1)
                                                     <div class="navbar-nav flex-row order-md-last login-dropdown">
@@ -168,7 +169,7 @@
                                                     @endif
 
                                                     @endauth
-                                                </li>
+                                                </li> */ ?>
                                                 @guest
                                                 <li class="pl-lg-5">
                                                     <div class="header-right-btn">
@@ -421,13 +422,13 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content container">
                         <div class="modal-header">
-                            <h5 class="modal-title text-capitalize" id="exampleModalLabel">about this calculations</h5>
+                            <h5 class="modal-title text-capitalize" id="exampleModalLabel">about this calculation</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body text-center">
-                            <div class="text-center">
+                            <div class="text-justify">
                                 <p>This projection assumes an initial investment of ₹ 10,00,000.00 and Monthly SIP of ₹ 10,000.00. This amount will grow at an annual rate of 27% for 27 year, compounded every year. At the end of 27th year, your wealth becomes ₹ 124,87,59,507.00. The assumption rate which is 27%, is our last 10 years minimum and does not include any fees</p>
                             </div>
                         </div>
@@ -521,19 +522,19 @@
                                 <div class="col-lg-4 col-md-4 col-sm-5 ">
                                     <div class="single-footer-caption mb-50 ">
                                         <div class="footer-tittle ">
-                                            <h3><span style="font-size: 40px">R</span>oyal <span style="font-size: 40px">M</span>onarch</h3>
-                                            <h5><i><b style="color:white">A guilt free decisions</b></i></h5>
-                                            <p class="mt-3">+ 91 79 484 666 22</p>
-                                            <p>care@royalmonarch.in</p>
-                                            <p>Made with love in India<br/> Copyright © 2020, Royal Monarch</p>
+                                            <h3 class="font-times"><span style="font-size: 40px">R</span>oyal <span style="font-size: 40px">M</span>onarch</h3>
+                                            <h5 class="font-times"><i><b style="color:white">A guilt free decisions</b></i></h5>
+                                            <p class="mt-3 font-13">+ 91 79 484 666 22</p>
+                                            <p class="font-13">care@royalmonarch.in</p>
+                                            <p class="font-13">Made with love in India<br/> Copyright © 2020, Royal Monarch</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-4 col-sm-5 ">
                                     <div class="single-footer-caption mb-50 ">
                                         <div class="footer-tittle ">
-                                            <h5 class="font-weight-bold">COMPANY:</h5>
-                                            <ul>
+                                            <h5 class="font-weight-bold font-16 font-rubik">COMPANY:</h5>
+                                            <ul class="font-13 font-sans">
                                                 <li><a href="/firm">Our Firm</a></li>
                                                 <li><a href="/culture">Our Culture</a></li>
                                                 <li><a href="/approach">Our Approach</a></li>
@@ -546,8 +547,8 @@
                                 <div class="col-lg-2 col-md-4 col-sm-7 ">
                                     <div class="single-footer-caption mb-50 ">
                                         <div class="footer-tittle ">
-                                            <h5 class="font-weight-bold">SUPPORT:</5>
-                                            <ul>
+                                            <h5 class="font-weight-bold font-16 font-rubik">SUPPORT:</5>
+                                            <ul class="font-13 font-sans">
                                                 <li><a href="#" data-toggle="modal" data-target="#exampleModal">Get Started</a></li>
                                                 <li><a href="/support"> Contact</a></li>
                                                 <li><a href="/blog">Blog</a></li>
@@ -558,8 +559,8 @@
                                 <div class="col-lg-2 col-md-4 col-sm-7 ">
                                     <div class="single-footer-caption mb-50 ">
                                         <div class="footer-tittle ">
-                                            <h5 class="font-weight-bold">RESOURCES:</h5>
-                                            <ul>
+                                            <h5 class="font-weight-bold font-16 font-rubik">RESOURCES:</h5>
+                                            <ul class="font-13 font-sans">
                                                 <li><a href="/blog">Reading Room</a></li>
                                                 <li><a href="/How_it_works"> How it Work</a></li>
                                                 <li><a href="# ">Calculate Wealth</a></li>
@@ -605,11 +606,11 @@
                                         <li><a href="/stay-alert">Stay Alert</a></li>
                                         <li><a href="/ndncr">NDNCR Terms & Consitions</a></li>
                                     </ul>
-                                    <p class="mt-2 text-center">Registered Office:Royal Monarch Finserv Private Limited,B1-504 Westgate Business Ba, Near Signature I,Corporate Road, Mukarba Crossing,S.G. Highway,Ahmedabad-380051,Gujarat Tel:<a href="tel:079-484 666 22" style="color:#ff5775">079-484 666 22</a></p>
+                                    <p class="mt-2 text-center">Registered Office : Royal Monarch Finserv Private Limited, B1-504 Westgate Business Bay, Near Signature I, Corporate Road, Makarba Crossing, S.G. Highway, Ahmedabad-380051, Gujarat Tel:<a href="tel:079-484 666 22" style="color:#ff5775">079-484 666 22</a></p>
                                     <p class="text-center">Royal Monarch Finserv Private Limited-SEBI Regn No.:BSE/NSE/MSEI/MCX</p>
-                                    <p class="text-center"><b>BSE</b> - CASH/FAQ/CD | <b>NSE</b> AP2069120373-CASH/FAQ/CD | <b>MCX</b> MCX/AP/136488-Commodities</p>
+                                    <p class="text-center"><b>BSE</b> - Cash/FNO/CD | <b>NSE</b> AP2069120373-Cash/FAO/CD | <b>MCX</b> MCX/AP/136488-Commodities</p>
                                     <p>Depository services through:NSDL/CDSL-IN-DP-365-2018</p>
-                                    <p>PMS:INP0000005786;Mutual Fund; ARN 20669; Research Analyst:INH00006183</p>
+                                    <p>PMS:INP0000005786; Mutual Fund; ARN 20669; Research Analyst:INH00006183</p>
                                     <p>For any complaint email at <span><a href="mailto:care@royalmonarch.in" style="color:#ff5775">care@royalmonarch.in</a></span></p>
                                 </div>
                             </div>

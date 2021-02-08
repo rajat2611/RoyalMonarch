@@ -16,10 +16,10 @@ class CreateLeadsTable extends Migration
         Schema::create('leads', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->string('friend_name');
+            $table->string('friend_name')->nullable();
             $table->string('email');
             $table->string('mobile');
-            $table->string('city');
+            $table->string('city')->nullable();
             $table->string('lead_type');
             $table->string('status')->default("Not Answered");
             $table->timestamps();
