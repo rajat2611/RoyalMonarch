@@ -37,4 +37,7 @@ class JoinController extends Controller
         public function thanks(){
             return view("thanks");
         }
+        public function Pthanks(){
+            return view("pthanks");
+        }
     }

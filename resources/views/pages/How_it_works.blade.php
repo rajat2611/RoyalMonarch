@@ -169,7 +169,7 @@
                         <div class="panel panel-default col-md-4 mb-2">
                             <div class="panel-heading" role="tab" id="headingOne">
                                 <h5 class="panel-title">
-                                    <span class="blue-text mb-0">How much can I afford</span> to spend on a car while paying down my student loans?s
+                                    <span class="blue-text mb-0">How much can I afford</span> to spend on a car while paying down my student loans?
                                 </h5>
                                 <div class="collapsed accordion-item-trigger" >
                                     <a class="collapsed open-collapse-area" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">

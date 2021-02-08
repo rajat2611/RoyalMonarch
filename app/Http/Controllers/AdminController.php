@@ -61,16 +61,16 @@ class AdminController extends Controller {
     }
 
     public function blogs() {
-//        $blog = \App\Blog::select('blogs.*', 'categories.title as category_title')
-//                ->join('categories', 'blogs.category', '=', 'categories.id')
-//                ->get();
+       $data = \App\Blog::select('blogs.*', 'categories.title as category_title')
+               ->join('categories', 'blogs.category', '=', 'categories.id')
+               ->get();
 
-        $data = \DB::table("blogs")
-                ->select("blogs.*", \DB::raw("GROUP_CONCAT(categories.title) as category_title"))
-                ->leftjoin("categories", \DB::raw("FIND_IN_SET(categories.id,blogs.category)"), ">", \DB::raw("'0'"))
-//            ->where('user_id',getCurrentUser()->user_id)
-                ->groupBy("blogs.id")
-                ->get();
+//         $data = \DB::table("blogs")
+//                 ->select("blogs.*", \DB::raw("GROUP_CONCAT(categories.title) as category_title"))
+//                 ->leftjoin("categories", \DB::raw("FIND_IN_SET(categories.id,blogs.category)"), ">", \DB::raw("'0'"))
+// //            ->where('user_id',getCurrentUser()->user_id)
+//                 ->groupBy("blogs.id")
+//                 ->get();
         return view('admin.blogs.index')->with(['blogs' => $data]);
     }
 

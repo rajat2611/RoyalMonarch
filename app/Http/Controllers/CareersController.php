@@ -150,6 +150,9 @@ class CareersController extends Controller {
         $model->city = $request->get('city');
         $model->lead_type = $request->get('lead_type');
         if ($model->save()) {
+            if( $request->get('lead_type') == "partner"){
+                return Redirect::to('/p-thanks');    
+            }
             return Redirect::to('/thanks');
         }
     }

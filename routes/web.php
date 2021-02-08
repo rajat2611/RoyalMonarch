@@ -47,6 +47,7 @@ Route::get('apply-thanks/{name}', 'CareersController@applyThanks');
 Route::post("save-lead",'CareersController@saveLead');
 
 Route::get("thanks",'JoinController@thanks');
+Route::get("p-thanks",'JoinController@Pthanks');
 
 Route::get('/blog', 'BlogController@index')->name('blog');
 Route::get('/blog/{id}', 'BlogController@show')->name('blog_1');

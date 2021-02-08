@@ -597,7 +597,7 @@
             value2 = 65 - value2;
 
         var totalYear = value2;
-        var mainyear = 65 - $('input[name="age"]').val();
+        var mainyear = $('input[name="age"]').val() > 50  ? 15:65 - $('input[name="age"]').val();
         mainyear++;
         var labels = [];
         for (var i = 0; i < (65 - $('input[name="age"]').val()); i++) {

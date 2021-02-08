@@ -15,7 +15,7 @@ class AddColumnFirstLineToBlogs extends Migration
     {
         Schema::table('blogs', function (Blueprint $table) {
             //
-            $table->string("first_line");
+            $table->string("first_line")->nullable();
 
         });
     }

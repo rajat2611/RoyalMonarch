@@ -22,7 +22,7 @@ class CreateBlogsTable extends Migration
             $table->string('author')->nullable();
             $table->longText('about_author')->nullable();
             $table->unsignedBigInteger('author_id');
-            $table->longText('body');
+            $table->longText('body')->nullable();
             $table->text("image")->nullable();
             $table->boolean('status');
             $table->dateTime('published_date');
