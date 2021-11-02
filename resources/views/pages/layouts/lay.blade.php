@@ -70,7 +70,7 @@
                                 <!-- Logo -->
                                 <div class="col-xl-2 col-lg-2 col-md-1">
                                     <div class="logo">
-                                        <a href="index.html"><img src="{{ asset('img/logo/logo.png') }}" alt=""></a>
+                                        <a href="index.php"><img src="{{ asset('img/logo/logo.png') }}" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="col-xl-10 col-lg-10 col-md-10">
@@ -635,7 +635,7 @@
                                             <div class="single-footer-caption mb-30 ">
                                                  logo 
                                                 <div class="footer-logo ">
-                                                    <a href="index.html "><img src="/img/logo/logo.png " alt=" "></a>
+                                                    <a href="index.php "><img src="/img/logo/logo.png " alt=" "></a>
                                                 </div>
                                                 <div class="footer-tittle ">
                                                     <div class="footer-pera ">
